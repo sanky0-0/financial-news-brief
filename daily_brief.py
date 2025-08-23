@@ -5,7 +5,10 @@ from typing import List, Dict, Any
 import requests
 from openai import OpenAI
 
+<<<<<<< HEAD
 SITE_BASE_URL = "https://sanky0-0.github.io/financial-news-brief/"
+=======
+>>>>>>> d14f0e3 (Local changes before rebase)
 
 def build_static_site(out_path: str, today: str) -> None:
     import os, markdown, shutil
