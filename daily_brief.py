@@ -1,9 +1,11 @@
+<<<<<<< HEAD
 import os, time, json
 from datetime import date
 from typing import List, Dict, Any
 import requests
 from openai import OpenAI
 
+SITE_BASE_URL = "https://sanky0-0.github.io/financial-news-brief/"
 
 def build_static_site(out_path: str, today: str) -> None:
     import os, markdown, shutil
@@ -220,6 +222,11 @@ def main():
 
     print(f"✅ Saved raw → {raw_path}")
     print(f"✅ Saved brief → {out_path}")
+    print(f"🌍 Live site (archive): {SITE_BASE_URL}/")
+    print(f"⭐ Today's brief: {SITE_BASE_URL}/latest.html")
+    print(f"📅 This day's permalink: {SITE_BASE_URL}/days/{today}.html")
+
 
 if __name__ == "__main__":
     main()
+>>>>>>> d437047aea315222539b1c47ee88d55561bd72c8
