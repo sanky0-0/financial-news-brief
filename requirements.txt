@@ -1,8 +1,3 @@
 openai>=1.30.0
 requests>=2.31.0
-markdown>=3.8.2
-
-# .gitignore
-.env
-*.log
-__pycache__/
+markdown>=3.6
