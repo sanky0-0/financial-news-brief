@@ -17,8 +17,7 @@ MARKETAUX_PARAMS = {
 MODEL_FOR_SUMMARY = "gpt-4o-mini"
 
 # ========= 2) KEYS =========
-OPENAI_API_KEY    = os.getenv("OPENAI_API_KEY", "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")
-MARKETAUX_API_KEY = os.getenv("MARKETAUX_API_KEY", "YHSWx3f3vLBXKygJcRliXcHE6D6gbz7YEnMwdVQ2")
+
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
