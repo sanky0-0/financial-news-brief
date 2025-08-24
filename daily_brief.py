@@ -170,6 +170,27 @@ def build_static_site(out_path: str, today: str) -> None:
     shutil.copyfile(day_html_path, "docs/latest.html")
     print("🌐 Built static site in docs/ (index.html, latest.html, and days/)")
 
+#------Mailgun Email ------
+def email_brief(today: str):
+    import requests
+    html_path = f"docs/days/{today}.html"
+    with open(html_path, "r", encoding="utf-8") as f:
+        html = f.read()
+    resp = requests.post(
+        f"https://api.mailgun.net/v3/{os.environ['MAILGUN_DOMAIN']}/messages",
+        auth=("api", os.environ['MAILGUN_API_KEY']),
+        data={
+            "from": f"FinancialNewsAI <mailgun@{os.environ['MAILGUN_DOMAIN']}>",
+            "to": ["you@example.com"],  # change this to your email
+            "subject": f"Daily Financial Brief — {today}",
+            "text": f"Read on the web: {SITE_BASE_URL}/latest.html",
+            "html": html + f'<p><a href="{SITE_BASE_URL}/latest.html">Read on the web</a></p>',
+        },
+        timeout=30,
+    )
+    print("📧 Mailgun status:", resp.status_code)
+
+
 
 # ---------- MAIN ----------
 def main() -> None:
@@ -201,6 +222,7 @@ def main() -> None:
 
     # Static site
     build_static_site(out_path, today)
+    email_brief(today)
 
     print(f"✅ Saved raw  → {raw_path}")
     print(f"✅ Saved brief → {out_path}")
