@@ -1,7 +1,336 @@
 {
-  "count": 24,
+  "count": 33,
   "data": [
     {
+feature/add-gdelt-source
+      "title": "Explozie lângă sediul Serviciului de Securitate al Rusiei . O persoană a murit într - un magazin de jucării din Moscova VIDEO",
+      "title_en": "Explosion near the headquarters of the Russian Security Service. One person died in a toy store in Moscow VIDEO",
+      "source": "ziare.com",
+      "url": "https://ziare.com/rusia/explozie-magazin-jucarii-un-mort-sediu-serviciu-securitate-1960569",
+      "published_at": "",
+      "language": "Romanian",
+      "source_lang": "Romanian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Barry Appleton : Carney should not be too quick to sign a new trade deal with Trump",
+      "title_en": "Barry Appleton: Carney should not be too quick to sign a new trade deal with Trump",
+      "source": "saultstar.com",
+      "url": "https://www.saultstar.com:443/opinion/carney-should-not-be-to-quick-to-sign-a-new-trade-deal-with-trump/wcm/2616e80e-71c0-4fc5-8e83-8a4f788c7409",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Commissioners hear update on Historic Jail preservation efforts",
+      "title_en": "Commissioners hear update on Historic Jail preservation efforts",
+      "source": "covnews.com",
+      "url": "https://www.covnews.com/news/county/commissioners-hear-update-historic-jail-preservation-efforts/",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "دبي « بيت الجميع ».. تزرع الهدوء في قلب المدينة لأجل ذوي التوحّد",
+      "title_en": "Dubai 'House of Everyone'... cultivates calm in the heart of the city for those with autism",
+      "source": "emaratalyoum.com",
+      "url": "https://www.emaratalyoum.com/life/four-sides/2025-08-25-1.1967583",
+      "published_at": "",
+      "language": "Arabic",
+      "source_lang": "Arabic",
+      "provider": "gdelt"
+    },
+    {
+      "title": "시총 2위 이더리움 , 사상 첫 4천900달러 돌파 … 5천달러도 넘을까",
+      "title_en": "Ethereum, the second largest by market cap, surpasses $4,900 for the first time... will it exceed $5,000?",
+      "source": "fnnews.com",
+      "url": "https://www.fnnews.com/news/202508250328202451",
+      "published_at": "",
+      "language": "Korean",
+      "source_lang": "Korean",
+      "provider": "gdelt"
+    },
+    {
+      "title": "El Girona se abona al ridículo",
+      "title_en": "Girona subscribes to ridicule",
+      "source": "lavanguardia.com",
+      "url": "https://www.lavanguardia.com/deportes/futbol/20250824/10998828/villarreal-girona-liga-debacle.html",
+      "published_at": "",
+      "language": "Spanish",
+      "source_lang": "Spanish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Madhya Pradesh : Constables Take Charge Of Police School Mess After Food Plaints",
+      "title_en": "Madhya Pradesh: Constables Take Charge Of Police School Mess After Food Complaints",
+      "source": "freepressjournal.in",
+      "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-constables-take-charge-of-police-school-mess-after-food-plaints",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Building Ultra Cheap Energy Storage for Solar PV",
+      "title_en": "Building Ultra Cheap Energy Storage for Solar PV",
+      "source": "austinvernon.substack.com",
+      "url": "https://austinvernon.substack.com/p/building-ultra-cheap-energy-storage",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Pagliacci ovunque  Dura reazione di Boniface dopo il passaggio saltato al Milan",
+      "title_en": "Pagliacci everywhere: Boniface reacts strongly after the missed transfer to Milan",
+      "source": "calcionapoli24.it",
+      "url": "https://www.calcionapoli24.it/brevi/pagliacci-ovunque-dura-reazione-di-boniface-dopo-il-passaggio-saltato-al-milan-n659669.html",
+      "published_at": "",
+      "language": "Italian",
+      "source_lang": "Italian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Apsiperkame mokyklai : kaip nepadaryti vaikui meškos paslaugos",
+      "title_en": "Shopping for school: how not to do your child a disservice",
+      "source": "kauno.diena.lt",
+      "url": "https://kauno.diena.lt/naujienos/verslas/ekonomika/apsiperkame-mokyklai-kaip-nepadaryti-vaikui-meskos-paslaugos-1715986",
+      "published_at": "",
+      "language": "Lithuanian",
+      "source_lang": "Lithuanian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Nicaragua y China fortalecen cooperación comercial",
+      "title_en": "Nicaragua and China strengthen trade cooperation",
+      "source": "newsinamerica.com",
+      "url": "https://newsinamerica.com/pdcc/boletin/2025/nicaragua-y-china-fortalecen-cooperacion-comercial/",
+      "published_at": "",
+      "language": "Spanish",
+      "source_lang": "Spanish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Arranca el Travel Sale : cómo comprar viajes con hasta 60 % de descuento",
+      "title_en": "Travel Sale kicks off: how to buy trips with up to 60% discount",
+      "source": "diariosanrafael.com.ar",
+      "url": "https://diariosanrafael.com.ar/arranca-el-travel-sale-como-comprar-viajes-con-hasta-60-de-descuento/",
+      "published_at": "",
+      "language": "Spanish",
+      "source_lang": "Spanish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Program priuštivog stanovanja : Najamnina ne prelazi 30 % prihoda , umanjeno za režije",
+      "title_en": "Affordable housing program: Rent does not exceed 30% of income, reduced for utilities",
+      "source": "glas-slavonije.hr",
+      "url": "https://www.glas-slavonije.hr/novosti/hrvatska/2025/08/24/program-priustivog-stanovanja-najamnina-ne-prelazi-30-prihoda-umanjeno-za-rezije-714187/",
+      "published_at": "",
+      "language": "Croatian",
+      "source_lang": "Croatian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "ISU College of Nursing graduates first Springfield cohort",
+      "title_en": "ISU College of Nursing graduates first Springfield cohort",
+      "source": "pantagraph.com",
+      "url": "https://pantagraph.com/news/local/education/article_cf1c6884-ab06-441c-9368-572adf45e5f5.html",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Every Movie Coming to Shudder in September 2025",
+      "title_en": "Every Movie Coming to Shudder in September 2025",
+      "source": "movieweb.com",
+      "url": "https://movieweb.com/shudder-movies-streaming-september-2025/",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "英特尔如何跌落神坛 ？ 纽时指出3大失误",
+      "title_en": "How Intel fell from grace? NY Times points out 3 major mistakes",
+      "source": "wenxuecity.com",
+      "url": "https://www.wenxuecity.com/news/2025/08/24/126301902.html",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "loksatta editorial on Maharashtra government subsidy for air travel from Solapur to pune Mumbai अग्रलेख : शहाणपण - संन्यास !",
+      "title_en": "Loksatta editorial on Maharashtra government subsidy for air travel from Solapur to Pune Mumbai: Editorial: Wisdom - Renunciation!",
+      "source": "loksatta.com",
+      "url": "https://www.loksatta.com/sampadkiya/editorial/loksatta-editorial-on-maharashtra-government-subsidy-for-air-travel-from-solapur-to-pune-mumbai-css-98-5328724/",
+      "published_at": "",
+      "language": "Marathi",
+      "source_lang": "Marathi",
+      "provider": "gdelt"
+    },
+    {
+      "title": "افتتاحية قاسيون 1240 : المهمة : تغيير جذري شامل !",
+      "title_en": "Qasioun Editorial 1240: The mission: comprehensive radical change!",
+      "source": "kassioun.org",
+      "url": "https://kassioun.org/politics/item/84156-1240",
+      "published_at": "",
+      "language": "Arabic",
+      "source_lang": "Arabic",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Real Zaragoza | El análisis del inicio del Real Zaragoza . Serio aviso con fuego real",
+      "title_en": "Real Zaragoza | Analysis of Real Zaragoza's start. Serious warning with live fire",
+      "source": "elperiodicodearagon.com",
+      "url": "https://www.elperiodicodearagon.com/real-zaragoza/2025/08/24/analisis-inicio-real-zaragoza-serio-120902241.html",
+      "published_at": "",
+      "language": "Spanish",
+      "source_lang": "Spanish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Pakistan Rules Out VPN Ban , Puts Digital Growth First",
+      "title_en": "Pakistan Rules Out VPN Ban, Puts Digital Growth First",
+      "source": "pakistantribune.com.pk",
+      "url": "https://www.pakistantribune.com.pk/pakistan-rules-out-vpn-ban-puts-digital-growth-first/",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "鮑爾放鴿效應 台股衝鋒新高點 AI 股仍是主旋律 | 市場焦點 | 證券",
+      "title_en": "The dovish effect of Powell: Taiwan stocks surge to new highs, AI stocks remain the main theme | Market Focus | Securities",
+      "source": "money.udn.com",
+      "url": "https://money.udn.com/money/story/5607/8960380",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "NVDA Earnings , PCE and Other Key Things to Watch this Week",
+      "title_en": "NVDA Earnings, PCE and Other Key Things to Watch this Week",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/nvda-earnings-pce-other-key-170002414.html",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Ministerijoms taupymas – skausminga tema",
+      "title_en": "Savings for ministries – a painful topic",
+      "source": "kauno.diena.lt",
+      "url": "https://kauno.diena.lt/naujienos/verslas/ekonomika/ministerijoms-taupymas-skausminga-tema-1716606",
+      "published_at": "",
+      "language": "Lithuanian",
+      "source_lang": "Lithuanian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Time Aнализа",
+      "title_en": "Time Analysis",
+      "source": "time.mk",
+      "url": "https://time.mk/ai/1c148d3d47/mk/",
+      "published_at": "",
+      "language": "Macedonian",
+      "source_lang": "Macedonian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Pakistan Government Rolls Out Measures to Revitalize Auto Sector",
+      "title_en": "Pakistan Government Rolls Out Measures to Revitalize Auto Sector",
+      "source": "pakistantribune.com.pk",
+      "url": "https://www.pakistantribune.com.pk/pakistan-government-rolls-out-measures-to-revitalize-auto-sector/",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Rugsėjis tėvų akimis : kai į mokyklą išeina ne tik vaikai",
+      "title_en": "September through parents' eyes: when not only children go to school",
+      "source": "kauno.diena.lt",
+      "url": "https://kauno.diena.lt/naujienos/laisvalaikis-ir-kultura/zvaigzdes-ir-pramogos/rugsejis-tevu-akimis-kai-i-mokykla-iseina-ne-tik-vaikai-1716043",
+      "published_at": "",
+      "language": "Lithuanian",
+      "source_lang": "Lithuanian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Looking for art , culture ? See the latest Central Illinois exhibits ðŸŽ¨",
+      "title_en": "Looking for art, culture? See the latest Central Illinois exhibits",
+      "source": "pantagraph.com",
+      "url": "https://pantagraph.com/life-entertainment/local/article_4a584f49-676b-402e-83f7-9c90ebb06f03.html",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Salta il trasferimento al Milan Boniface rompe il silenzio",
+      "title_en": "The transfer to Milan falls through: Boniface breaks the silence",
+      "source": "zazoom.it",
+      "url": "https://www.zazoom.it/2025-08-24/salta-il-trasferimento-al-milan-boniface-rompe-il-silenzio-clown-ovunque/17617270/",
+      "published_at": "",
+      "language": "Italian",
+      "source_lang": "Italian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Milan Boniface la tocca piano | Pagliacci ovunque Ecco a chi è riferito",
+      "title_en": "Milan Boniface takes it easy | Pagliacci everywhere: Here’s who it refers to",
+      "source": "zazoom.it",
+      "url": "https://www.zazoom.it/2025-08-24/milan-boniface-la-tocca-piano-pagliacci-ovunque-ecco-a-chi-e-riferito/17617265/",
+      "published_at": "",
+      "language": "Italian",
+      "source_lang": "Italian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Is America Cooked ? McDonald Worker Says Customers Tip Him",
+      "title_en": "Is America Cooked? McDonald Worker Says Customers Tip Him",
+      "source": "brobible.com",
+      "url": "https://brobible.com/culture/article/tipping-at-mcdonalds-america-is-cooked/",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Nvidia sales in spotlight as China raises fears over security risk",
+      "title_en": "Nvidia sales in spotlight as China raises fears over security risk",
+      "source": "thetimes.com",
+      "url": "https://www.thetimes.com/business-money/technology/article/nvidia-sales-to-china-in-doubt-over-alleged-security-risks-jd6rwzd2v",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Incendios Cáceres : Más de 60 voluntarios ayudan a la Asociación de Animales de Cáceres tras arder sus instalaciones",
+      "title_en": "Cáceres Fires: Over 60 volunteers help the Cáceres Animal Association after their facilities burned down",
+      "source": "elperiodicoextremadura.com",
+      "url": "https://www.elperiodicoextremadura.com/caceres-local/2025/08/24/60-voluntarios-ayudan-asociacion-animales-incendios-120901850.html",
+      "published_at": "",
+      "language": "Spanish",
+      "source_lang": "Spanish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Dyer : When Nobel doesnt go to Trump , he will give up on peace",
+      "title_en": "Dyer: When Nobel doesn't go to Trump, he will give up on peace",
+      "source": "saultstar.com",
+      "url": "https://www.saultstar.com:443/opinion/columnists/dyer-when-nobel-doesnt-go-to-trump-he-will-give-up-on-peace/wcm/f7f12cd8-3574-4fed-b447-63ff534b3e97",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
       "uuid": "d2475f38-dcb8-4250-bd78-c4033b25c948",
       "title": "MoneyGram Expands Collaboration with Tahweel Alrajhi to Strengthen Receive Network Across Saudi Arabia",
       "description": "MoneyGram, a leading global payments and money transfer company, today announced a significant expansion of its receive network in Saudi Arabia throug",
@@ -692,6 +1021,7 @@
       "entities": [],
       "similar": [],
       "title_en": "India's biggest brokers float new forum for retail"
+main
     }
   ]
 }
