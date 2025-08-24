@@ -181,7 +181,7 @@ def email_brief(today: str):
         auth=("api", os.environ['MAILGUN_API_KEY']),
         data={
             "from": f"FinancialNewsAI <mailgun@{os.environ['MAILGUN_DOMAIN']}>",
-            "to": ["you@example.com"],  # change this to your email
+            "to": ["sankalpogale@gmail.com"],  # change this to your email
             "subject": f"Daily Financial Brief — {today}",
             "text": f"Read on the web: {SITE_BASE_URL}/latest.html",
             "html": html + f'<p><a href="{SITE_BASE_URL}/latest.html">Read on the web</a></p>',
