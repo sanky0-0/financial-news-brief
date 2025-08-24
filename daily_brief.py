@@ -157,7 +157,7 @@ def build_sectioned_brief(items: List[Dict[str, Any]]) -> str:
         section_items = groups.get(section, [])
         if not section_items:
             continue
-        body_lines.append(f"## {section}")
+        body_lines.append(f'## {section} {{#{make_anchor_id(section)}}}')
         body_lines.append("")
         for it in section_items:
             title = (it.get("title_en") or it.get("title") or "").strip()
@@ -238,7 +238,11 @@ def build_static_site(out_path: str, today: str) -> None:
 
     with open(out_path, "r", encoding="utf-8") as f:
         md_text = f.read()
-    html_body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
+    html_body = markdown.markdown(
+    md_text,
+    extensions=["extra", "sane_lists", "toc", "attr_list"]
+)
+
 
     day_html_path = f"docs/days/{today}.html"
     page = f"""<!doctype html>
