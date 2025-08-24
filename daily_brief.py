@@ -4,6 +4,8 @@ from datetime import date
 from typing import List, Dict, Any
 import requests
 from openai import OpenAI
+import re
+from typing import List, Dict, Any, Tuple
 
 # ---------- CONFIG ----------
 TARGET_ARTICLES = 24
@@ -76,6 +78,101 @@ def fetch_marketaux_articles(
         time.sleep(REQUEST_DELAY_S)
 
     return results[:target]
+
+
+# ---- TAGGING HELPERS ----
+SECTION_ORDER = [
+    "Macro policy", "Earnings", "Tech/AI", "Energy", "Rates", "Geopolitics", "Other"
+]
+
+# Keyword rules for tagging headlines
+TAG_KEYWORDS = {
+    "Macro policy": [
+        r"\b(inflation|cpi|ppi|gdp|employment|jobs report|tariff|sanction|fiscal|budget|stimulus|subsidy|regulation|policy|central bank|ecb|boj|pboC|imf|world bank)\b",
+        r"\b(china|us|europe|eu|japan|india|emerging markets)\b.*\b(policy|ban|restriction|export control|trade)\b",
+    ],
+    "Earnings": [
+        r"\b(earnings|revenue|guidance|profit|loss|quarter|q[1-4]\b|beat|miss|outlook)\b"
+    ],
+    "Tech/AI": [
+        r"\b(ai|artificial intelligence|chip|semiconductor|gpu|cloud|data center|software|saas|foundry|hbm)\b"
+    ],
+    "Energy": [
+        r"\b(oil|gas|lng|coal|uranium|nuclear|solar|wind|renewable|opec|brent|wti)\b"
+    ],
+    "Rates": [
+        r"\b(rate hike|rate cut|interest rate|yield|treasury|bond|spread|dovish|hawkish|dot plot)\b"
+    ],
+    "Geopolitics": [
+        r"\b(conflict|war|ceasefire|election|coup|sanction|diplomatic|border|strait|taiwan|ukraine|middle east|red sea)\b"
+    ],
+}
+
+def make_anchor_id(text: str) -> str:
+    """Convert section title into a safe HTML anchor ID."""
+    slug = re.sub(r"[^a-z0-9]+", "-", text.strip().lower())
+    return slug.strip("-") or "section"
+
+def choose_section_for_headline(title: str, src: str = "", lang: str = "en") -> str:
+    """Pick the most likely section tag for a given headline."""
+    t = (title or "").lower()
+    for section, patterns in TAG_KEYWORDS.items():
+        for pat in patterns:
+            if re.search(pat, t):
+                return section
+    return "Other"
+
+def tag_headlines(items: List[Dict[str, Any]]) -> List[Tuple[Dict[str, Any], str]]:
+    """Return [(headline_dict, section_tag), ...]."""
+    tagged = []
+    for it in items:
+        title = (it.get("title_en") or it.get("title") or "").strip()
+        tag = choose_section_for_headline(title, it.get("source") or "", it.get("language") or "en")
+        tagged.append((it, tag))
+    return tagged
+
+#----------Sectioned Brief ----------
+def build_sectioned_brief(items: List[Dict[str, Any]]) -> str:
+    """
+    Create a Markdown brief with a Table of Contents and grouped headlines by section.
+    """
+    tagged = tag_headlines(items)
+
+    # Organize by section
+    groups: Dict[str, List[Dict[str, Any]]] = {k: [] for k in SECTION_ORDER}
+    for it, tag in tagged:
+        groups.setdefault(tag, [])
+        groups[tag].append(it)
+
+    # Table of Contents
+    toc_lines = ["# Daily Financial Brief", "", "## Contents"]
+    for section in SECTION_ORDER:
+        if groups.get(section):
+            toc_lines.append(f"- [{section}](#{make_anchor_id(section)})")
+    toc_lines.append("")
+
+    # Build sections
+    body_lines: List[str] = []
+    for section in SECTION_ORDER:
+        section_items = groups.get(section, [])
+        if not section_items:
+            continue
+        body_lines.append(f"## {section}")
+        body_lines.append("")
+        for it in section_items:
+            title = (it.get("title_en") or it.get("title") or "").strip()
+            lang = (it.get("source_lang") or it.get("language") or "en")
+            if lang != "en" and "translated from" not in title.lower():
+                title = f"{title} [translated from {lang}]"
+            src = it.get("source") or ""
+            published = it.get("published_at") or ""
+            body_lines.append(f"- {title}  _(source: {src}; published: {published})_")
+        body_lines.append("")
+
+    if not any(groups.values()):
+        return "# Daily Financial Brief\n\n_No headlines available today._"
+
+    return "\n".join(toc_lines + body_lines)
 
 
 # ---------- SUMMARIZE ----------
@@ -287,7 +384,8 @@ def main() -> None:
         json.dump({"count": len(items), "data": items}, f, ensure_ascii=False, indent=2)
 
     # Build brief (Markdown)
-    brief = make_brief(items)
+    #brief = make_brief(items)
+    brief = build_sectioned_brief(items)
     out_path = f"out/{today}.md"
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(brief)
