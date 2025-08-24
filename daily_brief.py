@@ -172,23 +172,33 @@ def build_static_site(out_path: str, today: str) -> None:
 
 #------Mailgun Email ------
 def email_brief(today: str):
-    import requests
+    import os, requests
+    domain  = os.environ.get("MAILGUN_DOMAIN")
+    api_key = os.environ.get("MAILGUN_API_KEY")
+    to_addr = os.environ.get("MAILGUN_TO")  # optional recipient secret
+
+    if not domain or not api_key or not to_addr:
+        print("📧 Mailgun not configured (missing MAILGUN_DOMAIN/API_KEY/TO) — skipping email.")
+        return
+
     html_path = f"docs/days/{today}.html"
     with open(html_path, "r", encoding="utf-8") as f:
         html = f.read()
-    resp = requests.post(
-        f"https://api.mailgun.net/v3/{os.environ['MAILGUN_DOMAIN']}/messages",
-        auth=("api", os.environ['MAILGUN_API_KEY']),
+
+    r = requests.post(
+        f"https://api.mailgun.net/v3/{domain}/messages",
+        auth=("api", api_key),
         data={
-            "from": f"FinancialNewsAI <mailgun@{os.environ['MAILGUN_DOMAIN']}>",
-            "to": ["sankalpogale@gmail.com"],  # change this to your email
+            "from": f"FinancialNewsAI <mailgun@{domain}>",
+            "to": [to_addr],
             "subject": f"Daily Financial Brief — {today}",
             "text": f"Read on the web: {SITE_BASE_URL}/latest.html",
             "html": html + f'<p><a href="{SITE_BASE_URL}/latest.html">Read on the web</a></p>',
         },
         timeout=30,
     )
-    print("📧 Mailgun status:", resp.status_code)
+    print("📧 Mailgun status:", r.status_code, r.text[:200])
+
 
 
 
