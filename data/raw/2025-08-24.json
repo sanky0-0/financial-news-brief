@@ -2,6 +2,365 @@
   "count": 24,
   "data": [
     {
+      "uuid": "ab8e4f92-f78a-484b-ba33-108c2d59af4f",
+      "title": "Philadelphia Fed Manufacturing Index: Activity Weakened In August",
+      "description": "The latest Philadelphia Fed manufacturing index showed activity weakened in August, undoing most gains from last month. Read more here.",
+      "keywords": "",
+      "snippet": "PK24/E+ via Getty Images\n\nBy Jennifer Nash\n\nThe Philly Fed's Manufacturing Business Outlook Survey is a monthly survey of about 250 manufacturers in the Third F...",
+      "url": "https://seekingalpha.com/article/4816175-philadelphia-fed-manufacturing-index-activity-weakened-august",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2191263363/image_2191263363.jpg?io=getty-c-w1536",
+      "language": "en",
+      "published_at": "2025-08-24T04:30:00.000000Z",
+      "source": "seekingalpha.com",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [
+        {
+          "uuid": "e94ab54a-3428-4926-a8f9-5c69453acde7",
+          "title": "Markets Weekly Outlook: Fed Pivot Ignites Rally Ahead of US PCE, Japanese Inflation Data",
+          "description": "Wall Street's main indexes surged on Friday after Federal Reserve Chair Jerome Powell hinted at a possible interest rate cut during his speech at the Jackson Hole Symposium.",
+          "keywords": "",
+          "snippet": "Dean Popplewell has nearly two decades of experience trading currencies and fixed income instruments. He has a deep understanding of market fundamentals and the...",
+          "url": "https://seekingalpha.com/article/4816188-markets-weekly-outlook-fed-chair-pivot-ignites-rally-ahead-us-pce-japanese-inflation-data",
+          "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1402808568/image_1402808568.jpg?io=getty-c-w1536",
+          "language": "en",
+          "published_at": "2025-08-24T04:30:00.000000Z",
+          "source": "seekingalpha.com",
+          "relevance_score": null,
+          "entities": []
+        },
+        {
+          "uuid": "f79bfe0a-ad60-463c-93fd-6e10c5f7ee70",
+          "title": "Regional banks rebound for a second day as PacWest cuts dividend, says business 'fundamentally sound'",
+          "description": "PacWest Bankcorp led a relief rally in regional banks on Monday, after the struggling lender slashed dividend to build capital amid the banking crisis.",
+          "keywords": "Breaking News: Markets, Breaking News: Investing, Breaking News: Business, Investment strategy, Wall Street, Stock markets, Markets, PacWest Bancorp, PacWest Bancorp, Paul Taylor, Dividends, business news",
+          "snippet": "PacWest Bankcorp led a relief rally in regional banks again on Monday, after the struggling lender slashed dividend to build capital amid the banking crisis.\n\nS...",
+          "url": "https://www.cnbc.com/2023/05/08/regional-banks-rebound-for-a-second-day-as-pacwest-cuts-dividend-says-business-fundamentally-sound.html",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/107235212-1683148291223-gettyimages-1252139652-PACWEST_EARNS.jpeg?v=1683542672&w=1920&h=1080",
+          "language": "en",
+          "published_at": "2023-05-08T10:55:25.000000Z",
+          "source": "cnbc.com",
+          "relevance_score": null,
+          "entities": [
+            {
+              "symbol": "KRE",
+              "name": "SPDR S&P Regional Banking ETF",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "etf",
+              "industry": "N/A",
+              "match_score": 85.306015,
+              "sentiment_score": 0.4215,
+              "highlights": [
+                {
+                  "highlight": "The <em>SPDR</em> <em>S</em>&<em>P</em> [+235 characters]",
+                  "sentiment": 0.4215,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "9b2e0182-95ac-4c80-90d8-a5c3f906a1af",
+          "title": "Stocks erase early declines",
+          "description": "Major indices in the black",
+          "keywords": "",
+          "snippet": "The major US stock indices have now erased their earlier declines.\n\nDow industrial average is up 72 points or 0.23% at 31456.48. The low reached 31212.45\n\nS&P i...",
+          "url": "https://www.forexlive.com/news/stocks-erase-early-declines-20220708/",
+          "image_url": "https://images.forexlive.com/fl-static/fl-thumbnail.jpg",
+          "language": "en",
+          "published_at": "2022-07-08T14:44:05.000000Z",
+          "source": "forexlive.com",
+          "relevance_score": null,
+          "entities": []
+        },
+        {
+          "uuid": "f463f484-07b9-4052-9e2c-a9bf590d65e2",
+          "title": "Up to 6k B.C.’ers may have to wait more than 42 days for second vaccine dose",
+          "description": "B.C.’s top doctor is cautioning British Columbians to be prepared for longer-than-expected delays between their first and second doses of COVID-19 vaccine.",
+          "keywords": "",
+          "snippet": "Up to 6k B.C.’ers may have to wait more than 42 days for second vaccine dose\n\nGetty Images/User7565abab_575\n\nB.C.’s top doctor is cautioning British Columbi...",
+          "url": "https://biv.com/article/2021/02/6k-bcers-may-have-wait-more-42-days-second-vaccine-dose",
+          "image_url": "https://biv.com/themes/custom/biv/images/favicon.ico",
+          "language": "en",
+          "published_at": "2021-02-16T23:36:27.000000Z",
+          "source": "biv.com",
+          "relevance_score": null,
+          "entities": [
+            {
+              "symbol": "AZN",
+              "name": "AstraZeneca plc",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 16.785986,
+              "sentiment_score": 0.4703,
+              "highlights": [
+                {
+                  "highlight": "“I will say this: We have other vaccin[+233 characters]",
+                  "sentiment": 0.4703,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "MRNA",
+              "name": "Moderna Inc",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 17.736973,
+              "sentiment_score": 0.240625,
+              "highlights": [
+                {
+                  "highlight": "Bonnie Henry estimated Tuesday (February[+191 characters]",
+                  "sentiment": 0,
+                  "highlighted_in": "main_text"
+                },
+                {
+                  "highlight": "This comes as B.C. prepares to accept ne[+321 characters]",
+                  "sentiment": 0.3182,
+                  "highlighted_in": "main_text"
+                },
+                {
+                  "highlight": "(Nasdaq:NVAX), and Johnson & Johnson (NY[+260 characters]",
+                  "sentiment": 0.1689,
+                  "highlighted_in": "main_text"
+                },
+                {
+                  "highlight": "The province’s initial rollout plan is[+295 characters]",
+                  "sentiment": 0.4754,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "NVAX",
+              "name": "Novavax, Inc.",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 29.31826,
+              "sentiment_score": 0.4703,
+              "highlights": [
+                {
+                  "highlight": "“I will say this: We have other vaccin[+242 characters]",
+                  "sentiment": 0.4703,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "JNJ",
+              "name": "Johnson & Johnson",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 27.996557,
+              "sentiment_score": 0.1689,
+              "highlights": [
+                {
+                  "highlight": "(Nasdaq:NVAX), and <em>Johnson</em> & <e[+278 characters]",
+                  "sentiment": 0.1689,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "ZEG.DE",
+              "name": "AstraZeneca plc",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "de",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 16.76809,
+              "sentiment_score": 0.4703,
+              "highlights": [
+                {
+                  "highlight": "“I will say this: We have other vaccin[+233 characters]",
+                  "sentiment": 0.4703,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "JNJ.DE",
+              "name": "Johnson & Johnson",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "de",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 17.859795,
+              "sentiment_score": 0.1689,
+              "highlights": [
+                {
+                  "highlight": "(Nasdaq:NVAX), and <em>Johnson</em> & <e[+269 characters]",
+                  "sentiment": 0.1689,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "AZN.L",
+              "name": "AstraZeneca plc",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "gb",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 16.76614,
+              "sentiment_score": 0.4703,
+              "highlights": [
+                {
+                  "highlight": "“I will say this: We have other vaccin[+233 characters]",
+                  "sentiment": 0.4703,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "2576ae81-1f1f-4639-8eb5-3aedde1d4ccd",
+          "title": "3 Penny Stocks To Buy Under $3 Right Now But Are They Worth It?",
+          "description": "",
+          "keywords": "",
+          "snippet": "3 Penny Stocks to Watch in the Second Half of February\n\nAs we get started on another week of February, investors continue to seek out potentially valuable penny...",
+          "url": "https://pennystocks.com/featured/2021/02/16/penny-stocks-to-buy-under-3-right-now-worth-it-february/",
+          "image_url": "https://pennystocks.com/wp-content/uploads/2021/02/best-penny-stocks-to-buy-right-now.jpg",
+          "language": "en",
+          "published_at": "2021-02-16T20:43:24.000000Z",
+          "source": "pennystocks.com",
+          "relevance_score": null,
+          "entities": [
+            {
+              "symbol": "BORR",
+              "name": "Borr Drilling Ltd",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "equity",
+              "industry": "Energy",
+              "match_score": 50.98491,
+              "sentiment_score": 0.4234,
+              "highlights": [
+                {
+                  "highlight": "<em>Borr</em> <em>Drilling</em> <em>Ltd<[+325 characters]",
+                  "sentiment": 0.6369,
+                  "highlighted_in": "main_text"
+                },
+                {
+                  "highlight": "One of the reasons that investors tend t[+250 characters]",
+                  "sentiment": -0.1531,
+                  "highlighted_in": "main_text"
+                },
+                {
+                  "highlight": "Read More\n\nObviously, companies like <em[+234 characters]",
+                  "sentiment": 0.5849,
+                  "highlighted_in": "main_text"
+                },
+                {
+                  "highlight": "Thanks to the momentum the oil and gas p[+151 characters]",
+                  "sentiment": 0.6249,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "NMTR",
+              "name": "9 Meters Biopharma Inc",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "equity",
+              "industry": "Healthcare",
+              "match_score": 41.173737,
+              "sentiment_score": 0.6054,
+              "highlights": [
+                {
+                  "highlight": "So far, however, the market has responde[+327 characters]",
+                  "sentiment": 0.5859,
+                  "highlighted_in": "main_text"
+                },
+                {
+                  "highlight": "For some context, let’s take a look at[+280 characters]",
+                  "sentiment": 0.6249,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "CSCW",
+              "name": "Color Star Technology Co Ltd",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "us",
+              "type": "equity",
+              "industry": "Basic Materials",
+              "match_score": 22.341599,
+              "sentiment_score": 0.4497,
+              "highlights": [
+                {
+                  "highlight": "Penny Stocks To Buy Under $3\n\n<em>Color<[+316 characters]",
+                  "sentiment": 0.4497,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "BDRILL.OL",
+              "name": "BORR DRILLING LTD",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "no",
+              "type": "equity",
+              "industry": "Energy",
+              "match_score": 34.504963,
+              "sentiment_score": 0.6369,
+              "highlights": [
+                {
+                  "highlight": "<em>Borr</em> <em>Drilling</em> <em>Ltd<[+325 characters]",
+                  "sentiment": 0.6369,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            },
+            {
+              "symbol": "BORR.OL",
+              "name": "BORR DRILLING LTD",
+              "exchange": null,
+              "exchange_long": null,
+              "country": "no",
+              "type": "equity",
+              "industry": "Energy",
+              "match_score": 34.504963,
+              "sentiment_score": 0.6369,
+              "highlights": [
+                {
+                  "highlight": "<em>Borr</em> <em>Drilling</em> <em>Ltd<[+325 characters]",
+                  "sentiment": 0.6369,
+                  "highlighted_in": "main_text"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title_en": "Philadelphia Fed Manufacturing Index: Activity Weakened In August"
+    },
+    {
       "uuid": "fe0369ec-305b-450e-a074-eab7a1499783",
       "title": "オンラインセミナー「オウンドメディアのペルソナ設定とカスタマージャーニーの作り方」を開催します（2025年4月9日）",
       "description": "2025年4月9日（水）に、企業のWebマーケティング・広告・宣伝・広報ご担当者様を対象にした無料オンラインセミナーを開催します。テーマは、オウンドメディアのペルソナ設定とカスタマージャーニーの作り方です。 詳細・Zoomお申込みページ hatena.zoom.us セミナーご案内ページ 最新のセミナーを以下ページでご案内しております。 https://www.hatena.ne.jp/ownedmedia/seminar",
@@ -15,7 +374,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "We will hold an online seminar on 'How to Set Personas and Create Customer Journeys for Owned Media' on April 9, 2025",
+      "title_en": "We will hold an online seminar on 'How to Set Personas and Create Customer Journeys for Owned Media' on April 9, 2025.",
       "source_lang": "ja"
     },
     {
@@ -32,7 +391,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "We will hold an online seminar on 'How to Start Owned Media' on April 23, 2025",
+      "title_en": "We will hold an online seminar on 'How to Start Owned Media' on April 23, 2025.",
       "source_lang": "ja"
     },
     {
@@ -49,7 +408,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "Explaining how to use tables and graphs that can be added in Looker Studio with practical examples. Let's visualize data according to its purpose",
+      "title_en": "Explaining how to use tables and graphs that can be added in Looker Studio with practical examples. Let's visualize data according to its purpose.",
       "source_lang": "ja"
     },
     {
@@ -123,7 +482,7 @@
           "entities": []
         }
       ],
-      "title_en": "Achieving efficiency in owned media operations through the use of generative AI. Report on the owned media seminar hosted by Hatena featuring representatives from SoftBank and LIFULL [Part 2]",
+      "title_en": "Achieving efficiency in owned media operations through the use of generative AI. A report on the Hatena-hosted owned media seminar featuring representatives from SoftBank and LIFULL [Part 2].",
       "source_lang": "ja"
     },
     {
@@ -197,7 +556,7 @@
           "entities": []
         }
       ],
-      "title_en": "Using Looker Studio with Owned Media. Introducing report setup methods and examples of utilizing calculated fields [Part 2] (Written by Taku Ogawa)",
+      "title_en": "How to use Looker Studio with owned media. Introducing report setup methods and examples of using calculated fields [Part 2] (Written by Taku Ogawa).",
       "source_lang": "ja"
     },
     {
@@ -214,7 +573,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "We will hold an online seminar on 'How to Set Personas and Create Customer Journeys for Owned Media' on July 9, 2025",
+      "title_en": "We will hold an online seminar on 'How to Set Personas and Create Customer Journeys for Owned Media' on July 9, 2025.",
       "source_lang": "ja"
     },
     {
@@ -231,7 +590,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "We will hold an online seminar on 'How to Start Owned Media' on July 23, 2025",
+      "title_en": "We will hold an online seminar on 'How to Start Owned Media' on July 23, 2025.",
       "source_lang": "ja"
     },
     {
@@ -319,7 +678,7 @@
           "entities": []
         }
       ],
-      "title_en": "How to quantify results? Methods for measuring the indirect effects of owned media using GA4 (Written by Taku Ogawa)",
+      "title_en": "How to quantify results? Methods for measuring the indirect effects of owned media using GA4 (Written by Taku Ogawa).",
       "source_lang": "ja"
     },
     {
@@ -351,7 +710,7 @@
           "entities": []
         }
       ],
-      "title_en": "Learning 'Iron Rules of Input' from Shikihou Shakyou Woman and other content production examples from Hatena [June 2025 Edition]",
+      "title_en": "Learning 'Iron Rules of Input' from Shikihou Shakyou Woman and other content production examples from Hatena [June 2025 Edition].",
       "source_lang": "ja"
     },
     {
@@ -383,7 +742,7 @@
           "entities": []
         }
       ],
-      "title_en": "Sugiura sets a world record in paracycling at the Women's 1 Kilometer, All Japan Championships",
+      "title_en": "Sugiura sets a world record in paracycling: Women's 1 kilometer, All Japan Championships.",
       "source_lang": "ja"
     },
     {
@@ -400,7 +759,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "President Lee meets with the chairman of the parliamentary league, Mr. Suga, agreeing to expand economic and cultural exchanges between Japan and South Korea",
+      "title_en": "President Lee meets with the head of the parliamentary league, Mr. Suga, agreeing to expand Japan-Korea economic and cultural exchanges.",
       "source_lang": "ja"
     },
     {
@@ -416,79 +775,8 @@
       "source": "vedomosti.ru",
       "relevance_score": null,
       "entities": [],
-      "similar": [
-        {
-          "uuid": "7dd83efd-db97-44b0-a0be-9e9c628e715a",
-          "title": "Российские системы ПВО за шесть часов сбили над Россией 57 беспилотников",
-          "description": "",
-          "keywords": "",
-          "snippet": "Как уточнило ведомство, воздушные цели были нейтрализованы над территориями Брянской, ...",
-          "url": "https://www.vedomosti.ru/politics/news/2025/08/24/1133753-rossiiskie-sistemi",
-          "image_url": "https://sharing.vedomosti.ru/1756008629/vedomosti.ru/politics/news/2025/08/24/1133753-rossiiskie-sistemi.jpg",
-          "language": "ru",
-          "published_at": "2025-08-24T04:10:28.000000Z",
-          "source": "vedomosti.ru",
-          "relevance_score": null,
-          "entities": []
-        },
-        {
-          "uuid": "638e6742-0286-4dea-9f48-bda4ac5e39dd",
-          "title": "«Мне суждено было побывать в аду»: творческий путь Сергея Довлатова",
-          "description": "35 лет назад умер советско-американский писатель и журналист",
-          "keywords": "ведомости, vedomosti, аналитические обзоры, исследования, экспертные мнения о бизнесе, экономике и обществе, аналитика, analytics, новости, интервью",
-          "snippet": "Армянский музей Москвы и культуры наций\n\nПосле демобилизации в 1965 г. Довлатов вновь пос?...",
-          "url": "https://www.vedomosti.ru/society/galleries/2025/08/24/1133243-mne-suzhdeno-bilo-pobivat",
-          "image_url": "https://sharing.vedomosti.ru/1756008445/vedomosti.ru/society/galleries/2025/08/24/1133243-mne-suzhdeno-bilo-pobivat.jpg",
-          "language": "ru",
-          "published_at": "2025-08-24T04:07:23.000000Z",
-          "source": "vedomosti.ru",
-          "relevance_score": null,
-          "entities": []
-        },
-        {
-          "uuid": "ba02c4dc-be50-46dd-90bd-8328927f6b09",
-          "title": "На Курской АЭС после атаки БПЛА загорелся трансформаторный блок",
-          "description": "",
-          "keywords": "",
-          "snippet": "В настоящий момент на Курской АЭС функционируют три энергоблока. Четвертый энергоблок ...",
-          "url": "https://www.vedomosti.ru/politics/news/2025/08/24/1133752-na-kurskoi-aes",
-          "image_url": "https://sharing.vedomosti.ru/1756008138/vedomosti.ru/politics/news/2025/08/24/1133752-na-kurskoi-aes.jpg",
-          "language": "ru",
-          "published_at": "2025-08-24T04:02:17.000000Z",
-          "source": "vedomosti.ru",
-          "relevance_score": null,
-          "entities": []
-        },
-        {
-          "uuid": "c2f83e53-fbef-4d0b-8892-a6d27c8db844",
-          "title": "6 key numbers to value COH shares",
-          "description": "Want to value the Cochlear Ltd (ASX:COH) share price? Here are 6 key metrics you need to consider.",
-          "keywords": "",
-          "snippet": "COH share price in focus\n\nTheshare price is up 2.83% since the start of 2025. Here are the key numbers that could shape its performance in 2025.\n\nCochlear, esta...",
-          "url": "https://www.raskmedia.com.au/2025/08/24/6-key-numbers-to-value-coh-shares-13/",
-          "image_url": "https://www.raskmedia.com.au/wp-content/uploads/2024/11/asx-news-asx-200-shares-16-1-jpg.webp",
-          "language": "en",
-          "published_at": "2025-08-24T03:47:59.000000Z",
-          "source": "raskmedia.com.au",
-          "relevance_score": null,
-          "entities": []
-        },
-        {
-          "uuid": "a5cc3363-3c0f-4f0c-ae75-393e7452a553",
-          "title": "XRO share price: why investors like information technology shares",
-          "description": "Is the Xero Ltd (ASX:XRO) share price cheap? Here are 3 reasons you might want to consider XRO shares.",
-          "keywords": "",
-          "snippet": "XRO share price in focus\n\nThe ASX:XRO ) share price has jumped 0.3% since the start of 2025. Is it time that you added XRO shares to your watchlist?\n\nFounded in...",
-          "url": "https://www.raskmedia.com.au/2025/08/24/xro-share-price-why-investors-like-information-technology-shares-7/",
-          "image_url": "https://www.raskmedia.com.au/wp-content/uploads/2024/11/asx-news-asx-200-shares-jpg.webp",
-          "language": "en",
-          "published_at": "2025-08-24T03:18:16.000000Z",
-          "source": "raskmedia.com.au",
-          "relevance_score": null,
-          "entities": []
-        }
-      ],
-      "title_en": "A proposal has been made to introduce discounted travel for pensioners across Russia",
+      "similar": [],
+      "title_en": "A proposal has been made to introduce discounted travel for pensioners across Russia.",
       "source_lang": "ru"
     },
     {
@@ -505,7 +793,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "SyncHack.com Daydreams",
+      "title_en": "SyncHack.com Daydream.",
       "source_lang": "ja"
     },
     {
@@ -538,8 +826,25 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "The Hidden Truth of Bond ETFs",
+      "title_en": "The Hidden Truth of Bond ETFs.",
       "source_lang": "zh"
+    },
+    {
+      "uuid": "7dd83efd-db97-44b0-a0be-9e9c628e715a",
+      "title": "Российские системы ПВО за шесть часов сбили над Россией 57 беспилотников",
+      "description": "",
+      "keywords": "",
+      "snippet": "Как уточнило ведомство, воздушные цели были нейтрализованы над территориями Брянской, ...",
+      "url": "https://www.vedomosti.ru/politics/news/2025/08/24/1133753-rossiiskie-sistemi",
+      "image_url": "https://sharing.vedomosti.ru/1756008629/vedomosti.ru/politics/news/2025/08/24/1133753-rossiiskie-sistemi.jpg",
+      "language": "ru",
+      "published_at": "2025-08-24T04:10:28.000000Z",
+      "source": "vedomosti.ru",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [],
+      "title_en": "Russian air defense systems shot down 57 drones over Russia in six hours.",
+      "source_lang": "ru"
     },
     {
       "uuid": "7236428b-949a-46d6-942b-0b116cad087a",
@@ -571,7 +876,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "A stock investment blog that continues to buy shareholder benefits and high-dividend stocks",
+      "title_en": "A stock investment blog that continues to buy shareholder benefits and high-dividend stocks.",
       "source_lang": "ja"
     },
     {
@@ -588,7 +893,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "A stock investment blog that continues to buy shareholder benefits and high-dividend stocks",
+      "title_en": "A stock investment blog that continues to buy shareholder benefits and high-dividend stocks.",
       "source_lang": "ja"
     },
     {
@@ -620,7 +925,7 @@
           "entities": []
         }
       ],
-      "title_en": "The Trump administration's 'villain'? The tug-of-war between Vice President Vance and the judiciary",
+      "title_en": "The 'Bad Guy' of the Trump Administration? The Tug-of-War between Vice President Vance and the Judiciary.",
       "source_lang": "ja"
     },
     {
@@ -637,8 +942,25 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "Between Neuroscience and Marketing",
+      "title_en": "Between Neuroscience and Marketing.",
       "source_lang": "ja"
+    },
+    {
+      "uuid": "638e6742-0286-4dea-9f48-bda4ac5e39dd",
+      "title": "«Мне суждено было побывать в аду»: творческий путь Сергея Довлатова",
+      "description": "35 лет назад умер советско-американский писатель и журналист",
+      "keywords": "ведомости, vedomosti, аналитические обзоры, исследования, экспертные мнения о бизнесе, экономике и обществе, аналитика, analytics, новости, интервью",
+      "snippet": "Армянский музей Москвы и культуры наций\n\nПосле демобилизации в 1965 г. Довлатов вновь пос?...",
+      "url": "https://www.vedomosti.ru/society/galleries/2025/08/24/1133243-mne-suzhdeno-bilo-pobivat",
+      "image_url": "https://sharing.vedomosti.ru/1756008445/vedomosti.ru/society/galleries/2025/08/24/1133243-mne-suzhdeno-bilo-pobivat.jpg",
+      "language": "ru",
+      "published_at": "2025-08-24T04:07:23.000000Z",
+      "source": "vedomosti.ru",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [],
+      "title_en": "\"I was destined to go to hell\": the creative path of Sergey Dovlatov.",
+      "source_lang": "ru"
     },
     {
       "uuid": "9d89329e-bfc2-433a-8d7b-5329bfaeef29",
@@ -655,55 +977,6 @@
       "entities": [],
       "similar": [],
       "title_en": "Building a Timed Tetris Game with 50 Bosses Using React — My Fun AI-Assisted Experiment"
-    },
-    {
-      "uuid": "30d1c558-86a5-40f4-a5b0-9a00c4fcc8fb",
-      "title": "偉哥投資手札",
-      "description": "",
-      "keywords": "",
-      "snippet": "",
-      "url": "http://hkstockinvestment.blogspot.com/feeds/5568962122764235265/comments/default",
-      "image_url": "",
-      "language": "zh",
-      "published_at": "2025-08-24T04:06:38.000000Z",
-      "source": "hkstockinvestment.blogspot.com",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [],
-      "title_en": "Investment Notes from Wei Ge",
-      "source_lang": "zh"
-    },
-    {
-      "uuid": "b91505f2-4104-4103-9ffe-5bb83ce8a4ee",
-      "title": "India-ASEAN cultural harmony event highlights deep regional ties",
-      "description": "Cultural exchanges strengthen India-ASEAN relations, with envoy emphasising people-to-people ties and Malaysia’s ASEAN chairmanship role.",
-      "keywords": "india",
-      "snippet": "KUALA LUMPUR: Cultural exchanges play a crucial role in strengthening people-to-people ties and fostering mutual understanding between India and ASEAN.\n\nHigh Co...",
-      "url": "https://thesun.my/malaysia-news/india-asean-cultural-harmony-event-highlights-deep-regional-ties-AH14750426",
-      "image_url": "https://thesun.my/binrepository/1200x800/0c0/1200d800/none/11808/UHEL/kl03-02062023-india_5572843_20250824120631.jpg",
-      "language": "en",
-      "published_at": "2025-08-24T04:06:31.000000Z",
-      "source": "thesundaily.my",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [],
-      "title_en": "India-ASEAN cultural harmony event highlights deep regional ties"
-    },
-    {
-      "uuid": "f8b6e340-6379-4b6c-aca4-c4132422244d",
-      "title": "Stop Following Your Passion, Build Skills First!",
-      "description": "But let me tell you something I learned the hard way in 2010, fresh out of college, hunting for my first job. But when I sat across the interview table, passion couldn’t help me explain OOPS…",
-      "keywords": "",
-      "snippet": "Stop Following Your Passion, Build Skills First!\n\nWe have all heard the advice: Follow your passion & success will follow you. It sounds magical. It sells books...",
-      "url": "https://medium.com/@shenoy.shashwath/stop-following-your-passion-build-skills-first-6530b6c4c11c",
-      "image_url": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*7s6qwLi9hPCAx3XR",
-      "language": "en",
-      "published_at": "2025-08-24T04:03:32.000000Z",
-      "source": "medium.com",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [],
-      "title_en": "Stop Following Your Passion, Build Skills First!"
     }
   ]
 }
