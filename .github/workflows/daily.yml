@@ -22,6 +22,7 @@ jobs:
           MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}    
           MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
           MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
+          MAILGUN_TO: ${{ SECRETS.MAILGUN_TO }}
         run: python daily_brief.py
       - name: Commit site & outputs
         run: |
