@@ -384,11 +384,23 @@ def main() -> None:
         json.dump({"count": len(items), "data": items}, f, ensure_ascii=False, indent=2)
 
     # Build brief (Markdown)
-    #brief = make_brief(items)
-    brief = build_sectioned_brief(items)
+    flat_brief_md = make_brief(items)
+    sectioned_brief_md = build_sectioned_brief(items)
+    
+    # Choose what to publish: "flat" | "sectioned" | "combined"
+    brief_mode = os.getenv("BRIEF_MODE", "combined").lower()
+
+    if brief_mode == "flat":
+        out_text = flat_brief_md
+    elif brief_mode == "sectioned":
+        out_text = sectioned_brief_md
+    else:
+        # combined = keep your old summary first, then the sectioned view
+        out_text = flat_brief_md + "\n\n---\n\n" + sectioned_brief_md
+
     out_path = f"out/{today}.md"
     with open(out_path, "w", encoding="utf-8") as f:
-        f.write(brief)
+        f.write(out_text)
 
     # Static site
     build_static_site(out_path, today)
