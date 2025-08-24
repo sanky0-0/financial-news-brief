@@ -85,8 +85,8 @@ def make_brief(items: List[Dict[str, Any]]) -> str:
         title = (it.get("title_en") or it.get("title") or "").strip()
         lang  = (it.get("source_lang") or it.get("language") or "en")
         if lang != "en":
-         # Optional: mark that this line was translated
-            title = f"{title} [translated from {lang}]"
+             # Optional: mark that this line was translated
+                title = f"{title} [translated from {lang}]"
         src = it.get("source") or ""
         published = it.get("published_at") or ""
         if title:
