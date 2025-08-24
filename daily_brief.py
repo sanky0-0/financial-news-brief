@@ -1,6 +1,6 @@
 # daily_brief.py  — clean, spaces-only version
 import os, json, time, csv
-from datetime import date
+from datetime import date, datetime, timezone
 from typing import List, Dict, Any
 import requests
 from openai import OpenAI
@@ -8,7 +8,7 @@ import re
 from typing import List, Dict, Any, Tuple
 
 # ---------- CONFIG ----------
-TARGET_ARTICLES = 24
+TARGET_ARTICLES = 6
 PER_CALL_LIMIT = 3
 REQUEST_DELAY_S = 0.6
 MODEL_FOR_SUMMARY = "gpt-4o-mini"
@@ -33,6 +33,32 @@ if missing:
     raise SystemExit(f"Missing env var(s): {', '.join(missing)}")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
+
+
+#--------GDELT--------
+ENABLE_GDELT   = os.getenv("ENABLE_GDELT", "1")  # "1" to enable, "0" to disable
+GDELT_QUERY    = os.getenv("GDELT_QUERY", "finance OR market OR stocks OR earnings OR inflation OR central bank")
+GDELT_MAXREC   = int(os.getenv("GDELT_MAXREC", "40"))
+GDELT_TIMESPAN = os.getenv("GDELT_TIMESPAN", "24h")
+
+
+#---------llm_chat def---------
+def call_llm(messages, max_tokens=200, temperature=0.3, model="gpt-4o-mini"):
+    """
+    Simple wrapper around OpenAI Chat Completions.
+    Returns the assistant's message content or '' on failure.
+    """
+    try:
+        resp = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            max_tokens=max_tokens,
+            temperature=temperature,
+        )
+        return resp.choices[0].message.content.strip()
+    except Exception as e:
+        print("LLM error:", e)
+        return ""
 
 
 # ---------- FETCH ----------
@@ -78,6 +104,121 @@ def fetch_marketaux_articles(
         time.sleep(REQUEST_DELAY_S)
 
     return results[:target]
+
+#-------MarketAux wrapper------
+ENABLE_MARKETAUX = os.getenv("ENABLE_MARKETAUX", "0")  # "1"=use, "0"=skip
+
+def safe_fetch_marketaux_articles(api_key, per_call_limit, target_articles, params):
+    """Call Marketaux, but never crash the run. Returns [] on any error."""
+    if ENABLE_MARKETAUX != "1":
+        print("[Marketaux] skipped by config")
+        return []
+    try:
+        return fetch_marketaux_articles(api_key, per_call_limit, target_articles, params)
+    except Exception as e:
+        print(f"[Marketaux] fetch error: {e}")
+        return []
+
+
+# ---- GDELT (free) fetcher — robust + auto-fix query ----
+import os
+import requests
+from datetime import datetime, timedelta, timezone
+
+def _gdelt_stamp(dt: datetime) -> str:
+    return dt.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S")
+
+def _normalize_gdelt_query(q: str) -> str:
+    """
+    GDELT requires: any OR'ed terms must be inside parentheses.
+    Also quote multi-word terms so the OR applies to the phrase.
+    e.g., finance OR market OR central bank  ->  (finance OR market OR "central bank")
+    """
+    q = (q or "").strip()
+    if not q:
+        return "(finance OR market)"
+    # quote a few common multi-word phrases if present
+    q = q.replace("central bank", '"central bank"').replace("interest rate", '"interest rate"')
+    # if it contains OR but no parentheses, wrap the whole thing
+    if " OR " in q and "(" not in q and ")" not in q:
+        q = f"({q})"
+    return q
+
+def fetch_gdelt(query: str = "finance OR market OR stocks OR earnings OR inflation OR central bank",
+                max_records: int = 40,
+                hours_back: int = 24) -> list:
+    """
+    Uses explicit UTC start/end window (more reliable than timespan).
+    Handles non-JSON responses and prints minimal debug when GDELT_DEBUG=1.
+    """
+    base = "https://api.gdeltproject.org/api/v2/doc/doc"
+    headers = {"User-Agent": "financial-news-ai/1.0"}
+    debug = os.getenv("GDELT_DEBUG", "0") == "1"
+
+    # Normalize the query for GDELT's boolean rules
+    q = _normalize_gdelt_query(query)
+
+    end_dt = datetime.now(timezone.utc)
+    start_dt = end_dt - timedelta(hours=hours_back)
+
+    params = {
+        "query": q,
+        "mode": "ArtList",
+        "maxrecords": str(max_records),
+        "sort": "DateDesc",
+        "format": "json",
+        "startdatetime": _gdelt_stamp(start_dt),
+        "enddatetime": _gdelt_stamp(end_dt),
+    }
+
+    try:
+        r = requests.get(base, params=params, headers=headers, timeout=30)
+        if debug:
+            print("[GDELT] GET", r.url)
+        r.raise_for_status()
+        # Guard: GDELT returns text/html on errors. Don't .json() that.
+        ctype = r.headers.get("content-type", "").lower()
+        if "application/json" not in ctype:
+            if debug:
+                print("[GDELT] Non-JSON response (first 300 chars):", r.text[:300])
+            return []
+        data = r.json()
+        arts = data.get("articles", []) or []
+    except Exception as e:
+        print("[GDELT] fetch error:", e)
+        return []
+
+    # Normalize to your item schema
+    out = []
+    for a in arts:
+        title = (a.get("title") or "").strip()
+        url_ = a.get("url") or ""
+        domain = (a.get("domain") or "").strip()
+        lang = (a.get("language") or "").strip()
+        seen = (a.get("seendate") or "").strip()
+
+        published_iso = ""
+        if len(seen) == 14 and seen.isdigit():
+            try:
+                dt = datetime.strptime(seen, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+                published_iso = dt.isoformat()
+            except Exception:
+                pass
+
+        out.append({
+            "title": title,
+            "title_en": None,
+            "source": domain or "GDELT",
+            "url": url_,
+            "published_at": published_iso,
+            "language": lang or None,
+            "source_lang": lang or None,
+            "provider": "gdelt",
+        })
+
+    if debug:
+        print(f"[GDELT] returning {len(out)} articles")
+    return out
 
 
 # ---- TAGGING HELPERS ----
@@ -131,34 +272,153 @@ def tag_headlines(items: List[Dict[str, Any]]) -> List[Tuple[Dict[str, Any], str
         tagged.append((it, tag))
     return tagged
 
+
+# ---- C3 HELPERS: summaries + implications ----
+def summarize_overall_brief(grouped: Dict[str, List[Dict[str, Any]]]) -> str:
+    """80–120 word digest that summarizes the Daily Brief without repeating exact headlines."""
+    lines = []
+    for section, items in grouped.items():
+        if not items:
+            continue
+        # feed only 2 items per section to keep it high-level
+        previews = []
+        for it in items[:2]:
+            ttl = (it.get("title_en") or it.get("title") or "").strip()
+            src = (it.get("source") or "").strip()
+            previews.append(f"- {ttl} ({src})")
+        lines.append(f"{section}:\n" + "\n".join(previews))
+    context = "\n\n".join(lines) if lines else "No headlines today."
+    msgs = [
+        {"role": "system", "content": "You are a concise financial analyst."},
+        {"role": "user", "content":
+            "Write an 80–120 word 'Today at a glance' that SYNTHESIZES themes from the evidence below. "
+            "Do NOT repeat exact headlines or phrases. No bullet points; 2–3 tight sentences; neutral tone.\n\n"
+            f"{context}"
+        },
+    ]
+    return call_llm(msgs, max_tokens=140, temperature=0.2) or ""
+
+
+def summarize_section(section: str, items: List[Dict[str, Any]]) -> str:
+    bullets = []
+    for it in items[:8]:
+        ttl = (it.get("title_en") or it.get("title") or "").strip()
+        src = it.get("source") or ""
+        bullets.append(f"- {ttl} ({src})")
+    context = "\n".join(bullets) if bullets else "No items."
+    msg = [
+        {"role": "system", "content": "You are a financial analyst summarizing headlines."},
+        {"role": "user", "content": (
+            f"Section: {section}\n"
+            "Write 2–3 sentences summarizing the common thread and implications. "
+            "Synthesize; do not list.\n\n"
+            f"Headlines:\n{context}"
+        )},
+    ]
+    return call_llm(msg, max_tokens=220, temperature=0.2) or ""
+
+
+def gather_evidence_snippets(grouped, max_sections: int = 5, max_items_per_section: int = 3) -> str:
+    lines = []
+    count_sections = 0
+    for section, items in grouped.items():
+        if not items:
+            continue
+        lines.append(f"{section}:")
+        for it in items[:max_items_per_section]:
+            title = (it.get("title_en") or it.get("title") or "").strip()
+            src   = (it.get("source") or "").strip()
+            lines.append(f"- {title} ({src})")
+        lines.append("")
+        count_sections += 1
+        if count_sections >= max_sections:
+            break
+    return "\n".join(lines).strip() or "No evidence."
+
+
+def write_implications_bullets(evidence_text: str) -> str:
+    """
+    Ask the LLM to produce 3–6 implication bullets that connect dots across sources.
+    Bullets must cite >=2 distinct sources in square brackets, e.g., [Reuters; Nikkei].
+    Gracefully returns '' if API is unavailable to preserve the rest of the page.
+    """
+    prompt = (
+        "You are a concise financial analyst. Using the evidence below (sectioned headlines), "
+        "write 3–6 bullets under the heading 'Why this matters'. Each bullet should:\n"
+        "• connect at least two distinct items or themes (policy → sectors → tickers)\n"
+        "• be specific and neutral (avoid hype)\n"
+        "• end with square‑bracket source tags combining at least two short names, e.g., [Reuters; Nikkei]\n"
+        "• avoid duplicate points\n\n"
+        "Evidence:\n"
+        f"{evidence_text}\n"
+    )
+    msgs = [
+        {"role": "system", "content": "You write tight, factual finance bullets with clear implications."},
+        {"role": "user", "content": prompt},
+    ]
+    # FIX: use `msgs` (plural), not `msg`
+    return call_llm(msgs, max_tokens=260, temperature=0.2) or ""
+
+#---------Dedupe Helper--------
+def dedupe_items(items):
+    """Remove near-duplicate headlines by normalized title (fallback to URL)."""
+    seen = set()
+    unique = []
+    for it in items:
+        title = (it.get("title_en") or it.get("title") or "").strip().lower()
+        # normalize: alnum only + single spaces
+        norm = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", title))
+        key = norm or (it.get("url") or "")
+        if key and key not in seen:
+            seen.add(key)
+            unique.append(it)
+    return unique
+
+
+
 #----------Sectioned Brief ----------
 def build_sectioned_brief(items: List[Dict[str, Any]]) -> str:
     """
-    Create a Markdown brief with a Table of Contents and grouped headlines by section.
+    Page layout:
+    # Daily Financial Brief
+    ## Today at a Glance        (LLM, concise synthesis)
+    ## Daily Brief              (sections + mini-summaries + bullets)
+    ## Why this matters         (LLM, 3–6 implication bullets)
     """
+    # Group by tag
     tagged = tag_headlines(items)
-
-    # Organize by section
-    groups: Dict[str, List[Dict[str, Any]]] = {k: [] for k in SECTION_ORDER}
+    grouped: Dict[str, List[Dict[str, Any]]] = {k: [] for k in SECTION_ORDER}
     for it, tag in tagged:
-        groups.setdefault(tag, [])
-        groups[tag].append(it)
+        grouped.setdefault(tag, [])
+        grouped[tag].append(it)
 
-    # Table of Contents
-    toc_lines = ["# Daily Financial Brief", "", "## Contents"]
-    for section in SECTION_ORDER:
-        if groups.get(section):
-            toc_lines.append(f"- [{section}](#{make_anchor_id(section)})")
-    toc_lines.append("")
+    # Top synthesis
+    top_summary = summarize_overall_brief(grouped)
 
-    # Build sections
-    body_lines: List[str] = []
+    # Evidence → implications
+    evidence = gather_evidence_snippets(grouped, max_sections=5, max_items_per_section=3)
+    why_matters = write_implications_bullets(evidence)
+
+    md: List[str] = ["# Daily Financial Brief", ""]
+
+    # 1) Today at a Glance
+    if top_summary:
+        md += ["## Today at a Glance", top_summary, ""]
+
+    # 2) Daily Brief (sections)
+    md += ["## Daily Brief", ""]
     for section in SECTION_ORDER:
-        section_items = groups.get(section, [])
+        section_items = grouped.get(section, [])
         if not section_items:
             continue
-        body_lines.append(f'## {section} {{#{make_anchor_id(section)}}}')
-        body_lines.append("")
+
+        md.append(f"### {section}")
+        # per-section mini-summary
+        sec_sum = summarize_section(section, section_items)
+        if sec_sum:
+            md += ["", sec_sum, ""]
+
+        # bullets
         for it in section_items:
             title = (it.get("title_en") or it.get("title") or "").strip()
             lang = (it.get("source_lang") or it.get("language") or "en")
@@ -166,13 +426,17 @@ def build_sectioned_brief(items: List[Dict[str, Any]]) -> str:
                 title = f"{title} [translated from {lang}]"
             src = it.get("source") or ""
             published = it.get("published_at") or ""
-            body_lines.append(f"- {title}  _(source: {src}; published: {published})_")
-        body_lines.append("")
+            md.append(f"- {title}  _(source: {src}; published: {published})_")
+        md.append("")
 
-    if not any(groups.values()):
+    # 3) Why this matters (single block, at the end)
+    if why_matters:
+        md += ["## Why this matters", why_matters, ""]
+
+    if not any(grouped.values()):
         return "# Daily Financial Brief\n\n_No headlines available today._"
 
-    return "\n".join(toc_lines + body_lines)
+    return "\n".join(md)
 
 
 # ---------- SUMMARIZE ----------
@@ -369,8 +633,31 @@ def main() -> None:
     os.makedirs("data/raw", exist_ok=True)
     os.makedirs("out", exist_ok=True)
 
-    items = fetch_marketaux_articles(MARKETAUX_API_KEY, PER_CALL_LIMIT, TARGET_ARTICLES, MARKETAUX_PARAMS)
-    items = translate_non_english_titles(items)   # <-- add this line
+    # --- collect items from all enabled sources (never crash if one fails) ---
+    items = []
+
+    # Marketaux (safe)
+    items.extend(
+        safe_fetch_marketaux_articles(
+            MARKETAUX_API_KEY, PER_CALL_LIMIT, TARGET_ARTICLES, MARKETAUX_PARAMS
+        )
+    )
+
+    # GDELT (optional; only if you added the fetcher previously)
+    if os.getenv("ENABLE_GDELT", "1") == "1":
+        gdelt_items = fetch_gdelt(
+            os.getenv("GDELT_QUERY", "finance OR market OR stocks OR earnings OR inflation OR central bank"),
+            max_records=int(os.getenv("GDELT_MAXREC", "40")),
+            hours_back=int(os.getenv("GDELT_HOURS_BACK", "24")),
+        )
+
+        print(f"[GDELT] fetched {len(gdelt_items)}")
+        items.extend(gdelt_items)
+
+    # quality pass
+    items = dedupe_items(items)                 # remove repeats across sources
+    items = translate_non_english_titles(items) # C1: fill title_en
+
     print(f"Fetched {len(items)} article(s).")
 
     today = str(date.today())
@@ -387,20 +674,27 @@ def main() -> None:
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump({"count": len(items), "data": items}, f, ensure_ascii=False, indent=2)
 
+    # --- (optional) add GDELT items if enabled ---
+    #if ENABLE_GDELT == "1":
+    #   gdelt_items = fetch_gdelt(GDELT_QUERY, max_records=GDELT_MAXREC, timespan=GDELT_TIMESPAN)
+    #   print(f"[GDELT] fetched {len(gdelt_items)}")
+    #   items.extend(gdelt_items)
+
+    # now dedupe across sources
+    items = dedupe_items(items)
+
+
     # Build brief (Markdown)
     flat_brief_md = make_brief(items)
     sectioned_brief_md = build_sectioned_brief(items)
     
-    # Choose what to publish: "flat" | "sectioned" | "combined"
-    brief_mode = os.getenv("BRIEF_MODE", "combined").lower()
+    # Choose what to publish: "flat" | "sectioned"
+    brief_mode = os.getenv("BRIEF_MODE", "sectioned").lower()
 
     if brief_mode == "flat":
-        out_text = flat_brief_md
-    elif brief_mode == "sectioned":
-        out_text = sectioned_brief_md
+       out_text = flat_brief_md
     else:
-        # combined = keep your old summary first, then the sectioned view
-        out_text = flat_brief_md + "\n\n---\n\n" + sectioned_brief_md
+       out_text = sectioned_brief_md  # no "combined" to avoid repetition
 
     out_path = f"out/{today}.md"
     with open(out_path, "w", encoding="utf-8") as f:
