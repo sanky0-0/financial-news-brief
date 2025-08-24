@@ -207,7 +207,7 @@ def email_brief(today: str):
 import json, re
 
 
-//------Translate------
+#------Translate------
 def translate_non_english_titles(items):
     """Translate non-English item['title'] → item['title_en'] using OpenAI."""
     if not TRANSLATE_TO_EN:
