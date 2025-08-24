@@ -11,6 +11,7 @@ PER_CALL_LIMIT = 3
 REQUEST_DELAY_S = 0.6
 MODEL_FOR_SUMMARY = "gpt-4o-mini"
 SITE_BASE_URL = "https://sanky0-0.github.io/financial-news-brief"  # change this
+TRANSLATE_TO_EN = True   # set False to disable later
 
 MARKETAUX_PARAMS = {
     "filter_entities": "true",
@@ -81,7 +82,11 @@ def fetch_marketaux_articles(
 def make_brief(items: List[Dict[str, Any]]) -> str:
     headlines = []
     for it in items:
-        title = it.get("title") or ""
+        title = (it.get("title_en") or it.get("title") or "").strip()
+        lang  = (it.get("source_lang") or it.get("language") or "en")
+        if lang != "en":
+         # Optional: mark that this line was translated
+        title = f"{title} [translated from {lang}]"
         src = it.get("source") or ""
         published = it.get("published_at") or ""
         if title:
@@ -199,6 +204,61 @@ def email_brief(today: str):
     )
     print("📧 Mailgun status:", r.status_code, r.text[:200])
 
+import json, re
+
+
+//------Translate------
+def translate_non_english_titles(items):
+    """Translate non-English item['title'] → item['title_en'] using OpenAI."""
+    if not TRANSLATE_TO_EN:
+        return items
+
+    # Pick items that look non-English using Marketaux 'language' field
+    to_xlate = [(i, it.get("title",""), it.get("language","")) 
+                for i, it in enumerate(items) 
+                if it.get("title") and it.get("language") and it.get("language") != "en"]
+    if not to_xlate:
+        return items
+
+    # Build a compact list to translate in one shot
+    lines = "\n".join([f"{i}\t{lang}\t{title}" for (i, title, lang) in to_xlate])
+
+    prompt = f"""
+You are a professional financial translator.
+Translate each headline into natural English while preserving company names, tickers, and finance terms.
+Return STRICT JSON: a list of objects like {{"i": <index>, "lang": "<src>", "en_title": "<english>"}}
+No commentary, no markdown. Here are the items (tab-separated index,lang,title):
+
+{lines}
+"""
+
+    resp = client.chat.completions.create(
+        model=MODEL_FOR_SUMMARY,  # gpt-4o-mini is fine
+        messages=[{"role":"user","content":prompt}],
+        temperature=0.2,
+    )
+    content = resp.choices[0].message.content
+
+    # Try to extract JSON safely
+    try:
+        data = json.loads(content)
+    except Exception:
+        # Best-effort: find the first JSON block
+        m = re.search(r"\[.*\]", content, re.DOTALL)
+        data = json.loads(m.group(0)) if m else []
+
+    mapping = { int(d["i"]): d.get("en_title","") for d in data if "i" in d }
+    langs   = { int(d["i"]): d.get("lang","")     for d in data if "i" in d }
+
+    for idx, it in enumerate(items):
+        if idx in mapping and mapping[idx]:
+            it["title_en"] = mapping[idx]
+            it["source_lang"] = langs.get(idx, it.get("language",""))
+        else:
+            # leave as-is if translation missing
+            it["title_en"] = it.get("title")
+
+    return items
 
 
 
@@ -208,6 +268,7 @@ def main() -> None:
     os.makedirs("out", exist_ok=True)
 
     items = fetch_marketaux_articles(MARKETAUX_API_KEY, PER_CALL_LIMIT, TARGET_ARTICLES, MARKETAUX_PARAMS)
+    items = translate_non_english_titles(items)   # <-- add this line
     print(f"Fetched {len(items)} article(s).")
 
     today = str(date.today())
