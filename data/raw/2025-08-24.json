@@ -2,6 +2,94 @@
   "count": 24,
   "data": [
     {
+      "uuid": "4d550f85-10a9-451d-9b87-88a52885b5a4",
+      "title": "パラサイクリングで杉浦が世界新 女子1キロ、全日本選手権",
+      "description": "自転車の全日本選手権トラック種目は24日、静岡県の伊豆ベロドロームで行われ、パリ・パラリンピックの女...",
+      "keywords": "",
+      "snippet": "杉浦佳子＝昨年9月、パリ郊外\n\n自転車の全日本選手権トラック種目は24日、静岡県の伊豆ベロドロームで行われ、パリ?...",
+      "url": "https://news.jp/i/1332198707049267758",
+      "image_url": "https://nordot-res.cloudinary.com/c_fill,w_400,h_210,f_auto,g_faces,q_auto:eco/ch/images/1332202993879942055/origin_1.jpg",
+      "language": "ja",
+      "published_at": "2025-08-24T04:22:16.000000Z",
+      "source": "this.kiji.is",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [
+        {
+          "uuid": "71619486-6848-4e4f-b5c6-f9242dabd62a",
+          "title": "李大統領、議連会長の菅氏と面会 日韓、経済や文化交流拡大で一致",
+          "description": "韓国の李在明大統領は24日、超党派の国会議員でつくる日韓議員連盟会長の菅義偉元首相（自民党）らと東京...",
+          "keywords": "",
+          "snippet": "韓国の李在明大統領は24日、超党派の国会議員でつくる日韓議員連盟会長の菅義偉元首相（自民党）らと東京都内のホ?...",
+          "url": "https://news.jp/i/1332199612718924162",
+          "image_url": "https://nordot-res.cloudinary.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
+          "language": "ja",
+          "published_at": "2025-08-24T04:22:16.000000Z",
+          "source": "this.kiji.is",
+          "relevance_score": null,
+          "entities": []
+        },
+        {
+          "uuid": "d46c998e-738d-45f5-9e2a-28b03120ef4a",
+          "title": "'Battle of the Fins': Solar-powered cars begin race through Australian outback",
+          "description": "Racing teams from around the world set off from Darwin on Sunday (August 24), embarking on a 3,000-kilometre (1,864-mile) journey through the Australian outback in solar-powered electric vehicles as part of the 2025 Bridgestone World Solar Challenge. Darwin city, in Australia's Northern Territory, was abuzz with excitement as spectators thronged the starting line to witness the race begin. The finish line is in Adelaide, South Australia. The event is one of the most prestigious solar car races in the world, challenging teams to engineer innovative and sustainable climate change solutions in the automobile industry.",
+          "keywords": "solar-powered cars begin race, solar-powered cars race, australian outback, darwin solar-powered cars race, solar-powered electric vehicles, 2025 bridgestone world solar challenge, finish line in adelaide, most prestigious solar car race, sustainable climate change solutions, automobile industry",
+          "snippet": "Racing teams from around the world set off from Darwin on Sunday (August 24), embarking on a 3,000-kilometre (1,864-mile) journey through the Australian outback...",
+          "url": "https://economictimes.indiatimes.com/industry/renewables/battle-of-the-fins-solar-powered-cars-begin-race-through-australian-outback/videoshow/123480343.cms",
+          "image_url": "https://img.etimg.com/thumb/msid-123480343,width-1070,height-580,overlay-economictimes/videoshow.jpg",
+          "language": "en",
+          "published_at": "2025-08-24T04:13:17.000000Z",
+          "source": "economictimes.indiatimes.com",
+          "relevance_score": null,
+          "entities": []
+        },
+        {
+          "uuid": "7236428b-949a-46d6-942b-0b116cad087a",
+          "title": "Melaka rekod pelaburan RM855.63 juta suku pertama 2025",
+          "description": "Melaka catat pelaburan RM855.63 juta suku pertama 2025, sasar RM10 bilion menjelang 2030 dengan pertumbuhan ekonomi memberangsangkan",
+          "keywords": "melaka",
+          "snippet": "3. Defence Ministry opens new tender for army helicopters after King’s decree",
+          "url": "https://thesun.my/cerita/berita/melaka-rekod-pelaburan-rm85563-juta-suku-pertama-2025-FH14750445",
+          "image_url": "https://thesun.my/binrepository/1200x801/1c0/1200d800/none/11808/ULPI/mk06-27112023-sidang-dun_5572850_20250824120954.jpg",
+          "language": "en",
+          "published_at": "2025-08-24T04:09:46.000000Z",
+          "source": "thesundaily.my",
+          "relevance_score": null,
+          "entities": []
+        },
+        {
+          "uuid": "b91505f2-4104-4103-9ffe-5bb83ce8a4ee",
+          "title": "India-ASEAN cultural harmony event highlights deep regional ties",
+          "description": "Cultural exchanges strengthen India-ASEAN relations, with envoy emphasising people-to-people ties and Malaysia’s ASEAN chairmanship role.",
+          "keywords": "india",
+          "snippet": "KUALA LUMPUR: Cultural exchanges play a crucial role in strengthening people-to-people ties and fostering mutual understanding between India and ASEAN.\n\nHigh Co...",
+          "url": "https://thesun.my/malaysia-news/india-asean-cultural-harmony-event-highlights-deep-regional-ties-AH14750426",
+          "image_url": "https://thesun.my/binrepository/1200x800/0c0/1200d800/none/11808/UHEL/kl03-02062023-india_5572843_20250824120631.jpg",
+          "language": "en",
+          "published_at": "2025-08-24T04:06:31.000000Z",
+          "source": "thesundaily.my",
+          "relevance_score": null,
+          "entities": []
+        },
+        {
+          "uuid": "8e101d6e-d387-4cce-8d3d-f55fcd9b1e5e",
+          "title": "Defence Ministry opens new tender for army helicopters after King’s decree",
+          "description": "Malaysia’s Defence Ministry launches new tender for four army helicopters, following royal decree to cancel previous deal for aged aircraft.",
+          "keywords": "defence",
+          "snippet": "KOTA TINGGI: The Ministry of Defence has initiated a new tender process for leasing four helicopters for the Malaysian Army Aviation Unit after cancelling the p...",
+          "url": "https://thesun.my/malaysia-news/defence-ministry-opens-new-tender-for-army-helicopters-after-king-s-decree-CH14750398",
+          "image_url": "https://thesun.my/binrepository/1200x800/0c0/1200d800/none/11808/ESUU/jb05-24082025-masyarakat-cina_5572836_20250824120203.jpg",
+          "language": "en",
+          "published_at": "2025-08-24T04:02:03.000000Z",
+          "source": "thesundaily.my",
+          "relevance_score": null,
+          "entities": []
+        }
+      ],
+      "title_en": "Sugiura Sets World Record in Paracycling Women's 1 Kilometer at All Japan Championships",
+      "source_lang": "ja"
+    },
+    {
       "uuid": "e7aa768c-326e-40e6-bd3a-f331acd2abfa",
       "title": "SyncHack.com絵空事",
       "description": "",
@@ -15,7 +103,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "SyncHack.com Fantasy",
+      "title_en": "SyncHack.com: A Pipe Dream",
       "source_lang": "ja"
     },
     {
@@ -32,7 +120,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "The Hidden Truth of Bond ETFs",
+      "title_en": "The Hidden Truth About Bond ETFs",
       "source_lang": "zh"
     },
     {
@@ -49,7 +137,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "A Stock Investment Blog Focused on Shareholder Benefits and High Dividend Stocks",
+      "title_en": "A Stock Investment Blog Focused on Continuing to Buy Shareholder Benefits and High Dividend Stocks",
       "source_lang": "ja"
     },
     {
@@ -66,7 +154,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "A Stock Investment Blog Focused on Shareholder Benefits and High Dividend Stocks",
+      "title_en": "A Stock Investment Blog Focused on Continuing to Buy Shareholder Benefits and High Dividend Stocks",
       "source_lang": "ja"
     },
     {
@@ -119,6 +207,22 @@
       "source_lang": "ja"
     },
     {
+      "uuid": "9d89329e-bfc2-433a-8d7b-5329bfaeef29",
+      "title": "Building a Timed Tetris Game with 50 Bosses Using React — My Fun AI-Assisted Experiment",
+      "description": "As a Senior Frontend Developer, I’m always looking for ways to stretch my skills and experiment with new tools. Recently, I embarked on a side project: building a timed Tetris game with 50 unique…",
+      "keywords": "",
+      "snippet": "Building a Timed Tetris Game with 50 Bosses Using React — My Fun AI-Assisted Experiment Mayank Narula 3 min read · Just now Just now -- Share\n\nPress enter or...",
+      "url": "https://medium.com/@mayanknarula96/building-a-timed-tetris-game-with-50-bosses-using-react-my-fun-ai-assisted-experiment-f03507616b90",
+      "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*ntQl1wmZo63KSfpzF0CtUQ.png",
+      "language": "en",
+      "published_at": "2025-08-24T04:06:47.000000Z",
+      "source": "medium.com",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [],
+      "title_en": "Building a Timed Tetris Game with 50 Bosses Using React — My Fun AI-Assisted Experiment"
+    },
+    {
       "uuid": "30d1c558-86a5-40f4-a5b0-9a00c4fcc8fb",
       "title": "偉哥投資手札",
       "description": "",
@@ -134,6 +238,22 @@
       "similar": [],
       "title_en": "Investment Notes from Viagra",
       "source_lang": "zh"
+    },
+    {
+      "uuid": "f8b6e340-6379-4b6c-aca4-c4132422244d",
+      "title": "Stop Following Your Passion, Build Skills First!",
+      "description": "But let me tell you something I learned the hard way in 2010, fresh out of college, hunting for my first job. But when I sat across the interview table, passion couldn’t help me explain OOPS…",
+      "keywords": "",
+      "snippet": "Stop Following Your Passion, Build Skills First!\n\nWe have all heard the advice: Follow your passion & success will follow you. It sounds magical. It sells books...",
+      "url": "https://medium.com/@shenoy.shashwath/stop-following-your-passion-build-skills-first-6530b6c4c11c",
+      "image_url": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*7s6qwLi9hPCAx3XR",
+      "language": "en",
+      "published_at": "2025-08-24T04:03:32.000000Z",
+      "source": "medium.com",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [],
+      "title_en": "Stop Following Your Passion, Build Skills First!"
     },
     {
       "uuid": "6df3aa45-0bc1-40e4-8d15-015a69d925d5",
@@ -185,12 +305,12 @@
       "title_en": "Client Challenge"
     },
     {
-      "uuid": "2fff350e-7849-418c-918a-b2d3e3e80aaf",
+      "uuid": "9dd4a91a-f483-43c4-8e51-c6e33548f62a",
       "title": "Client Challenge",
       "description": "",
       "keywords": "",
       "snippet": "A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable...",
-      "url": "https://www.ft.com/content/ca650ba7-8240-43bd-af3a-047718437e31",
+      "url": "https://www.ft.com/content/234ef91a-11a2-442d-b7df-ceb2ed3bcffc",
       "image_url": "",
       "language": "en",
       "published_at": "2025-08-24T04:00:09.000000Z",
@@ -199,6 +319,22 @@
       "entities": [],
       "similar": [],
       "title_en": "Client Challenge"
+    },
+    {
+      "uuid": "9b04dea9-0357-4a69-8511-65424aa775e5",
+      "title": "Centre injects ₹211 crore into Indian space sector under 'fund of funds for startups' scheme: Goyal",
+      "description": "Union Government invests ₹211 crore in Indian space sector under 'fund of funds for startups' scheme, boosting innovation.",
+      "keywords": "space start up, fund of funds, piyush goyal, isro, india space startups",
+      "snippet": "The Union Government under the 'fund of funds for startups' (FFS) scheme has made an investment support of ₹211 crore, boosting the Indian space sector, said ...",
+      "url": "https://www.thehindubusinessline.com/news/science/centre-injects-211-crore-into-indian-space-sector-under-fund-of-funds-for-startups-scheme-goyal/article69970810.ece",
+      "image_url": "https://bl-i.thgim.com/public/incoming/1fvmzh/article69968409.ece/alternates/LANDSCAPE_1200/IMG_IMG_ISRO_releases_an_2_1_43BR6DGN.jpg",
+      "language": "en",
+      "published_at": "2025-08-24T03:59:29.000000Z",
+      "source": "thehindubusinessline.com",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [],
+      "title_en": "Centre injects ₹211 crore into Indian space sector under 'fund of funds for startups' scheme: Goyal"
     },
     {
       "uuid": "4833efc4-f1ab-4312-8fea-d6654cd0b667",
@@ -230,7 +366,7 @@
       "relevance_score": null,
       "entities": [],
       "similar": [],
-      "title_en": "Comments on Code Memory: 【Yushan icash Co-branded Card】 icash Pay is Super Convenient! 17% off at 7-11, 12% off at Sumei Le...!",
+      "title_en": "Comments on Code Memory: 【Yushan icash Co-branded Card】 icash Pay is Super Useful! 17% off at 7-11, 12% off at FamilyMart...!",
       "source_lang": "zh"
     },
     {
@@ -298,6 +434,22 @@
       "title_en": "WM Technology Could Double (NASDAQ:MAPS)"
     },
     {
+      "uuid": "7b5e56a8-68df-4970-ba47-6116b86964fc",
+      "title": "The Privacy Illusion in Your Pocket",
+      "description": "Remember when Google Chrome introduced Incognito Mode? It wasn’t just for a secret search; it was a way to draw a line to keep our surfing habits, cookies, and search history from following us around…",
+      "keywords": "",
+      "snippet": "The Privacy Illusion in Your Pocket Harsh Patel 4 min read · Just now Just now -- Share\n\nRemember when Google Chrome introduced Incognito Mode? It wasn’t jus...",
+      "url": "https://hegvi.medium.com/the-privacy-illusion-in-your-pocket-492872c443bb",
+      "image_url": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Mdk5LxDPgW1CyCWs",
+      "language": "en",
+      "published_at": "2025-08-24T03:47:43.000000Z",
+      "source": "medium.com",
+      "relevance_score": null,
+      "entities": [],
+      "similar": [],
+      "title_en": "The Privacy Illusion in Your Pocket"
+    },
+    {
       "uuid": "ddaadd2f-cf24-46ed-ae09-260a44211a26",
       "title": "Kaun banega mango millionaire? Try Radhika Gupta's 10-30-50 savings rule before investing money",
       "description": "Radhika Gupta's 'Mango Millionaire' introduces the 10-30-50 savings rule, advocating for a progressive approach to wealth building. The framework suggests saving 10% of income in your 20s, increasing to 30% in your 30s and 40s, and reaching 50% from your 40s onwards. Gupta also proposes an automated 'Savings Deducted at Source' system to cultivate consistent saving habits.",
@@ -328,159 +480,6 @@
       "entities": [],
       "similar": [],
       "title_en": "When To Surrender Your LIC Policy? From Tenue To Tax Implications—Here Are 5 Key Factors To Consider"
-    },
-    {
-      "uuid": "9c28339d-9646-4b77-80cd-67cb2fa0702f",
-      "title": "Why is Donald Trump eyeing Chicago for military deployment after LA, Washington?",
-      "description": "The Pentagon is planning to deploy military forces to Chicago amid Trump's crackdown on crime and immigration. The Defense Department is considering activating National Guard troops, while Illinois Governor JB Pritzker argues there is no justification for such action.",
-      "keywords": "Pentagon, military forces, Chicago, Donald Trump, National Guard",
-      "snippet": "The Pentagon is reportedly developing plans to deploy U.S. military forces to Chicago, following President Donald Trump's announcement of a crackdown on crime, ...",
-      "url": "https://www.livemint.com/news/us-news/why-is-donald-trump-eyeing-chicago-for-military-deployment-after-la-washington-national-guard-troops-11756003521624.html",
-      "image_url": "https://www.livemint.com/lm-img/img/2025/08/24/1600x900/Trump-District-of-Columbia-18_1756005209797_1756005239220.jpg",
-      "language": "en",
-      "published_at": "2025-08-24T03:44:26.000000Z",
-      "source": "livemint.com",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [
-        {
-          "uuid": "1056077a-cfc5-48ad-aab5-c00ce699c7ec",
-          "title": "Pentagon working on plans for military deployment in Chicago: Report",
-          "description": "The Pentagon is planning a potential military deployment to Chicago. This is happening as President Trump aims to address crime and immigration. The plan includes mobilizing National Guard members possibly by September. Governor Pritzker stated that there was no outreach from the federal government. Mayor Johnson expressed concerns about deploying National Guard troops.",
-          "keywords": "u.s. military chicago deployment, trump crime crackdown, national guard chicago, homelessness in chicago, undocumented immigration us, pentagon chicago plan, trump law enforcement action, military aid to cities, chicago security measures, us troops for domestic issues",
-          "snippet": "Live Events\n\n\n\n\n\n(You can now subscribe to our\n\n(You can now subscribe to our Economic Times WhatsApp channel\n\nThe Pentagon is working on plans to deploy the U....",
-          "url": "https://economictimes.indiatimes.com/news/defence/pentagon-plans-military-deployment-in-chicago-report/articleshow/123479025.cms",
-          "image_url": "https://img.etimg.com/thumb/msid-123479031,width-1200,height-630,imgsize-404842,overlay-etdefence/articleshow.jpg",
-          "language": "en",
-          "published_at": "2025-08-24T01:28:25.000000Z",
-          "source": "economictimes.indiatimes.com",
-          "relevance_score": null,
-          "entities": []
-        },
-        {
-          "uuid": "54f94d4f-cf92-4af9-84f3-5953689d82a7",
-          "title": "Pentagon plans to deploy military in Chicago after Washington DC amid Trump's crackdown, New York may be next: Report",
-          "description": "The Pentagon is preparing to send military forces to Chicago as President Trump seeks to address crime, homelessness, and undocumented immigration.",
-          "keywords": "Pentagon, military deployment, Chicago crime, President Donald Trump, undocumented immigration",
-          "snippet": "The US headquarters of Defence, the Pentagon, is reportedly planning to deploy the military to Chicago as President Donald Trump aims to curb crime, homelessnes...",
-          "url": "https://www.livemint.com/news/us-news/pentagon-plans-to-deploy-military-in-chicago-after-washington-dc-new-york-may-be-next-amid-trumps-crackdown-report-11755996538768.html",
-          "image_url": "https://www.livemint.com/lm-img/img/2025/08/24/1600x900/trump_1755919780855_1755919780996_1755996782855.jpg",
-          "language": "en",
-          "published_at": "2025-08-24T01:11:22.000000Z",
-          "source": "livemint.com",
-          "relevance_score": null,
-          "entities": []
-        }
-      ],
-      "title_en": "Why is Donald Trump eyeing Chicago for military deployment after LA, Washington?"
-    },
-    {
-      "uuid": "6f8d4c63-d20c-4720-b171-1c3bf46a2f3c",
-      "title": "新作小説 「千四百年の夜を越えて、君と～古都に咲く鎮魂の恋～」: Kanamori Marketing Office",
-      "description": "新作オリジナル小説を書きました。今度は歴史ロマン・恋愛小説です。千四百年前、つまり、飛鳥時代からの因縁に翻弄される二人の男女の恋を描きました。舞台は奈良。奈良の情景や神道の神事についての描写には自信があります。ダウンロードPDFで読めます。",
-      "keywords": "",
-      "snippet": "",
-      "url": "http://kmo.air-nifty.com/kanamori_marketing_office/2025/02/post-9b970a.html",
-      "image_url": "http://kmo.air-nifty.com/.shared-cocolog/nifty_managed/images/web/ogp/default.png",
-      "language": "ja",
-      "published_at": "2025-08-24T03:37:35.000000Z",
-      "source": "kmo.air-nifty.com",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [],
-      "title_en": "New Novel 'Beyond the Night of 1400 Years, With You - A Love of Remembrance Blooming in the Ancient Capital': Kanamori Marketing Office",
-      "source_lang": "ja"
-    },
-    {
-      "uuid": "342a8e44-4969-404b-bb34-d350aab25529",
-      "title": "Your 4-Part Blueprint to Unlock AI Value in 2025: Don’t Get Left Behind!",
-      "description": "The year 2025 marks a pivotal moment in the evolution of Artificial Intelligence. AI has unequivocally leaped from niche experiments and futuristic hype to become a fundamental pillar of core…",
-      "keywords": "",
-      "snippet": "Your 4-Part Blueprint to Unlock AI Value in 2025: Don’t Get Left Behind!\n\nBeyond the Hype: A Strategic Roadmap for Enterprises to Integrate AI and Drive Measu...",
-      "url": "https://medium.com/worth-the-read/your-4-part-blueprint-to-unlock-ai-value-in-2025-dont-get-left-behind-4cc5ce4e894d",
-      "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*hXLyrI8HNaaDgmfwOuWaNQ.png",
-      "language": "en",
-      "published_at": "2025-08-24T03:37:32.000000Z",
-      "source": "medium.com",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [],
-      "title_en": "Your 4-Part Blueprint to Unlock AI Value in 2025: Don’t Get Left Behind!"
-    },
-    {
-      "uuid": "8333ea79-4217-469c-a232-ade72646e5ed",
-      "title": "What If Your AI Could See What You See? Inside Google’s Next Tech Leap",
-      "description": "Imagine this: you’re walking through a crowded street, holding up your phone, and your AI assistant not only hears you but sees exactly what you see. It instantly translates the neon signs…",
-      "keywords": "",
-      "snippet": "What If Your AI Could See What You See? Inside Google’s Next Tech Leap Arthur Gonzalez 3 min read · Just now Just now -- Share\n\nWritten by Arthur Gonzalez\n\nI...",
-      "url": "https://seekerodessey.medium.com/what-if-your-ai-could-see-what-you-see-inside-googles-next-tech-leap-308c928325c1",
-      "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*uoopVT6tgvmwYHO3NXYe4w.png",
-      "language": "en",
-      "published_at": "2025-08-24T03:34:40.000000Z",
-      "source": "medium.com",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [
-        {
-          "uuid": "b27d8618-779a-4546-a56b-506533ba1564",
-          "title": "Why banks should leverage AI to serve more than the affluent—and build a financial system for everyone",
-          "description": "Around one billion people still lack access to formal financial systems. AI can help close the gap—in part by allowing for collateral-free lending.",
-          "keywords": "",
-          "snippet": "Artificial intelligence is no longer just a buzzword thrown around in the boardroom. This technology now powers modern finance, shaping how money moves and how ...",
-          "url": "https://fortune.com/asia/2025/08/23/banks-leverage-ai-financial-inclusion-sopnendu-mohanty/",
-          "image_url": "https://fortune.com/img-assets/wp-content/uploads/2025/08/54673531949_78018f6a75_o-e1755674950484.jpg?resize=1200,600",
-          "language": "en",
-          "published_at": "2025-08-24T00:00:00.000000Z",
-          "source": "fortune.com",
-          "relevance_score": null,
-          "entities": []
-        },
-        {
-          "uuid": "36e27edf-ad53-4aa0-b5e3-134ba95efcf1",
-          "title": "Elon Musk’s AI ‘Mothership’ Ignites Fears - and Hopes - of a New Technological Era",
-          "description": "In a recently released presentation, James Altucher pulls back the curtain on Musk’s secret AI facility, revealing details of a project that could reshape the future of superintelligence.",
-          "keywords": "Elon, Musk’s, AI, ‘Mothership’, Ignites, Fears, -, and, Hopes, -, of, a, New, Technological, Era",
-          "snippet": "In a recently released presentation, James Altucher pulls back the curtain on Musk’s secret AI facility, revealing details of a project that could reshape the...",
-          "url": "https://www.manilatimes.net/2025/08/24/tmt-newswire/globenewswire/elon-musks-ai-mothership-ignites-fears-and-hopes-of-a-new-technological-era/2172737",
-          "image_url": "https://cdn4.premiumread.com/?url=https://www.manilatimes.net/theme_manilatimes/images/TMT_1920x1008.jpg&w=1920&q=100&f=webp&v=1",
-          "language": "en",
-          "published_at": "2025-08-23T21:09:40.000000Z",
-          "source": "manilatimes.net",
-          "relevance_score": null,
-          "entities": []
-        },
-        {
-          "uuid": "9bf284f9-18be-460a-bf67-dee18bb2fb09",
-          "title": "Mark Zuckerberg's Meta signs $10 billion cloud deal with Google, partners with Midjourney in MAJOR AI push",
-          "description": "The developments come at a time when Meta is restructuring its AI efforts by building the SuperIntelligence Labs, which has seen Mark Zuckerberg poaching top AI talents from rivals including ChatGPT maker OpenAI.",
-          "keywords": "Meta, Mark Zuckerberg, Artificial Intelligence, Midjourney, Google Cloud, meta ai, meta ai deal, meta midjourney, meta google deal, meta partnership with google, meta superintelligence team, meta superintelligence labs, superintelligence labs, ai, ai push",
-          "snippet": "Meta is following what Mark Zuckerberg had envisioned in July — making billions of dollars of investment in Artificial Intelligence (AI) and in a bid to be mo...",
-          "url": "https://www.livemint.com/companies/news/mark-zuckerberg-meta-signs-10-billion-google-cloud-deal-partners-with-midjourney-in-major-ai-push-11755978736801.html",
-          "image_url": "https://www.livemint.com/lm-img/img/2025/08/23/1600x900/META-AI-MANAGEMENT-0_1755981112548_1755981129131.JPG",
-          "language": "en",
-          "published_at": "2025-08-23T20:36:02.000000Z",
-          "source": "livemint.com",
-          "relevance_score": null,
-          "entities": []
-        }
-      ],
-      "title_en": "What If Your AI Could See What You See? Inside Google’s Next Tech Leap"
-    },
-    {
-      "uuid": "ac4e365c-d1b3-4720-b2b4-3639ec1a306c",
-      "title": "The Art of Writing Clean Java Code: Best Practices for Beginners",
-      "description": "Writing good code isn’t just about making it work — it’s about making it clean, readable, and easy to maintain. In this article, you’ll learn simple tips and rules to help you write Java code that…",
-      "keywords": "",
-      "snippet": "The Art of Writing Clean Java Code: Best Practices for Beginners\n\nPress enter or click to view image in full size\n\nWriting good code isn’t just about making i...",
-      "url": "https://medium.com/@sunil17bbmp/the-art-of-writing-clean-java-code-best-practices-for-beginners-d7c1e154a40c",
-      "image_url": "https://miro.medium.com/v2/resize:fit:940/1*29CugH3FC6V4FhoRtXbrew.png",
-      "language": "en",
-      "published_at": "2025-08-24T03:31:34.000000Z",
-      "source": "medium.com",
-      "relevance_score": null,
-      "entities": [],
-      "similar": [],
-      "title_en": "The Art of Writing Clean Java Code: Best Practices for Beginners"
     }
   ]
 }
