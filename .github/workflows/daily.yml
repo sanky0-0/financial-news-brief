@@ -26,7 +26,7 @@ jobs:
           MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
           MAILGUN_TO: ${{ SECRETS.MAILGUN_TO }}
           # Source toggles
-          ENABLE_MARKETAUX: "0"
+          ENABLE_MARKETAUX: "1"
           ENABLE_GDELT: "1"
           # Doc API tuning
           GDELT_MAXREC: "250"
