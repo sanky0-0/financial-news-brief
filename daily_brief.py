@@ -5,10 +5,10 @@ from typing import List, Dict, Any
 import requests
 from openai import OpenAI
 import re
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 
 # ---------- CONFIG ----------
-TARGET_ARTICLES = 6
+TARGET_ARTICLES = 99
 PER_CALL_LIMIT = 3
 REQUEST_DELAY_S = 0.6
 MODEL_FOR_SUMMARY = "gpt-4o-mini"
@@ -38,7 +38,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 #--------GDELT--------
 ENABLE_GDELT   = os.getenv("ENABLE_GDELT", "1")  # "1" to enable, "0" to disable
 GDELT_QUERY    = os.getenv("GDELT_QUERY", "finance OR market OR stocks OR earnings OR inflation OR central bank")
-GDELT_MAXREC   = int(os.getenv("GDELT_MAXREC", "40"))
+GDELT_MAXREC   = int(os.getenv("GDELT_MAXREC", "250"))
 GDELT_TIMESPAN = os.getenv("GDELT_TIMESPAN", "24h")
 
 
@@ -145,7 +145,7 @@ def _normalize_gdelt_query(q: str) -> str:
     return q
 
 def fetch_gdelt(query: str = "finance OR market OR stocks OR earnings OR inflation OR central bank",
-                max_records: int = 40,
+                max_records: int = 250,
                 hours_back: int = 24) -> list:
     """
     Uses explicit UTC start/end window (more reliable than timespan).
@@ -218,6 +218,116 @@ def fetch_gdelt(query: str = "finance OR market OR stocks OR earnings OR inflati
 
     if debug:
         print(f"[GDELT] returning {len(out)} articles")
+    return out
+
+# ---- GDELT GKG (Themes→articles, ECON) ----
+from datetime import datetime, timedelta, timezone
+import requests
+import urllib.parse
+
+# A small set of ECON_* themes you’ll actually care about.
+# You can expand this list over time as needed.
+ECON_THEMES = [
+    "ECON"
+]
+
+def _utcstamp(dt: datetime) -> str:
+    return dt.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S")
+
+def fetch_gdelt_gkg_econ_articles(
+    themes: list[str] = None,
+    start_dt: datetime | None = None,
+    end_dt: datetime | None = None,
+    max_records: int = 60,
+    debug: bool = False,
+) -> list[dict]:
+    """
+    Fetch GDELT GKG GeoJSON rows whose mentionedthemes contain any ECON_* theme.
+    Uses /api/v1/gkg_geojson (GeoJSON FeatureCollection).
+    """
+    base = "https://api.gdeltproject.org/api/v1/gkg_geojson"
+    if not start_dt or not end_dt:
+        end_dt = datetime.now(timezone.utc)
+        start_dt = end_dt - timedelta(hours=int(os.getenv("GDELT_HOURS_BACK", "24")))
+
+    # Note: gkg_geojson endpoint does NOT accept query=theme:... filters
+    # Instead, we pull a window and then filter client-side.
+    params = {
+        "format": "json",
+        "maxrecords": str(int(max_records)),
+        "startdatetime": _utcstamp(start_dt),
+        "enddatetime": _utcstamp(end_dt),
+    }
+
+    url = f"{base}?{urllib.parse.urlencode(params)}"
+    if debug:
+        print("[GDELT GKG GEOJSON] GET", url)
+
+    try:
+        r = requests.get(url, timeout=30)
+
+        # Some GDELT servers return JSON but label it text/html.
+        # Always attempt to parse JSON; if it fails, show a short snippet in debug.
+        try:
+            data = r.json()
+        except ValueError:
+            txt = r.text or ""
+            if debug:
+                print("[GDELT GKG GEOJSON] Non-JSON header; first 300 chars:", txt[:300])
+            # Best-effort: parse if it looks like JSON text
+            import json as _json
+            data = _json.loads(txt) if txt.strip().startswith("{") else {}
+
+        feats = data.get("features") or []
+    except Exception as e:
+        if debug:
+            print("[GDELT GKG GEOJSON] fetch error:", e)
+        return []
+
+    out = []
+    for f in feats:
+        props = f.get("properties", {})
+        url_ = props.get("url") or props.get("DocumentIdentifier") or ""
+        title = props.get("V2Headlines") or props.get("name") or ""
+        seen = props.get("urlpubdate") or ""
+        themes_text = props.get("mentionedthemes") or ""
+        themes_list = [t.strip() for t in themes_text.split(";") if t.strip()]
+
+        # keep ANY theme token that contains 'ECON'
+        if not any("ECON" in t for t in themes_list):
+            continue
+
+        published_iso = seen
+        if len(seen) >= 14 and seen[0:8].isdigit():
+            # example: 2025-08-25T06:15:00Z  OR  20250825061500
+            if "T" not in seen and seen.isdigit():
+                published_iso = f"{seen[0:4]}-{seen[4:6]}-{seen[6:8]}T{seen[8:10]}:{seen[10:12]}:{seen[12:14]}Z"
+                
+        from urllib.parse import urlparse
+        src = (props.get("name") or "").strip()  # often a place name, not a source
+        if url_:
+            try:
+                domain = urlparse(url_).netloc
+                if domain:
+                    src = domain
+            except Exception:
+                pass
+
+
+        out.append({
+            "title": (title or "").strip(),
+            "title_en": None,
+            "source": src or "GDELT",
+            "url": url_,
+            "published_at": published_iso,
+            "language": props.get("language") or None,
+            "source_lang": props.get("language") or None,
+            "provider": "gdelt_gkg_geojson",
+            "themes": themes_list,
+        })
+
+    if debug:
+        print(f"[GDELT GKG GEOJSON] returning {len(out)} ECON articles")
     return out
 
 
@@ -647,18 +757,25 @@ def main() -> None:
     if os.getenv("ENABLE_GDELT", "1") == "1":
         gdelt_items = fetch_gdelt(
             os.getenv("GDELT_QUERY", "finance OR market OR stocks OR earnings OR inflation OR central bank"),
-            max_records=int(os.getenv("GDELT_MAXREC", "40")),
+            max_records=int(os.getenv("GDELT_MAXREC", "250")),
             hours_back=int(os.getenv("GDELT_HOURS_BACK", "24")),
         )
+        # --- GDELT GKG ECON (new) ---
+        gkg_items = fetch_gdelt_gkg_econ_articles(
+            max_records=int(os.getenv("GDELT_GKG_MAXREC", "100")),  # adjust cap
+            debug=os.getenv("GDELT_DEBUG", "0") == "1"
+        )
+        print(f"[GDELT GKG ECON] fetched {len(gkg_items)}")
+        
 
-        print(f"[GDELT] fetched {len(gdelt_items)}")
-        items.extend(gdelt_items)
-
+        
+    items = gdelt_items + gkg_items
+    raw_count = len(items)
     # quality pass
     items = dedupe_items(items)                 # remove repeats across sources
     items = translate_non_english_titles(items) # C1: fill title_en
-
-    print(f"Fetched {len(items)} article(s).")
+    if os.getenv("GDELT_DEBUG", "0") == "1":
+        print(f"[DEBUG] GDELT items: {len(gdelt_items)}; GKG ECON items: {len(gkg_items)};.\nTotal Fetched (pre-dedupe): {len(gdelt_items)+len(gkg_items)}; Final Fetched: {len(items)}")
 
     today = str(date.today())
 
@@ -673,12 +790,6 @@ def main() -> None:
     raw_path = f"data/raw/{today}.json"
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump({"count": len(items), "data": items}, f, ensure_ascii=False, indent=2)
-
-    # --- (optional) add GDELT items if enabled ---
-    #if ENABLE_GDELT == "1":
-    #   gdelt_items = fetch_gdelt(GDELT_QUERY, max_records=GDELT_MAXREC, timespan=GDELT_TIMESPAN)
-    #   print(f"[GDELT] fetched {len(gdelt_items)}")
-    #   items.extend(gdelt_items)
 
     # now dedupe across sources
     items = dedupe_items(items)

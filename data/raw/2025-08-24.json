@@ -1,4 +1,53 @@
 {
+feature/gdelt-doc-250-and-gkg-econ
+  "count": 46,
+  "data": [
+    {
+      "title": "Úroda bude nadprůměrná , experti ale chladí nadšení : Proč nám jídlo nezlevní ?",
+      "title_en": "The harvest will be above average, but experts temper enthusiasm: Why won't food prices decrease?",
+      "source": "blesk.cz",
+      "url": "https://www.blesk.cz/clanek/zpravy-udalosti/820313/uroda-bude-nadprumerna-experti-ale-chladi-nadseni-proc-nam-jidlo-nezlevni.html",
+      "published_at": "",
+      "language": "Czech",
+      "source_lang": "Czech",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Alles zum Angebot und zur Eröffnung : Neuer Supermarkt in Gerwisch : Darum können Kunden kleine Preise in der Frischehalle erwarten",
+      "title_en": "Everything about the offer and the opening: New supermarket in Gerwisch: Here's why customers can expect low prices in the fresh produce section",
+      "source": "volksstimme.de",
+      "url": "https://www.volksstimme.de/lokal/burg/neuer-supermarkt-in-gerwisch-darum-konnen-kunden-kleine-preise-in-der-frischehalle-erwarten-4103270",
+      "published_at": "",
+      "language": "German",
+      "source_lang": "German",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Deepal S07 : A stylish , high - tech EV that punches above its weight",
+      "title_en": "Deepal S07: A stylish, high-tech EV that punches above its weight",
+      "source": "blayneychronicle.com.au",
+      "url": "https://www.blayneychronicle.com.au/story/9048981/deepal-s07-a-stylish-high-tech-ev-that-punches-above-its-weight/",
+      "published_at": "",
+      "language": "English",
+      "source_lang": "English",
+      "provider": "gdelt"
+    },
+    {
+      "title": "通信ETF南方 ( 159511 . SZ ) 涨3 . 28 %， 中际旭创涨12 . 27 %_ 中华网",
+      "title_en": "Communication ETF Southern (159511.SZ) rises 3.28%, Zhongji Xuchuang up 12.27%",
+      "source": "hea.china.com",
+      "url": "https://hea.china.com/articles/20250825/202508251719759.html",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "LG SHOWCASES ADVANCED COMMERCIAL LAUNDRY SOLUTIONS AT CLEAN SHOW 2025",
+      "title_en": "LG SHOWCASES ADVANCED COMMERCIAL LAUNDRY SOLUTIONS AT CLEAN SHOW 2025",
+      "source": "itnewsonline.com",
+      "url": "https://www.itnewsonline.com/PRNewswire/LG-SHOWCASES-ADVANCED-COMMERCIAL-LAUNDRY-SOLUTIONS-AT-CLEAN-SHOW-2025/1076898",
+
   "count": 37,
   "data": [
     {
@@ -16,22 +65,76 @@
       "title_en": "Seven out of ten Argentines distrust the inflation reported by INDEC",
       "source": "lanueva.com",
       "url": "https://www.lanueva.com/nota/2025-8-24-15-45-0-siete-de-cada-diez-argentinos-desconfian-de-la-inflacion-que-informa-el-indec",
+main
       "published_at": "",
       "language": "Spanish",
       "source_lang": "Spanish",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "EndoUVTech Announces Strategic Partnership with CeramOptec to Advance UV Laser Stroke Therapy Toward",
+      "title_en": "EndoUVTech Announces Strategic Partnership with CeramOptec to Advance UV Laser Stroke Therapy",
+      "source": "pharmiweb.com",
+      "url": "https://www.pharmiweb.com/press-release/2025-08-24/endouvtech-announces-strategic-partnership-with-ceramoptec-to-advance-uv-laser-stroke-therapy-toward",
+
       "title": "Coaliția de guvernare își va asuma răspunderea pe cel de - al doilea pachet de măsuri fiscale",
       "title_en": "The governing coalition will assume responsibility for the second package of fiscal measures",
       "source": "rador.ro",
       "url": "https://www.rador.ro/2025/08/24/coalitia-de-guvernare-isi-va-asuma-raspunderea-pe-cel-de-al-doilea-pachet-de-masuri-fiscale/",
+main
       "published_at": "",
       "language": "Romanian",
       "source_lang": "Romanian",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "赣锋锂业上半年净亏超5亿元 锂系列产品营收降逾27 %",
+      "title_en": "Ganfeng Lithium reports a net loss of over 500 million yuan in the first half of the year, revenue from lithium products down over 27%",
+      "source": "jx.ifeng.com",
+      "url": "https://jx.ifeng.com/c/8m6BnyI9W4G",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "E - Learning ΕΚΠΑ : Πλήθος Προγραμμάτων Επιμόρφωσης στην Τεχνητή Νοημοσύνη - Αναλυτικά οι τομείς",
+      "title_en": "E-Learning EKPA: A multitude of training programs in Artificial Intelligence - Detailed fields",
+      "source": "inewsgr.com",
+      "url": "https://www.inewsgr.com/184/E-Learning-ekpa-plithos-programmaton-epimorfosis-stin-techniti-noimosyni--analytika-oi-tomeis.htm",
+      "published_at": "",
+      "language": "Greek",
+      "source_lang": "Greek",
+      "provider": "gdelt"
+    },
+    {
+      "title": "老铺黄金今起涨价 ， 有黄金饰品涨价千元 ， 回应 ： 上调10 %- 12 %",
+      "title_en": "Lao Pu Gold raises prices starting today, some gold jewelry prices increase by 1,000 yuan, response: adjustment of 10%-12%",
+      "source": "163.com",
+      "url": "https://www.163.com/dy/article/K7QG9SPP0511U82T.html",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Giá vàng SJC có thể lên 130 triệu đồng / lượng ?",
+      "title_en": "Could SJC gold prices reach 130 million VND per tael?",
+      "source": "vietstock.vn",
+      "url": "https://vietstock.vn/2025/08/gia-vang-sjc-co-the-len-130-trieu-dongluong-759-1345110.htm",
+      "published_at": "",
+      "language": "Vietnamese",
+      "source_lang": "Vietnamese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Cracker Barrel Cement Rolls : Is This Unedible ?",
+      "title_en": "Cracker Barrel Cement Rolls: Is This Unedible?",
+      "source": "brobible.com",
+      "url": "https://brobible.com/culture/article/cracker-barrel-cement-rolls/",
+
       "title": "Efemérides del 24 de agosto : Semana Mundial del Agua - Día de ... los Parques Naturales , la Música Extraña",
       "title_en": "Anniversaries of August 24: World Water Week - Day of ... Natural Parks, Strange Music",
       "source": "aporrea.org",
@@ -66,22 +169,126 @@
       "title_en": "Australia super guarantee reaches key milestone | Illawarra Mercury",
       "source": "illawarramercury.com.au",
       "url": "https://www.illawarramercury.com.au/story/9044373/australias-super-guarantee-reaches-key-milestone/",
+main
       "published_at": "",
       "language": "English",
       "source_lang": "English",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "Agencia NOVA",
+      "title_en": "Agency NOVA",
+      "source": "agencianova.com",
+      "url": "https://www.agencianova.com/seccion.asp?s=4&t=Pol%C3%ADtica&n=2025_8_25",
+      "published_at": "",
+      "language": "Spanish",
+      "source_lang": "Spanish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "U . K . migrant protests spark angry confrontations as government scrambles to respond",
+      "title_en": "U.K. migrant protests spark angry confrontations as government scrambles to respond",
+      "source": "tspr.org",
+      "url": "https://www.tspr.org/npr-news/2025-08-24/u-k-migrant-protests-spark-angry-confrontations-as-government-scrambles-to-respond",
+
       "title": "Meta , yapay zeka destekli sesli çeviri özelliğini İnstagram ve Facebo",
       "title_en": "Meta introduces AI-powered voice translation feature on Instagram and Facebook",
       "source": "kibrispostasi.com",
       "url": "https://www.kibrispostasi.com/c39-BILIM_TEKNOLOJI/n572950-meta-yapay-zeka-destekli-sesli-ceviri-ozelligini-instagram-ve-facebook-icin-kullanima-sundu",
+ main
       "published_at": "",
       "language": "Turkish",
       "source_lang": "Turkish",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "김민석 총리 , 세수결손시 추경 의무화 방안에  긍정적 검토",
+      "title_en": "Prime Minister Kim Min-seok positively reviews the obligation for supplementary budgets in case of tax revenue shortfalls",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20250825000730",
+      "published_at": "",
+      "language": "Korean",
+      "source_lang": "Korean",
+      "provider": "gdelt"
+    },
+    {
+      "title": "星巴克推冰淇淋中秋月餅 半島酒店經典奶黃有 「 芒果布丁 」 | ET Fashion",
+      "title_en": "Starbucks launches ice cream mooncakes for the Mid-Autumn Festival, Peninsula Hotel's classic custard features 'mango pudding'",
+      "source": "fashion.ettoday.net",
+      "url": "https://fashion.ettoday.net/news/3021615",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Bourse en ligne : Information boursiere , Economie , Finance , Bourse de paris",
+      "title_en": "Online Stock Exchange: Stock market information, Economy, Finance, Paris Stock Exchange",
+      "source": "cerclefinance.com",
+      "url": "http://www.cerclefinance.com/default.asp?pub=valactu&localcode=&isin=&art=768681",
+      "published_at": "",
+      "language": "French",
+      "source_lang": "French",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Nhà văn Chu Lai của Mưa đỏ :  Hậu chiến còn ngổn ngang đề tài để viết  - Báo VnExpress",
+      "title_en": "Writer Chu Lai of Red Rain: Post-war themes are still abundant to write about - VnExpress",
+      "source": "vnexpress.net",
+      "url": "https://vnexpress.net/nha-van-chu-lai-cua-mua-do-hau-chien-con-ngon-ngang-de-tai-de-viet-4930598.html",
+      "published_at": "",
+      "language": "Vietnamese",
+      "source_lang": "Vietnamese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Bàn về dự thảo Nghị định cho IFC : Lợi ích , rủi ro và bài toán cân bằng",
+      "title_en": "Discussion on the draft decree for IFC: Benefits, risks, and the balancing act",
+      "source": "vietstock.vn",
+      "url": "https://vietstock.vn/2025/08/ban-ve-du-thao-nghi-dinh-cho-ifc-loi-ich-rui-ro-va-bai-toan-can-bang-768-1345073.htm",
+      "published_at": "",
+      "language": "Vietnamese",
+      "source_lang": "Vietnamese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "南昌湾里幸福街道拖欠采购款3年有余 湾里管理局回复",
+      "title_en": "Nanchang Wanli Happiness Street has owed procurement payments for over three years, Wanli Management Bureau responds",
+      "source": "jx.ifeng.com",
+      "url": "https://jx.ifeng.com/c/8m68uojJ3xS",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Wiadomo ile zarobił koncert Ozzyego Osbournea  Back to the Beginning",
+      "title_en": "What did Ozzy Osbourne's concert earn? Back to the Beginning",
+      "source": "muzyka.interia.pl",
+      "url": "https://muzyka.interia.pl/metal/news-ile-zarobil-ostatni-koncert-ozzy-ego-osbourne-a-kwota-jest-m,nId,22177383",
+      "published_at": "",
+      "language": "Polish",
+      "source_lang": "Polish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Где сейчас Рита Дакота : распродает имущество в России , отношена к стране Shot",
+      "title_en": "Where is Rita Dakota now: selling property in Russia, relationship with the country Shot",
+      "source": "ura.news",
+      "url": "https://ura.news/news/1052985241",
+      "published_at": "",
+      "language": "Russian",
+      "source_lang": "Russian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Interest Payments Are Devouring the Budget",
+      "title_en": "Interest Payments Are Devouring the Budget",
+      "source": "lewrockwell.com",
+      "url": "https://www.lewrockwell.com/2025/08/no_author/interest-payments-are-devouring-the-budget/",
+
       "title": "工厂变身  游乐场 ， 中产周末新去处 - 信息流 - 贝尔财经",
       "title_en": "Factory transforms into amusement park, a new weekend destination for the middle class - Information Flow - Bell Finance",
       "source": "finance.itbear.com.cn",
@@ -146,12 +353,19 @@
       "title_en": "Brother of Evyatar David, Ilay, demands release of all Israeli hostages in Gaza - August 25, 2025",
       "source": "home.nzcity.co.nz",
       "url": "https://home.nzcity.co.nz/news/article.aspx?id=428794",
+ main
       "published_at": "",
       "language": "English",
       "source_lang": "English",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "双轮驱动 ， 共筑未来 ： 华兴资本与YZi Labs的战略协作打开全球数字金融新想象 _ 中华网",
+      "title_en": "Dual-driven, building the future together: Huaxing Capital and YZi Labs' strategic collaboration opens new imaginations for global digital finance",
+      "source": "hea.china.com",
+      "url": "https://hea.china.com/articles/20250825/202508251719700.html",
+
       "title": "Jaguar , talvez o melhor",
       "title_en": "Jaguar, perhaps the best",
       "source": "brasil247.com",
@@ -166,12 +380,49 @@
       "title_en": "First batch of AI ETFs focusing on innovation and entrepreneurship reported, targeting basic resources, technology, and application fields - Artificial Intelligence - ITBear Technology News",
       "source": "itbear.com.cn",
       "url": "https://www.itbear.com.cn/html/2025-08/931291.html",
+main
       "published_at": "",
       "language": "Chinese",
       "source_lang": "Chinese",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "B 站跨越  代沟 _ 中文科技资讯",
+      "title_en": "Bilibili bridges the generation gap",
+      "source": "citnews.com.cn",
+      "url": "http://www.citnews.com.cn/news/206325",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Des locataires dun bloc insalubre espèrent que la Ville de Montréal , leur nouveau propriétaire , pourra régler le problème .",
+      "title_en": "Tenants of an unsanitary block hope that the City of Montreal, their new owner, can resolve the issue.",
+      "source": "journaldemontreal.com",
+      "url": "https://www.journaldemontreal.com/2025/08/25/des-locataires-dun-bloc-insalubre-esperent-que-la-ville-de-montreal-leur-nouveau-proprietaire-pourra-regler-le-probleme",
+      "published_at": "",
+      "language": "French",
+      "source_lang": "French",
+      "provider": "gdelt"
+    },
+    {
+      "title": "前程无忧 《 2026届校招市场AI人才需求报告 》： 高科技行业AI成刚性需求",
+      "title_en": "51Job's '2026 Campus Recruitment Market AI Talent Demand Report': AI becomes a rigid demand in the high-tech industry",
+      "source": "sootoo.com",
+      "url": "http://www.sootoo.com/content/903007.shtml",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "İsrail savaş uçakları Yemenin başkentini bombaladı",
+      "title_en": "Israeli warplanes bombed the capital of Yemen",
+      "source": "timeturk.com",
+      "url": "https://www.timeturk.com/dunya/israil-savas-ucaklari-yemen-in-baskentini-bombaladi-haber-1819350",
+
       "title": "Napoli Dusan Vlahovi ? se salta Hojlund | ADL pronto ad un investimento monstre da 80 milioni di euro",
       "title_en": "Napoli's Dusan Vlahovic skips Hojlund | ADL ready for a monstrous investment of 80 million euros",
       "source": "zazoom.it",
@@ -206,12 +457,29 @@
       "title_en": "Accountability, transparency will boost investor confidence",
       "source": "promptnewsonline.com",
       "url": "https://promptnewsonline.com/accountability-transparency-will-boost-investor-confidence-dg-sec/",
+ main
       "published_at": "",
-      "language": "English",
-      "source_lang": "English",
+      "language": "Turkish",
+      "source_lang": "Turkish",
       "provider": "gdelt"
     },
     {
+ feature/gdelt-doc-250-and-gkg-econ
+      "title": "BI : Mulai Hari Ini QRIS Bisa Dipakai di Jepang",
+      "title_en": "BI: Starting today, QRIS can be used in Japan",
+      "source": "viva.co.id",
+      "url": "https://www.viva.co.id/bisnis/1844874-bi-mulai-hari-ini-qris-bisa-dipakai-di-jepang",
+      "published_at": "",
+      "language": "Indonesian",
+      "source_lang": "Indonesian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Floridában fejlődhetett három győri középiskolás a Széchenyi István Egyetem támogatásával - technokrata",
+      "title_en": "Three high school students from Győr may have developed in Florida with the support of Széchenyi István University - technocrat",
+      "source": "technokrata.hu",
+      "url": "https://www.technokrata.hu/egazdasag/digitalis_oktatas/2025/08/25/floridaban-fejlodhetett-harom-gyori-kozepiskolas-szechenyi-istvan-egyetem-tamogatasaval/",
+
       "title": "5 séries que nasceram de adaptaes improváveis de jogos e quadrinhos",
       "title_en": "5 series that originated from unlikely adaptations of games and comics",
       "source": "jc.uol.com.br",
@@ -226,12 +494,48 @@
       "title_en": "Supermarket products with the highest and lowest salt",
       "source": "theage.com.au",
       "url": "https://www.theage.com.au/goodfood/tips-and-advice/a-dietitian-s-guide-to-the-hidden-salts-lurking-in-your-pantry-items-20250804-p5mk92.html",
+main
       "published_at": "",
-      "language": "English",
-      "source_lang": "English",
+      "language": "Hungarian",
+      "source_lang": "Hungarian",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "Bayrisches Saison - Rezept : Semmelknödel & Pfifferlinge in Rahmsoße",
+      "title_en": "Bavarian Seasonal Recipe: Semmelknödel & Chanterelles in Cream Sauce",
+      "source": "kreiszeitung.de",
+      "url": "https://www.kreiszeitung.de/leben/einfach-tasty/bayrisches-saison-rezept-semmelknoedel-pfifferlinge-in-rahmsosse-zr-93896195.html",
+      "published_at": "",
+      "language": "German",
+      "source_lang": "German",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Мэр Кудрявцев : 59 квартир купят дополнительно для сирот в Новосибирске",
+      "title_en": "Mayor Kudryavtsev: 59 apartments will be additionally purchased for orphans in Novosibirsk",
+      "source": "nsknews.info",
+      "url": "https://nsknews.info/materials/mer-kudryavtsev-59-kvartir-kupyat-dopolnitelno-dlya-sirot-v-novosibirske/",
+      "published_at": "",
+      "language": "Russian",
+      "source_lang": "Russian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Vanna :  Svojedobno sam izgledala kao leopard zbog hiperpigmentacije",
+      "title_en": "Vanna: At one time I looked like a leopard due to hyperpigmentation",
+      "source": "net.hr",
+      "url": "https://net.hr/hot/zvijezde/vanna-svojedobno-sam-izgledala-kao-leopard-zbog-hiperpigmentacije-e2df7f3d-7d91-11f0-9658-9600040c8f8e",
+      "published_at": "",
+      "language": "Croatian",
+      "source_lang": "Croatian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Halftime in Geopolitics -- Beijing Review",
+      "title_en": "Halftime in Geopolitics -- Beijing Review",
+      "source": "bjreview.com.cn",
+      "url": "http://www.bjreview.com.cn/Opinion/Pacific_Dialogue/202508/t20250825_800412477.html",
       "title": "A cor azul da decadência",
       "title_en": "The blue color of decay",
       "source": "brasil247.com",
@@ -256,12 +560,28 @@
       "title_en": "9000 mAh Battery, 24 GB RAM and More: This Phone Will Sell Like Hotcakes!",
       "source": "tamindir.com",
       "url": "https://www.tamindir.com/haber/honor-gt-2-ozellikleri-iddia_99066/",
+main
       "published_at": "",
       "language": "Turkish",
       "source_lang": "Turkish",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "Profil Irjen Pol Suyudi Ario Seto , Eks Kapolda Banten Kini Jadi Kepala BNN",
+      "title_en": "Profile of Irjen Pol Suyudi Ario Seto, former Kapolda Banten now Head of BNN",
+      "source": "viva.co.id",
+      "url": "https://www.viva.co.id/berita/nasional/1844876-profil-irjen-pol-suyudi-ario-seto-eks-kapolda-banten-kini-jadi-kepala-bnn",
+      "published_at": "",
+      "language": "Indonesian",
+      "source_lang": "Indonesian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Brunswick beer exchange hosts first responders appreciation event to help raise money for 9 / 11 memorial",
+      "title_en": "Brunswick beer exchange hosts first responders appreciation event to help raise money for 9/11 memorial",
+      "source": "wect.com",
+      "url": "https://www.wect.com/2025/08/25/brunswick-beer-exchange-hosts-first-responders-appreciation-event-help-raise-money-911-memorial/",
       "title": "Encuesta : 7 de cada 10 argentinos desconfían de la inflación que informa el INDEC",
       "title_en": "Survey: 7 out of 10 Argentines distrust the inflation reported by INDEC",
       "source": "eldiarionuevodia.com.ar",
@@ -286,12 +606,58 @@
       "title_en": "Australia super guarantee reaches key milestone | The Armidale Express",
       "source": "armidaleexpress.com.au",
       "url": "https://www.armidaleexpress.com.au/story/9044373/australias-super-guarantee-reaches-key-milestone/",
+main
       "published_at": "",
       "language": "English",
       "source_lang": "English",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "护眼神器  竟是  视力刺客 ？ 9岁女孩近视骤增还伤角膜 _ 中华网",
+      "title_en": "Eye protection gadgets are actually vision assassins? A 9-year-old girl's myopia suddenly increases and injures her cornea",
+      "source": "hea.china.com",
+      "url": "https://hea.china.com/articles/20250825/202508251719740.html",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Thêm 2 mã cổ phiếu bị cắt margin vì lỗ ròng bán niên",
+      "title_en": "Two more stocks cut from margin due to semi-annual losses",
+      "source": "vietstock.vn",
+      "url": "https://vietstock.vn/2025/08/them-2-ma-co-phieu-bi-cat-margin-vi-lo-rong-ban-nien-830-1345101.htm",
+      "published_at": "",
+      "language": "Vietnamese",
+      "source_lang": "Vietnamese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Prețul carburanților , 25 august 2025 . Noile tarife la benzină",
+      "title_en": "Fuel prices, August 25, 2025. New rates for gasoline",
+      "source": "evz.ro",
+      "url": "https://evz.ro/pretul-carburantilor-25-august-2025-noile-tarife-la-benzina-motorina-si-gpl.html",
+      "published_at": "",
+      "language": "Romanian",
+      "source_lang": "Romanian",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Tradición y ciencia en la cría de caballos",
+      "title_en": "Tradition and science in horse breeding",
+      "source": "larazon.es",
+      "url": "https://www.larazon.es/deportes/tradicion-ciencia-cria-caballos_2025082568abdff3fb354e4b3d1d26aa.html",
+      "published_at": "",
+      "language": "Spanish",
+      "source_lang": "Spanish",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Transcript : Arko Corp ., Q2 2025 Earnings Call , Aug 06 , 2025",
+      "title_en": "Transcript: Arko Corp., Q2 2025 Earnings Call, Aug 06, 2025",
+      "source": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/transcript-arko-corp-q2-2025-earnings-call-aug-06-2025-ce7c5ededc81f527",
       "title": "Trump Tariff : जहां से भी सस्ता तेल मिलेगा , भारत वहां से तेल खरीदेगा ; राजदूत ने ट्रंप के टैरिफ को बताया अनुचित",
       "title_en": "Trump Tariff: India will buy oil from wherever it is cheapest; the ambassador called Trump's tariffs unfair",
       "source": "prabhatkhabar.com",
@@ -316,22 +682,45 @@
       "title_en": "WorkSafe Victoria: Mental health claims for worker compensation being rejected at twice the rate",
       "source": "theage.com.au",
       "url": "https://www.theage.com.au/politics/victoria/workers-mental-health-compo-claims-being-rejected-at-twice-the-rate-20250805-p5mkmb.html",
+main
       "published_at": "",
       "language": "English",
       "source_lang": "English",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "Sasol Turnover Falls Amid Challenging Environment",
+      "title_en": "Sasol Turnover Falls Amid Challenging Environment",
+      "source": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/sasol-turnover-falls-amid-challenging-environment-ce7c50dbde81fe26",
+
       "title": "Rev . Al Sharpton to deliver sermon at HU , meet with DC leaders on federal takeover",
       "title_en": "Rev. Al Sharpton to deliver sermon at HU, meet with DC leaders on federal takeover",
       "source": "krcgtv.com",
       "url": "https://krcgtv.com/news/nation-world/civil-rights-reverend-al-sharpton-howard-university-washington-dc-march-wall-street-rankin-chapel-muriel-bowser-trump-administration-national-action-network",
+main
       "published_at": "",
       "language": "English",
       "source_lang": "English",
       "provider": "gdelt"
     },
     {
+feature/gdelt-doc-250-and-gkg-econ
+      "title": "महीने में ₹25 हजार कमाते हैं तो भी बन सकते हैं आप 10 करोड़ रुपये का रिटायरमेंट फंड , ऐसे करना होगा निवेश",
+      "title_en": "If you earn ₹25,000 a month, you can still create a retirement fund of ₹10 crores, here's how to invest",
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/business/business-dictionary/how-to-create-rs-10-crore-retirement-fund-in-rs-25000-monthely-salary/articleshow/123495328.cms",
+      "published_at": "",
+      "language": "Hindi",
+      "source_lang": "Hindi",
+      "provider": "gdelt"
+    },
+    {
+      "title": "创作10份AI视频作品 ！ 福田少年为深圳献上  生日礼  |鹏城|深圳市|福田区|华强北",
+      "title_en": "Create 10 AI video works! A young boy from Futian presents a birthday gift to Shenzhen",
+      "source": "163.com",
+      "url": "https://www.163.com/dy/article/K7QGLN8B05129QAF.html",
       "title": "Börse Express - Applovin Aktie : Insider - Verkauf oder Kaufsignal ?",
       "title_en": "Börse Express - Applovin stock: Insider selling or buy signal?",
       "source": "boerse-express.com",
@@ -346,9 +735,40 @@
       "title_en": "First home buyers score early access to deposit scheme",
       "source": "theadvocate.com.au",
       "url": "https://www.theadvocate.com.au/story/9048661/first-home-buyers-score-early-access-to-deposit-scheme/",
+ main
       "published_at": "",
-      "language": "English",
-      "source_lang": "English",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "上海楼市突传重磅利好 ！ 地产闻声领涨 ！ 全市场唯一地产ETF （ 159707 ） 盘中上探5 . 5 % 吸引净申购3700万份",
+      "title_en": "Shanghai real estate market suddenly receives major positive news! Real estate leads the market! The only real estate ETF (159707) rises 5.5% during trading, attracting a net subscription of 37 million shares",
+      "source": "163.com",
+      "url": "https://www.163.com/dy/article/K7QGSVAV0512B07B.html",
+      "published_at": "",
+      "language": "Chinese",
+      "source_lang": "Chinese",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Flucht , Asyl , Integration : Wo steht Deutschland heute ? – DW – 25 . 08 . 2025",
+      "title_en": "Flight, Asylum, Integration: Where does Germany stand today? – DW – 25.08.2025",
+      "source": "dw.com",
+      "url": "https://www.dw.com/de/10-jahre-nach-wir-schaffen-das-eine-bilanz-zu-flucht-asyl-und-integration/a-73704305",
+      "published_at": "",
+      "language": "German",
+      "source_lang": "German",
+      "provider": "gdelt"
+    },
+    {
+      "title": "Kocaeli altın piyasasında hareketlilik",
+      "title_en": "Activity in the gold market in Kocaeli",
+      "source": "kocaeligazetesi.com.tr",
+      "url": "https://www.kocaeligazetesi.com.tr/haber/26037242/kocaeli-altin-piyasasinda-hareketlilik",
+      "published_at": "",
+      "language": "Turkish",
+      "source_lang": "Turkish",
       "provider": "gdelt"
     },
     {
