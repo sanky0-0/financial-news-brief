@@ -25,6 +25,15 @@ jobs:
           MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
           MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
           MAILGUN_TO: ${{ SECRETS.MAILGUN_TO }}
+          # Source toggles
+          ENABLE_MARKETAUX: "0"
+          ENABLE_GDELT: "1"
+          # Doc API tuning
+          GDELT_MAXREC: "250"
+          GDELT_HOURS_BACK: "24"
+          # GKG ECON tuning
+          GDELT_GKG_MAXREC: "300"    # or 200 if you want to be lighter
+          GDELT_DEBUG: "0"
         run: python daily_brief.py
       - name: Commit site & outputs
         run: |
