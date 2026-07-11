@@ -1,6 +1,5 @@
 # daily_brief.py — Financial News Brief (Overhauled v2)
-# Model: DeepSeek V4 Flash via OpenRouter, reasoning=medium
-# Format: Headline bulletins, per-section "Why this matters", 10 sections
+# Model: DeepSeek V4 Pro via OpenRouter, reasoning=medium
 import os, json, time, csv, re
 from datetime import date, datetime, timezone, timedelta
 from typing import List, Dict, Any, Tuple, Optional
@@ -12,7 +11,7 @@ from urllib.parse import urlparse, urlencode
 TARGET_ARTICLES = 99
 PER_CALL_LIMIT = 3
 REQUEST_DELAY_S = 0.6
-MODEL = "deepseek/deepseek-v4-flash"
+MODEL = "deepseek/deepseek-v4-pro"
 REASONING = {"reasoning": {"effort": "medium"}}
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://sanky0-0.github.io/financial-news-brief")
 TRANSLATE_TO_EN = os.getenv("TRANSLATE", "1") == "1"
