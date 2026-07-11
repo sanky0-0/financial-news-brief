@@ -23,8 +23,9 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}    
           # Source toggles
-          ENABLE_MARKETAUX: "1"
+          ENABLE_MARKETAUX: "0"       # API limit exceeded
           ENABLE_GDELT: "1"
+          GDELT_QUERY: "finance OR market OR stocks OR earnings OR economy"
           # Doc API tuning
           GDELT_MAXREC: "250"
           GDELT_HOURS_BACK: "24"
