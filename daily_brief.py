@@ -40,7 +40,7 @@ def call_llm(messages, max_tokens=300, temperature=0.2, model=MODEL, extra_param
         if extra_params:
             kwargs.update(extra_params)
         resp = client.chat.completions.create(**kwargs)
-        return resp.choices[0].message.content.strip()
+        return (resp.choices[0].message.content or "").strip()
     except Exception as e:
         print(f"[LLM] error: {e}")
         return ""
@@ -295,7 +295,7 @@ def write_section_brief(section, items):
     )
     msgs = [{"role":"system","content":"You write specific, actionable financial analysis. Name names and numbers."},
             {"role":"user","content":prompt}]
-    why = call_llm(mmsgs, max_tokens=250, temperature=0.3, extra_params=REASONING)
+    why = call_llm(msgs, max_tokens=250, temperature=0.3, extra_params=REASONING)
     return headlines, why
 
 # ---------- OTHER SECTION (Ticker format, gated, translated) ----------
@@ -330,7 +330,7 @@ def write_other_brief(items):
     )
     msgs = [{"role":"system","content":"You are a financial analyst. Be concise. Only flag if there's a real signal."},
             {"role":"user","content":prompt}]
-    why = call_llm(mmsgs, max_tokens=150, temperature=0.2, extra_params=REASONING)
+    why = call_llm(msgs, max_tokens=150, temperature=0.2, extra_params=REASONING)
     return headlines, why
 
 # ---------- BUILD THE BRIEF ----------
