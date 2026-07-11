@@ -16,6 +16,8 @@ REASONING = {"extra_body": {"reasoning": {"effort": "medium"}}}
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://sanky0-0.github.io/financial-news-brief")
 TRANSLATE_TO_EN = os.getenv("TRANSLATE", "1") == "1"
 DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
+GDELT_QUERY = os.getenv("GDELT_QUERY", "finance OR market OR stocks OR earnings")
+GDELT_MAXREC = int(os.getenv("GDELT_MAXREC", "150"))
 
 # ---------- KEYS ----------
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -487,7 +489,7 @@ def main():
     all_items = []
     if os.getenv("ENABLE_GDELT", "1") == "1":
         print("[Fetch] GDELT...")
-        all_items.extend(fetch_gdelt(max_records=250 if not DRY_RUN else 20))
+        all_items.extend(fetch_gdelt(query=GDELT_QUERY, max_records=GDELT_MAXREC if not DRY_RUN else 20))
     if os.getenv("ENABLE_MARKETAUX", "0") == "1":
         print("[Fetch] Marketaux...")
         all_items.extend(safe_fetch_marketaux(MARKETAUX_API_KEY, PER_CALL_LIMIT, 
