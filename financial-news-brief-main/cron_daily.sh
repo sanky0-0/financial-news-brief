@@ -20,3 +20,6 @@ fi
 
 echo "=== Daily Financial Brief — $(date -I) ==="
 python daily_brief.py 2>&1 | tee "logs/$(date -I).log"
+
+# Auto-push to GitHub Pages
+git add -A && git commit --allow-empty -m "brief: daily $(date -I)" && git push
