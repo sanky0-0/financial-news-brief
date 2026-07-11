@@ -20,11 +20,8 @@ jobs:
           pip install -r requirements.txt
       - name: Run pipeline
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}    
-          MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
-          MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
-          MAILGUN_TO: ${{ SECRETS.MAILGUN_TO }}
           # Source toggles
           ENABLE_MARKETAUX: "1"
           ENABLE_GDELT: "1"
