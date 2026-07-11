@@ -1,5 +1,5 @@
 # daily_brief.py — Financial News Brief (Overhauled v2)
-# Model: DeepSeek V4 Flash via OpenRouter
+# Model: DeepSeek V4 Flash via OpenRouter, reasoning=medium
 # Format: Headline bulletins, per-section "Why this matters", 10 sections
 import os, json, time, csv, re
 from datetime import date, datetime, timezone, timedelta
@@ -13,6 +13,7 @@ TARGET_ARTICLES = 99
 PER_CALL_LIMIT = 3
 REQUEST_DELAY_S = 0.6
 MODEL = "deepseek/deepseek-v4-flash"
+REASONING = {"reasoning": {"effort": "medium"}}
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://sanky0-0.github.io/financial-news-brief")
 TRANSLATE_TO_EN = os.getenv("TRANSLATE", "1") == "1"
 DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
@@ -34,14 +35,12 @@ client = OpenAI(
 )
 
 # ---------- LLM WRAPPER ----------
-def call_llm(messages, max_tokens=300, temperature=0.2, model=MODEL):
+def call_llm(messages, max_tokens=300, temperature=0.2, model=MODEL, extra_params=None):
     try:
-        resp = client.chat.completions.create(
-            model=model,
-            messages=messages,
-            max_tokens=max_tokens,
-            temperature=temperature,
-        )
+        kwargs = dict(model=model, messages=messages, max_tokens=max_tokens, temperature=temperature)
+        if extra_params:
+            kwargs.update(extra_params)
+        resp = client.chat.completions.create(**kwargs)
         return resp.choices[0].message.content.strip()
     except Exception as e:
         print(f"[LLM] error: {e}")
@@ -230,7 +229,7 @@ def translate_non_english(items):
     prompt = "Translate each headline to English. Keep the [N] prefix. Output one per line:\n\n" + "\n".join(batch)
     msgs = [{"role":"system","content":"You translate headlines. Keep [N] prefix. Output one per line."},
             {"role":"user","content":prompt}]
-    result = call_llm(msgs, max_tokens=2000, temperature=0.1)
+    result = call_llm(msgs, max_tokens=2000, temperature=0.1, extra_params=REASONING)
     if not result:
         return items
     for line in result.split("\n"):
@@ -265,7 +264,7 @@ def write_glance(grouped):
     )
     msgs = [{"role":"system","content":"You write tight, specific financial guidance. Name names. Give context."},
             {"role":"user","content":prompt}]
-    return call_llm(msgs, max_tokens=300, temperature=0.3) or ""
+    return call_llm(mmsgs, max_tokens=300, temperature=0.3, extra_params=REASONING)
 
 # ---------- SECTION BRIEF (Headline bulletins + Why this matters) ----------
 def write_section_brief(section, items):
@@ -297,7 +296,7 @@ def write_section_brief(section, items):
     )
     msgs = [{"role":"system","content":"You write specific, actionable financial analysis. Name names and numbers."},
             {"role":"user","content":prompt}]
-    why = call_llm(msgs, max_tokens=250, temperature=0.3) or ""
+    why = call_llm(mmsgs, max_tokens=250, temperature=0.3, extra_params=REASONING)
     return headlines, why
 
 # ---------- OTHER SECTION (Ticker format, gated, translated) ----------
@@ -332,7 +331,7 @@ def write_other_brief(items):
     )
     msgs = [{"role":"system","content":"You are a financial analyst. Be concise. Only flag if there's a real signal."},
             {"role":"user","content":prompt}]
-    why = call_llm(msgs, max_tokens=150, temperature=0.2) or ""
+    why = call_llm(mmsgs, max_tokens=150, temperature=0.2, extra_params=REASONING)
     return headlines, why
 
 # ---------- BUILD THE BRIEF ----------
@@ -412,6 +411,30 @@ def build_static_site(md_text, today):
         f.write(index)
     shutil.copyfile(day_html, "docs/latest.html")
     print(f"🌐 Built: docs/ (index.html, latest.html, days/{today}.html)")
+
+def email_brief(today):
+    """Send the brief via Mailgun if configured. Silent no-op if not."""
+    domain = os.environ.get("MAILGUN_DOMAIN")
+    api_key = os.environ.get("MAILGUN_API_KEY")
+    to_addr = os.environ.get("MAILGUN_TO")
+    if not domain or not api_key or not to_addr:
+        return
+    html_path = f"docs/days/{today}.html"
+    if not os.path.exists(html_path):
+        return
+    with open(html_path, encoding="utf-8") as f:
+        html = f.read()
+    try:
+        r = requests.post(
+            f"https://api.mailgun.net/v3/{domain}/messages",
+            auth=("api", api_key),
+            data={"from": f"FinancialBrief <mailgun@{domain}>", "to": [to_addr],
+                  "subject": f"Daily Financial Brief — {today}",
+                  "html": html + f'<p><a href="{SITE_BASE_URL}/latest.html">Read on web</a></p>'},
+            timeout=30)
+        print(f"📧 Email sent: {r.status_code}")
+    except Exception as e:
+        print(f"📧 Email error: {e}")
 
 def save_csv(items, today):
     with open(f"out/{today}.csv", "w", newline="", encoding="utf-8") as f:
@@ -507,6 +530,7 @@ def main():
     save_json(all_items, today)
     save_csv(all_items, today)
     build_static_site(md_text, today)
+    email_brief(today)  # silent no-op if Mailgun not configured
     
     # Grimoire
     save_to_grimoire(md_text, today)
