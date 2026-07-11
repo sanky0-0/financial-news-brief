@@ -12,7 +12,7 @@ TARGET_ARTICLES = 99
 PER_CALL_LIMIT = 3
 REQUEST_DELAY_S = 0.6
 MODEL = "deepseek/deepseek-v4-pro"
-REASONING = {"reasoning": {"effort": "medium"}}
+REASONING = {"extra_body": {"reasoning": {"effort": "medium"}}}
 SITE_BASE_URL = os.getenv("SITE_BASE_URL", "https://sanky0-0.github.io/financial-news-brief")
 TRANSLATE_TO_EN = os.getenv("TRANSLATE", "1") == "1"
 DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
@@ -263,7 +263,7 @@ def write_glance(grouped):
     )
     msgs = [{"role":"system","content":"You write tight, specific financial guidance. Name names. Give context."},
             {"role":"user","content":prompt}]
-    return call_llm(mmsgs, max_tokens=300, temperature=0.3, extra_params=REASONING)
+    return call_llm(msgs, max_tokens=300, temperature=0.3, extra_params=REASONING)
 
 # ---------- SECTION BRIEF (Headline bulletins + Why this matters) ----------
 def write_section_brief(section, items):
