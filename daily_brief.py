@@ -169,7 +169,6 @@ def fetch_gdelt(query="finance OR market OR stocks OR earnings",
     return []
 
 # ---------- SECTION ARCHITECTURE (10 sections) ----------
-# ---------- SECTION ARCHITECTURE (10 sections) ----------
 
 # Noise filter — drop sports, weather, entertainment, historical
 NOISE_PATTERNS = [
@@ -178,6 +177,12 @@ NOISE_PATTERNS = [
     r"\b(recipe|cooking|food.*review|movie.*review|entertainment|celebrity|tv show|season.*episode)\b",
     r"\b(poem|poetry|novel|fiction|author.*book|book.*review)\b",
     r"\b(horoscope|zodiac|astrology)\b",
+]
+
+SECTION_ORDER = [
+    "Macro & Policy", "Earnings & Guidance", "AI & Technology",
+    "AI Products & Launches", "Semiconductors", "Energy",
+    "Rates & Central Banks", "Geopolitics", "Other"
 ]
 
 TAG_KEYWORDS = {
