@@ -110,10 +110,12 @@ def _normalize_gdelt_query(q):
         q = f"({q})"
     return q
 
-def fetch_gdelt(query="finance OR market OR stocks OR earnings OR inflation OR central bank",
-                max_records=250, hours_back=24):
+def fetch_gdelt(query="finance OR market OR stocks OR earnings",
+                max_records=150, hours_back=24):
+    """Fetch GDELT articles. Retries once on 429 rate limit."""
     base = "https://api.gdeltproject.org/api/v2/doc/doc"
     headers = {"User-Agent": "financial-news-ai/2.0"}
+    debug = os.getenv("GDELT_DEBUG", "0") == "1"
     q = _normalize_gdelt_query(query)
     end_dt = datetime.now(timezone.utc)
     start_dt = end_dt - timedelta(hours=hours_back)
@@ -122,72 +124,105 @@ def fetch_gdelt(query="finance OR market OR stocks OR earnings OR inflation OR c
         "sort": "DateDesc", "format": "json",
         "startdatetime": _gdelt_stamp(start_dt), "enddatetime": _gdelt_stamp(end_dt),
     }
-    try:
-        r = requests.get(base, params=params, headers=headers, timeout=30)
-        r.raise_for_status()
-        if "application/json" not in r.headers.get("content-type", "").lower():
+
+    for attempt in range(2):
+        try:
+            r = requests.get(base, params=params, headers=headers, timeout=30)
+            if r.status_code == 429:
+                if attempt == 0:
+                    if debug: print("[GDELT] 429, retrying in 3s...")
+                    time.sleep(3)
+                    continue
+                return []
+            r.raise_for_status()
+            if "application/json" not in r.headers.get("content-type", "").lower():
+                return []
+            data = r.json()
+            arts = data.get("articles", []) or []
+            out = []
+            for a in arts:
+                title = (a.get("title") or "").strip()
+                url_ = a.get("url") or ""
+                domain = (a.get("domain") or "").strip()
+                lang = (a.get("language") or "").strip()
+                seen = (a.get("seendate") or "").strip()
+                published_iso = ""
+                if len(seen) == 14 and seen.isdigit():
+                    try:
+                        dt = datetime.strptime(seen, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+                        published_iso = dt.isoformat()
+                    except Exception:
+                        pass
+                out.append({"title": title, "title_en": None, "source": domain or "GDELT",
+                             "url": url_, "published_at": published_iso, "language": lang or None,
+                             "source_lang": lang or None, "provider": "gdelt"})
+            if debug:
+                print(f"[GDELT] returning {len(out)} articles")
+            return out
+        except Exception as e:
+            if attempt == 0:
+                if debug: print(f"[GDELT] {e}, retrying...")
+                time.sleep(3)
+                continue
+            print(f"[GDELT] error: {e}")
             return []
-        data = r.json()
-        arts = data.get("articles", []) or []
-    except Exception as e:
-        print(f"[GDELT] error: {e}")
-        return []
-    out = []
-    for a in arts:
-        title = (a.get("title") or "").strip()
-        url_ = a.get("url") or ""
-        domain = (a.get("domain") or "").strip()
-        lang = (a.get("language") or "").strip()
-        seen = (a.get("seendate") or "").strip()
-        published_iso = ""
-        if len(seen) == 14 and seen.isdigit():
-            try:
-                dt = datetime.strptime(seen, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
-                published_iso = dt.isoformat()
-            except Exception:
-                pass
-        out.append({"title": title, "title_en": None, "source": domain or "GDELT",
-                     "url": url_, "published_at": published_iso, "language": lang or None,
-                     "source_lang": lang or None, "provider": "gdelt"})
-    return out
+    return []
 
 # ---------- SECTION ARCHITECTURE (10 sections) ----------
-SECTION_ORDER = [
-    "Macro & Policy", "Earnings & Guidance", "AI & Technology",
-    "AI Products & Launches", "Semiconductors", "Energy",
-    "Rates & Central Banks", "Geopolitics", "Other"
+# ---------- SECTION ARCHITECTURE (10 sections) ----------
+
+# Noise filter — drop sports, weather, entertainment, historical
+NOISE_PATTERNS = [
+    r"\b(baseball|basketball|football|soccer|nfl|nba|mlb|nhl|tennis|cricket|golf|olympic|championship|playoff|homerun|home run|touchdown|goal|hat.trick|strikeout|inning)\b",
+    r"\b(weather|forecast|rain|temperature|celsius|fahrenheit|humidity|sunny|cloudy|storm|hurricane)\b",
+    r"\b(recipe|cooking|food.*review|movie.*review|entertainment|celebrity|tv show|season.*episode)\b",
+    r"\b(poem|poetry|novel|fiction|author.*book|book.*review)\b",
+    r"\b(horoscope|zodiac|astrology)\b",
 ]
 
 TAG_KEYWORDS = {
     "Macro & Policy": [
-        r"\b(inflation|cpi|ppi|gdp|employment|jobs report|tariff|fiscal|budget|stimulus|subsidy|regulation|policy|imf|world bank|pboC|ecb|boj|fed|fomc|recession|slowdown|consumer spending|retail sales|manufacturing pmi|services pmi|trade deficit|current account)\b",
+        r"\b(inflation|cpi|ppi|gdp|employment|jobs report|nonfarm|unemployment|tariff|fiscal|budget|stimulus|subsidy|regulation|deregulation|imf|world bank|pboc|ecb|boj|fed|fomc|recession|slowdown|consumer spending|retail sales|manufacturing pmi|services pmi|trade deficit|trade balance|current account|consumer confidence|housing start|industrial production|capacity utilization)\b",
     ],
     "Earnings & Guidance": [
-        r"\b(earnings|revenue|guidance|profit|loss|quarter|q[1-4]\b|beat|miss|outlook|eps|ebitda|margin|buyback|dividend|forecast)\b"
+        r"\b(earnings|revenue|guidance|profit.*(report|beat|miss|warning)|eps|ebitda|buyback|dividend|same.store sale|comparable sale)\b",
+        r"\b(q[1-4]|quarterly).*(result|report|earning|revenue|profit)\b",
+        r"\b(stock.*(jump|drop|fall|rise|surge|plunge|rally|slide|gain|decline)).*(earnings|revenue|profit|guidance|result)\b",
+        r"\b(beat|miss|exceed).*(estimate|expectation|consensus|forecast)\b",
+        r"\b(ticker|nasdaq|nyse|:).*\b(earnings|revenue|guidance)\b",
     ],
     "AI & Technology": [
-        r"\b(ai|artificial intelligence|llm|large language model|foundation model|machine learning|deep learning|neural network|transformer|gpt|claude|gemini|llama|mistral|open source model|fine.?tune|rag|agent|ai agent|ai safety|alignment|reasoning|inference)\b"
+        r"\b(ai|artificial intelligence|llm|large language model|foundation model|machine learning|deep learning|neural network|transformer|gpt|claude|gemini|llama|mistral|open source model|fine.tune|rag|agent|ai agent|ai safety|alignment|reasoning|inference|ai.*model|ai.*research|ai.*breakthrough)\b"
     ],
     "AI Products & Launches": [
-        r"\b(product launch|beta|release|announce.*new|unveil|debut|introduc.*(ai|agent|model)|api release|preview|early access|ai.*feature|ai.*tool|ai.*platform|ai.*assistant|ai.*copilot)\b",
-        r"\b(meta.*llama|openai.*(gpt|o1|o3)|anthropic.*claude|google.*gemini|mistral.*|xai.*grok|cohere.*|stability.*|hugging face)\b"
+        r"\b(product launch|beta|(announce|unveil|debut|launch|introduce|release).*(ai|agent|model|feature|tool|platform|assistant|copilot))\b",
+        r"\b(meta.*llama|openai.*(gpt|o1|o3)|anthropic.*claude|google.*gemini|mistral.*|xai.*grok|cohere.*|stability.*|hugging face)\b",
+        r"\b(api.*(release|launch|new)|new.*(ai|agent|model).*(tool|feature|platform))\b"
     ],
     "Semiconductors": [
-        r"\b(semiconductor|chip|gpu|foundry|tsmc|samsung.*foundry|intel.*foundry|nvidia|amd|asic|fpga|hbm|dram|nand|wafer|node|nanometer|nm|euv|packaging|chiplet|advanced packaging|supply chain.*chip|chip.*shortage|fab|fabrication)\b"
+        r"\b(semiconductor|chip|gpu|foundry|tsmc|samsung.*foundry|intel.*foundry|nvidia|amd|asic|fpga|hbm|dram|nand|wafer|node|[0-9]+nm|euv|packaging|chiplet|advanced packaging|fab|fabrication|chip.*(shortage|supply|export))\b"
     ],
     "Energy": [
-        r"\b(oil|gas|lng|coal|uranium|nuclear|solar|wind|renewable|opec|brent|wti|natural gas|crude|refinery|offshore|drilling|exploration|pipeline|energy.*crisis|power.*grid|electricity)\b"
+        r"\b(oil|gas|lng|coal|uranium|nuclear|solar|wind|renewable|opec|brent|wti|natural gas|crude|refinery|offshore|drilling|exploration|pipeline|energy.*crisis|power.*grid|electricity|energy.*(price|supply|demand|transition))\b"
     ],
     "Rates & Central Banks": [
-        r"\b(rate hike|rate cut|interest rate|yield|treasury|bond|spread|dovish|hawkish|dot plot|forward guidance|monetary policy|tightening|loosening|quantitative easing|quantitative tightening|term premium|curve)\b"
+        r"\b(rate hike|rate cut|interest rate|yield|treasury|bond|spread|dovish|hawkish|dot plot|forward guidance|monetary policy|tightening|loosening|quantitative easing|quantitative tightening|term premium|(bond|treasury).*yield|yield.*curve)\b"
     ],
     "Geopolitics": [
-        r"\b(conflict|war|ceasefire|election|coup|sanction|diplomatic|border|strait|taiwan|ukraine|middle east|red sea|houthi|iran|israel|gaza|russia|china.*military|nato|defense|military.*aid|arms|trade.*war|tariff.*(china|eu|us))\b"
+        r"\b(conflict|war|ceasefire|election|coup|sanction|diplomatic|border.*dispute|strait|taiwan|ukraine|middle east|red sea|houthi|iran|israel|gaza|russia.*(invasion|attack|sanction|nato|war|military)|china.*(military|navy|drill|claim|territorial|south china sea)|nato|defense.*(spending|budget|contract)|military.*(aid|drill|exercise|operation)|arms.*(deal|export|race)|trade.*war|tariff.*(china|eu|us)|geopolitical|nuclear.*(weapon|test|program|deal))\b"
     ],
 }
 
+def is_noise(title):
+    """Return True if title is sports/weather/entertainment and should be dropped."""
+    t = title.lower()
+    for pat in NOISE_PATTERNS:
+        if re.search(pat, t):
+            return True
+    return False
+
 def choose_section(title):
-    t = (title or "").lower()
+    t = title.lower()
     for section, patterns in TAG_KEYWORDS.items():
         for pat in patterns:
             if re.search(pat, t):
@@ -198,6 +233,10 @@ def tag_headlines(items):
     tagged = []
     for it in items:
         title = (it.get("title_en") or it.get("title") or "").strip()
+        if not title:
+            continue
+        if is_noise(title):
+            continue
         tagged.append((it, choose_section(title)))
     return tagged
 
