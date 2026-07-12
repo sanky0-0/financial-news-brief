@@ -8,7 +8,7 @@ from openai import OpenAI
 from urllib.parse import urlparse, urlencode
 
 # ---------- CONFIG ----------
-TARGET_ARTICLES = 99
+TARGET_ARTICLES = int(os.getenv("MARKETAUX_TARGET", "99"))
 PER_CALL_LIMIT = 3
 REQUEST_DELAY_S = 0.6
 MODEL = "deepseek/deepseek-v4-pro"
