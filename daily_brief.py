@@ -309,7 +309,7 @@ def write_glance(grouped):
     )
     msgs = [{"role":"system","content":"You write tight, specific financial guidance. Name names. Give context."},
             {"role":"user","content":prompt}]
-    return call_llm(msgs, max_tokens=300, temperature=0.3, extra_params=REASONING)
+    return call_llm(msgs, max_tokens=1200, temperature=0.3, extra_params=REASONING)
 
 # ---------- SECTION BRIEF (Headline bulletins + Why this matters) ----------
 def write_section_brief(section, items):
@@ -341,7 +341,7 @@ def write_section_brief(section, items):
     )
     msgs = [{"role":"system","content":"You write specific, actionable financial analysis. Name names and numbers."},
             {"role":"user","content":prompt}]
-    why = call_llm(msgs, max_tokens=250, temperature=0.3, extra_params=REASONING)
+    why = call_llm(msgs, max_tokens=1000, temperature=0.3, extra_params=REASONING)
     return headlines, why
 
 # ---------- OTHER SECTION (Ticker format, gated, translated) ----------
@@ -376,7 +376,7 @@ def write_other_brief(items):
     )
     msgs = [{"role":"system","content":"You are a financial analyst. Be concise. Only flag if there's a real signal."},
             {"role":"user","content":prompt}]
-    why = call_llm(msgs, max_tokens=150, temperature=0.2, extra_params=REASONING)
+    why = call_llm(msgs, max_tokens=800, temperature=0.2, extra_params=REASONING)
     return headlines, why
 
 # ---------- BUILD THE BRIEF ----------
