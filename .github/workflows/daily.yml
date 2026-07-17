@@ -3,8 +3,8 @@ on:
   #push:
   #  branches: [ main ]
   schedule:
-    - cron: "0 14 * * *"   # runs 14:00 UTC (07:00 Los Angeles). Change to your preferred time
-  workflow_dispatch: {}     # lets you trigger it manually
+    - cron: "0 14 * * *"   # runs 14:00 UTC (07:00 Los Angeles)
+  workflow_dispatch: {}
 permissions:
   contents: write
 jobs:
@@ -21,17 +21,17 @@ jobs:
       - name: Run pipeline
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}    
-          # Source toggles
+          MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}
+          MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
+          MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
+          MAILGUN_TO: ${{ secrets.MAILGUN_TO }}
           ENABLE_MARKETAUX: "1"
-          MARKETAUX_TARGET: "25"      # stay under free tier limit
+          MARKETAUX_TARGET: "99"
           ENABLE_GDELT: "1"
           GDELT_QUERY: "finance OR market OR stocks OR earnings OR economy"
-          # Doc API tuning
-          GDELT_MAXREC: "250"
+          GDELT_MAXREC: "200"
           GDELT_HOURS_BACK: "24"
-          # GKG ECON tuning
-          GDELT_GKG_MAXREC: "300"    # or 200 if you want to be lighter
+          GDELT_GKG_MAXREC: "300"
           GDELT_DEBUG: "0"
         run: python daily_brief.py
       - name: Commit site & outputs

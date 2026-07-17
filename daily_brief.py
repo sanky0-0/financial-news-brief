@@ -258,23 +258,46 @@ def dedupe_items(items):
     return unique
 
 # ---------- TRANSLATION ----------
+def _is_non_english_text(text):
+    """Detect if text contains non-English characters (CJK, Cyrillic, Arabic, etc.)."""
+    if not text:
+        return False
+    for ch in text[:50]:
+        cp = ord(ch)
+        # CJK Unified Ideographs, Hangul, Cyrillic, Arabic, Greek, etc.
+        if any([
+            0x4E00 <= cp <= 0x9FFF,   # CJK
+            0xAC00 <= cp <= 0xD7AF,   # Hangul
+            0x0400 <= cp <= 0x04FF,   # Cyrillic
+            0x0600 <= cp <= 0x06FF,   # Arabic
+            0x0370 <= cp <= 0x03FF,   # Greek
+            0x0080 <= cp <= 0x024F,   # Latin Extended (accented chars)
+            0x1E00 <= cp <= 0x1EFF,   # Latin Extended Additional
+            0x3040 <= cp <= 0x309F,   # Hiragana
+            0x30A0 <= cp <= 0x30FF,   # Katakana
+        ]):
+            return True
+    return False
+
 def translate_non_english(items):
     if not TRANSLATE_TO_EN:
         return items
-    to_xlate = [(i, it.get("title",""), it.get("language","")) 
-                for i, it in enumerate(items) 
-                if it.get("title") and it.get("language") and it.get("language") != "en"]
+    to_xlate = []
+    for i, it in enumerate(items):
+        title = it.get("title", "")
+        if not title:
+            continue
+        lang = it.get("language") or ""
+        # Translate if: explicit non-English language, OR text has non-English chars
+        if (lang and lang != "en") or _is_non_english_text(title):
+            to_xlate.append((i, title, lang or "auto"))
     if not to_xlate:
         return items
-    batch = []
-    for i, ttl, lang in to_xlate:
-        batch.append(f"[{i}] ({lang}) {ttl}")
-    if not batch:
-        return items
+    batch = [f"[{i}] ({lang}) {ttl}" for i, ttl, lang in to_xlate]
     prompt = "Translate each headline to English. Keep the [N] prefix. Output one per line:\n\n" + "\n".join(batch)
     msgs = [{"role":"system","content":"You translate headlines. Keep [N] prefix. Output one per line."},
             {"role":"user","content":prompt}]
-    result = call_llm(msgs, max_tokens=2000, temperature=0.1, extra_params=REASONING)
+    result = call_llm(msgs, max_tokens=3000, temperature=0.1, extra_params=REASONING)
     if not result:
         return items
     for line in result.split("\n"):
