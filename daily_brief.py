@@ -332,7 +332,7 @@ def write_glance(grouped):
     )
     msgs = [{"role":"system","content":"You write tight, specific financial guidance. Name names. Give context."},
             {"role":"user","content":prompt}]
-    return call_llm(msgs, max_tokens=1200, temperature=0.3, extra_params=REASONING)
+    return call_llm(msgs, max_tokens=2000, temperature=0.3, extra_params=REASONING)
 
 # ---------- SECTION BRIEF (Headline bulletins + Why this matters) ----------
 def write_section_brief(section, items):
