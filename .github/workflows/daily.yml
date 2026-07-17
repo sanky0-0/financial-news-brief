@@ -1,9 +1,7 @@
 name: Daily Financial Brief
 on:
-  #push:
-  #  branches: [ main ]
   schedule:
-    - cron: "0 14 * * *"   # runs 14:00 UTC (07:00 Los Angeles)
+    - cron: "0 14 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -31,7 +29,6 @@ jobs:
           GDELT_QUERY: "finance OR market OR stocks OR earnings OR economy"
           GDELT_MAXREC: "200"
           GDELT_HOURS_BACK: "24"
-          GDELT_GKG_MAXREC: "300"
           GDELT_DEBUG: "0"
         run: python daily_brief.py
       - name: Commit site & outputs
@@ -40,4 +37,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs out data/raw || true
           git commit -m "Auto: daily brief $(date -u +'%Y-%m-%d')" || echo "No changes"
+          git pull --rebase || true
           git push
