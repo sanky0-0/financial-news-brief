@@ -1,0 +1,2314 @@
+[
+  {
+    "uuid": "3ec1cd0b-61de-4a6d-a7b5-4061409d65c6",
+    "title": "وكالة: أبولو تدرس رفع قرض سوفت بنك لتمويل استثماراته في أوبن إيه آي",
+    "description": "تجري \"أبولو جلوبال مانجمنت\" محادثات مع \"سوفت بنك\" لرفع قرض من 5.4 مليار دولار إلى 9 مليارات دولار، لمساعدة المجموعة اليابانية على تمويل استثمارها في \"",
+    "keywords": "أرقام موقع متخصص في متابعة اعمق لسوق الأسهم السعودي تداول مع تغطيه معمقة لشركات وأسعار البتروكيماويات, تقارير مالية, مؤشرات مالية, قطاع الأسمنت, البنوك",
+    "snippet": "تجري \"أبولو جلوبال مانجمنت\" محادثات مع \"سوفت بنك\" لرفع قرض من 5.4 مليار دولار إلى 9 مليارات ?...",
+    "url": "https://www.argaam.com/ar/article/articledetail/id/1937379",
+    "image_url": "https://www.argaam.com/content/ar/images/argaam-plus-ar.jpg",
+    "language": "ar",
+    "published_at": "2026-09-17T17:47:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "Agency: Apollo considers raising a SoftBank loan to finance its investments in OpenAI"
+  },
+  {
+    "uuid": "8a512ff4-84d0-40cb-86e0-5098e8f34c64",
+    "title": "Dow Theory Investment",
+    "description": "",
+    "keywords": "",
+    "snippet": "",
+    "url": "http://www.dowtheoryinvestment.com/feeds/9153668788467904215/comments/default",
+    "image_url": "",
+    "language": "en",
+    "published_at": "2026-09-17T17:46:04.000000Z",
+    "source": "dowtheoryinvestment.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "fe8e59d5-6b32-4517-8acb-e09c1584ec82",
+    "title": "I Borghi di Barbieri",
+    "description": "Il cous cous di Castelvetrano e la minestra di Pastena",
+    "keywords": "",
+    "snippet": "Si dice \"cous cous\" e subito si pensa a Egitto, Algeria, Tunisia e Marocco. E invece no, non solo. Lo racconta “I Borghi di Barbieri”, con Riccardo Barbieri...",
+    "url": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2026/09/I-Borghi-di-Barbieri-739c4d38-f23b-4c28-8136-1b8ed78d2a19-ssi.html",
+    "image_url": "http://www.rai.it/cropgd/560x292/dl/img/2026/09/07/1600x900_1788787066339_Progetto%20senza%20titolo%2059.jpg",
+    "language": "it",
+    "published_at": "2026-09-17T17:45:00.000000Z",
+    "source": "rai.it",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "The Villages of Barbieri"
+  },
+  {
+    "uuid": "7d424d30-4abb-476b-ac56-60c718ec4d55",
+    "title": "Asas Makeen inks SAR 315M contract with Itihad Al-Thabat Contracting",
+    "description": "Asas Makeen Real Estate Development and Investment Co. signed a contracting agreement with Itihad Al-Thabat Contracting Co. to execute and complete th",
+    "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+    "snippet": "Logo of Asas Makeen Real Estate Development and Investment Co.\n\nAsas Makeen Real Estate Development and Investment Co. signed a contracting agreement with Itiha...",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1937356",
+    "image_url": "https://argaamplus.s3.amazonaws.com/79a38665-e1f5-4dae-b3fc-90c807d68b49.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:42:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "33e90b8b-9c56-4ca1-9a9e-408d22446000",
+        "title": "Arab Sea names Al-Hawas chairman",
+        "description": "Arab Sea Information Systems Co. announced the resolutions of its newly elected board of directors at a meeting held today, Sept. 17, including the fo",
+        "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+        "snippet": "Logo of Arab Sea Information Systems Co.\n\nArab Sea Information Systems Co. announced the resolutions of its newly elected board of directors at a meeting held t...",
+        "url": "https://www.argaam.com/en/article/articledetail/id/1937361",
+        "image_url": "https://argaamplus.s3.amazonaws.com/7a0a68f2-f907-4d8a-ba14-c9be01de50fc.png",
+        "language": "en",
+        "published_at": "2026-09-17T16:56:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": [
+          {
+            "symbol": "7201.SR",
+            "name": "Arab Sea Information Systems Company",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "sa",
+            "type": "equity",
+            "industry": "Technology",
+            "match_score": 40.204716,
+            "sentiment_score": 0.4019,
+            "highlights": [
+              {
+                "highlight": "Logo of <em>Arab</em> <em>Sea</em> <em>I[+341 characters]",
+                "sentiment": 0.4019,
+                "highlighted_in": "main_text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "0a7085d2-417a-483b-b1ac-a58369f635cb",
+        "title": "Aldar launches residential community at Marsa Al Saadiyat in Abu Dhabi",
+        "description": "Aldar logo\r\n\r\n\r\nADX-listed Aldar Properties launched Talay, the first residential development within Marsa Al Saadiyat, a coastal destination with a t",
+        "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+        "snippet": "Aldar logo\n\nADX-listed Aldar Properties launched Talay, the first residential development within Marsa Al Saadiyat, a coastal destination with a total developme...",
+        "url": "https://www.argaam.com/en/article/articledetail/id/1937170",
+        "image_url": "https://argaamplus.s3.amazonaws.com/2a9fc588-a403-436d-98df-feb02f3f70fe.png",
+        "language": "en",
+        "published_at": "2026-09-17T11:30:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "144ef768-c272-4355-b1b5-7e40dac17f04",
+        "title": "N Chandrasekaran reverses decision, agrees to five more years as Tata Sons chairman",
+        "description": "N Chandrasekaran will continue as Tata Sons chairman for five more years.  The board approved his reappointment after he reconsidered his earlier decision.  This comes as the company faces a potential stock market listing requirement.  Tata Sons is now preparing to comply with RBI regulations.  The leadership continuity is crucial for navigating these upcoming changes.",
+        "keywords": "N Chandrasekaran Tata Sons Chairman, Tata Sons Reappointment, Regulatory-driven stock market listing Tata Sons, Tata Trusts influence, RBI guidelines Tata Sons, Executive chairman Tata Sons, Tata Sons leadership, Chandrasekaran five-year term, Tata Sons stock market listing, Upper-layer NBFC classification",
+        "snippet": "Live Events\n\n\n\nas a Reliable and Trusted News Source Addas a Reliable and Trusted News Source Add Now!\n\n(You can now subscribe to our\n\n(You can now subscribe to...",
+        "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/n-chandrasekaran-reverses-decision-agrees-to-five-more-years-as-tata-sons-chairman/articleshow/134309068.cms",
+        "image_url": "https://img.etimg.com/thumb/msid-134309195,width-1200,height-630,imgsize-52278,overlay-economictimes/articleshow.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T10:53:38.000000Z",
+        "source": "economictimes.indiatimes.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "007e2d0e-caf4-4155-9a4b-8c3529af708f",
+        "title": "China opens its first major river-to-sea canal since 1949 as $10.8B shortcut to Southeast Asia",
+        "description": "China opened a major canal on Wednesday that will provide landlocked areas with direct access to the sea, state media said, reducing transport times and costs as the country aims to bolster trade ties with regional neighbors. - VnExpress International",
+        "keywords": "Pinglu Canal, China, Guangxi, Gulf of Tonkin, Belt and Road Initiative, Southeast Asia, Vietnam",
+        "snippet": "China opens its first major river-to-sea canal since 1949 as $10.8B shortcut to Southeast Asia\n\nSee more of the news you trust. Make VnExpress a preferred sourc...",
+        "url": "https://e.vnexpress.net/news/news/traffic/china-opens-its-first-major-river-to-sea-canal-since-1949-as-10-8b-shortcut-to-southeast-asia-5121504.html",
+        "image_url": "https://vcdn1-english.vnecdn.net/2026/09/17/4113372webp-1789639403-3381-1789639437.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=8MUV7yP9pOGoAZ_Fv2UIhQ",
+        "language": "en",
+        "published_at": "2026-09-17T10:34:09.000000Z",
+        "source": "e.vnexpress.net",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "6b0f028e-8903-4ce3-9d86-132599ea4b5d",
+        "title": "Al-Yamamah Steel signs SAR 103.1M contract to supply steel towers",
+        "description": "Al Yamamah Steel Industries Co. signed a contract to supply steel towers to a branch of National Power Construction Corporation Ltd. (NPCC) for a 380",
+        "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+        "snippet": "Al-Yamamah Steel said the contract’s financial impact will appear in Q1 2027\n\nAl Yamamah Steel Industries Co. signed a contract to supply steel towers to a br...",
+        "url": "https://www.argaam.com/en/article/articledetail/id/1937141",
+        "image_url": "https://argaamplus.s3.amazonaws.com/85c411ff-a53c-4c67-8a05-77122a1925df.png",
+        "language": "en",
+        "published_at": "2026-09-17T10:25:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": [
+          {
+            "symbol": "1304.SR",
+            "name": "Al-Yamamah Steel Industries Company",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "sa",
+            "type": "equity",
+            "industry": "Basic Materials",
+            "match_score": 49.8536,
+            "sentiment_score": 0.34,
+            "highlights": [
+              {
+                "highlight": "Al-Yamamah Steel said the contract’s f[+330 characters]",
+                "sentiment": 0.34,
+                "highlighted_in": "main_text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "d4dced30-a382-40fc-8d23-1e1a194486bb",
+    "title": "St. Luke’s Turns Patient Interactions Into an Agentic AI Use…",
+    "description": "St. Luke’s Hospital in Kansas City used agentic AI to shift routine work, prepare complex cases for clinicians and save on labor.",
+    "keywords": "",
+    "snippet": "For St. Luke’s Hospital in Kansas City, Missouri, the case for agentic artificial intelligence started with a simple operational challenge: hundreds of thousa...",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/st-lukes-turns-400000-patient-interactions-into-an-agentic-ai-use-case/",
+    "image_url": "https://www.pymnts.com/wp-content/uploads/2026/07/Healthcare-AI-xxx1.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:40:27.000000Z",
+    "source": "pymnts.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "5e120ec9-0f86-433f-9433-836918a5c5ca",
+        "title": "How agentic AI changes insurers' workflows and executive roles",
+        "description": "Insurance executives should get more \"hands-on\" with AI and make staffs more fluent with AI.",
+        "keywords": "Insurtech, Artificial Intelligence, Customer experience, News Signals",
+        "snippet": "What's at Stake: Getting better reads on performance, risks and trends for insurance executives\n\nKey insight: Executives need to be more hands-on with agentic A...",
+        "url": "https://www.dig-in.com/news/how-agentic-ai-changes-insurers-workflows-and-executive-roles",
+        "image_url": "https://arizent.brightspotcdn.com/dims4/default/6660912/2147483647/strip/true/crop/2832x1487+0+443/resize/1200x630!/quality/90/?url=https%3A%2F%2Fsource-media-brightspot.s3.us-east-1.amazonaws.com%2F13%2Fca%2Feaef590347e99563827ec4815ba9%2Fmatthew-madsen-accenture-horiz-crop.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T10:00:00.000000Z",
+        "source": "dig-in.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "3d7b9b45-396c-41a3-9e3a-b2a6ac217104",
+    "title": "Saudi Printing shareholders to vote on 89.4% capital cut on Oct. 26",
+    "description": "Shareholders of Saudi Printing and Packaging Co. will vote on a board recommendation to reduce the company's capital by 89.42% to SAR 68.97 million fr",
+    "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+    "snippet": "Logo of Saudi Printing and Packaging Co.\n\nShareholders of Saudi Printing and Packaging Co. will vote on a board recommendation to reduce the company's capital b...",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1937375",
+    "image_url": "https://argaamplus.s3.amazonaws.com/3f8abf13-7743-4bf2-82b1-77dfaf8fd2db.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:37:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "3e8af62e-d90c-491e-971e-4d90633c55fc",
+        "title": "Safqah Capital eyes listing on Saudi market",
+        "description": "Safqah Capital’s financing volume has reached nearly SAR 5 billion since its launch around two years ago, funding various real estate development proj",
+        "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+        "snippet": "Safqah Capital’s CEO Abdullah Alsubaie.\n\nSafqah Capital’s financing volume has reached nearly SAR 5 billion since its launch around two years ago, funding v...",
+        "url": "https://www.argaam.com/en/article/articledetail/id/1937331",
+        "image_url": "https://pbs.twimg.com/media/HSayHDlWwAA9L6T?format=jpg&name=medium",
+        "language": "en",
+        "published_at": "2026-09-17T15:49:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "c78abab9-3f4a-47bc-9bcd-9f09911d2f31",
+        "title": "CGS shareholders approve SAR 0.23/shr dividend for 2025/26",
+        "description": "CGS shareholders approve SAR 0.23/shr dividend for 2025/26",
+        "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+        "snippet": "Consolidated Grunenfelder Saady Holding Co. (CGS) shareholders approved the board proposal to distribute a 23% cash dividend, or SAR 0.23 per share, for the fis...",
+        "url": "https://www.argaam.com/en/reports/company-dividend/61632?preview=true",
+        "image_url": "https://www.argaam.com/content/en/images/argaam-plus-social1.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T10:03:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "8b945c13-9fd8-4a3e-a544-92b43299912b",
+    "title": "Media Advisory: Saskatchewan Police Officers Recognized at MADD Canada Van de Vorst Family Police Awards for Stopping Impaired Driving",
+    "description": "OAKVILLE, Ontario, Sept.  17, 2026  (GLOBE NEWSWIRE) — Media is invited to attend MADD Canada special ceremonies honouring Saskatchewan police officers for their ex…",
+    "keywords": "",
+    "snippet": "By signing up you consent to receive the above newsletter from Postmedia Network Inc.\n\nThanks for signing up!\n\nA welcome email is on its way. If you don't see i...",
+    "url": "https://financialpost.com/globe-newswire/media-advisory-saskatchewan-police-officers-recognized-at-madd-canada-van-de-vorst-family-police-awards-for-stopping-impaired-driving",
+    "image_url": "https://dcs-static.gprod.postmedia.digital/22.1.1/websites/images/fp/favicon-fp.ico",
+    "language": "en",
+    "published_at": "2026-09-17T17:36:30.000000Z",
+    "source": "financialpost.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "9b3ff103-e2f5-4b4e-94bb-f33ca9f4b984",
+    "title": "Mutual fund analysis: From AMC behaviour to manager style, key checks you should make before putting your money",
+    "description": "Mutual fund selection goes beyond checking past returns and star ratings. Before investing, investors should look at how the fund house operates, whether the manager stays true to their strategy and what the portfolio reveals about the fund.",
+    "keywords": "mutual fund, AMC, fund manager, investment performance, rolling returns, how to analyze amc fund manager and mutual fund, What should you check about the AMC?, How do you assess the fund manager?, What should you look for in the mutual fund itself?, mutual fund analysis, Mutual fund investing: Key checks investors often miss in reality, mutual fund investing",
+    "snippet": "Sheetal Goel\n\nSheetal Goel is a Content Producer at Livemint, where she covers corporate developments, personal finance, business trends, markets, and SEBI-rela...",
+    "url": "https://www.livemint.com/money/personal-finance/mutual-fund-analysis-from-amc-behaviour-to-manager-style-key-checks-you-should-make-before-putting-your-money-11789661865034.html",
+    "image_url": "https://www.livemint.com/lm-img/img/2026/09/17/1600x900/logo/fund_anal_1789664499177_f690_1789664503480_l7bx_6f42d401-b79a-4420-acff-de4e3ee21edb_Prmx.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:36:20.000000Z",
+    "source": "livemint.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "53eb6471-3595-4e5e-9613-183ca8e50152",
+    "title": "Personalized Self-Inking Address Stamps only $19.99 shipped!",
+    "description": "The deal on these Personalized Self-Inking Address Stamps is finally back! You can get these Personalized Self-Inking Address Stamps for just $19.99 shipped right now! Available in 12 different designs. New to Jane? You can sign up for an account (it’s free to join) and you’ll automatically receive 100 points which is like $1 off your firstRead More",
+    "keywords": "",
+    "snippet": "The deal on these Personalized Self-Inking Address Stamps is finally back!\n\nYou can get these Personalized Self-Inking Address Stamps for just $19.99 shipped ri...",
+    "url": "https://moneysavingmom.com/personalized-self-inking-address-stamps-deal/",
+    "image_url": "https://moneysavingmom.com/wp-content/uploads/2026/09/Personalized-Self-Inking-Address-Stamps.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:35:48.000000Z",
+    "source": "moneysavingmom.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "8c14963a-02aa-4fc2-9603-650f16a7f7d4",
+    "title": "Official Website of Reserve Bank of India",
+    "description": "Press Releases - Reserve Bank of India",
+    "keywords": "",
+    "snippet": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Valsad Mahila Nagrik Sahakari Bank...",
+    "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63616",
+    "image_url": "https://www.rbi.org.in/images/Twitter_New.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:35:00.000000Z",
+    "source": "rbi.org.in",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "b5a5c462-259e-4752-800d-c3165cb5af3c",
+        "title": "Official Website of Reserve Bank of India",
+        "description": "Press Releases - Reserve Bank of India",
+        "keywords": "",
+        "snippet": "As announced vide the , the Reserve Bank will be conducting OMO sale auction of Government of India securities for an aggregate amount of ₹25,000 crore on Sep...",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63615",
+        "image_url": "https://www.rbi.org.in/images/Twitter_New.png",
+        "language": "en",
+        "published_at": "2026-09-17T17:25:00.000000Z",
+        "source": "rbi.org.in",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "7d9cfcee-a94e-4044-ae15-21fdd794c253",
+        "title": "Official Website of Reserve Bank of India",
+        "description": "Press Releases - Reserve Bank of India",
+        "keywords": "",
+        "snippet": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to The Gauhati Co-operative Urban Bank Lt...",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63614",
+        "image_url": "https://www.rbi.org.in/images/Twitter_New.png",
+        "language": "en",
+        "published_at": "2026-09-17T17:00:00.000000Z",
+        "source": "rbi.org.in",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "6223ed7f-f511-4db0-b840-705ddf5db972",
+        "title": "Official Website of Reserve Bank of India",
+        "description": "Press Releases - Reserve Bank of India",
+        "keywords": "",
+        "snippet": "Tenor 1-day Notified Amount (in ₹ crore) 3,00,000 Total amount of offers received (in ₹ crore) 2,39,959 Amount accepted (in ₹ crore) 2,39,959 Cut off Rate...",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63608",
+        "image_url": "https://www.rbi.org.in/images/Twitter_New.png",
+        "language": "en",
+        "published_at": "2026-09-17T10:20:00.000000Z",
+        "source": "rbi.org.in",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "0a2a1da2-8a60-4311-b583-ac09aeaf41e2",
+    "title": "Analysts: Expect 'Staggering' Spike at Pumps From Iran War",
+    "description": "Drivers are about to get hit with something both familiar and unwelcome: sharply higher fuel prices. Analysts say gas and diesel costs are poised to surge in the coming days,...",
+    "keywords": "gas prices, Strait of Hormuz, Iran, Saudi Arabia, Donald Trump, gasoline prices, oil prices, oil, fuel, fuel costs",
+    "snippet": "Drivers are about to get hit with something both familiar and unwelcome: sharply higher fuel prices. Analysts say gas and diesel costs are poised to surge in th...",
+    "url": "https://www.newser.com/story/396587/its-not-great-news-on-the-gas-price-front.html",
+    "image_url": "https://cdn.newser.com/image/1712232-12-20260917115034.jpeg",
+    "language": "en",
+    "published_at": "2026-09-17T17:35:00.000000Z",
+    "source": "newser.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "ab63b826-4816-48ed-929d-4a4460c85c2f",
+    "title": "無責任投資論壇",
+    "description": "",
+    "keywords": "",
+    "snippet": "",
+    "url": "http://investment-ycchu.blogspot.com/feeds/7484841478934723409/comments/default",
+    "image_url": "",
+    "language": "zh",
+    "published_at": "2026-09-17T17:33:01.000000Z",
+    "source": "investment-ycchu.blogspot.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "Irresponsible Investment Forum"
+  },
+  {
+    "uuid": "151eb341-9cef-4ddc-b13f-81ef29510165",
+    "title": "無責任投資論壇",
+    "description": "",
+    "keywords": "",
+    "snippet": "",
+    "url": "http://investment-ycchu.blogspot.com/feeds/7241690138638506110/comments/default",
+    "image_url": "",
+    "language": "zh",
+    "published_at": "2026-09-17T17:33:01.000000Z",
+    "source": "investment-ycchu.blogspot.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "Irresponsible Investment Forum"
+  },
+  {
+    "uuid": "a77d6735-4407-4d53-9928-c8e8cb647852",
+    "title": "Glass Lewis says Anavex shareholders should vote for PVG Asset nominees",
+    "description": "Glass Lewis urges Anavex shareholders to back PVG nominees Hogue and Kolbert, oppose Ma and van der Velden. Read more here.",
+    "keywords": "",
+    "snippet": "Proxy advisory firm Glass Lewis said that Anavex Life Sciences (AVXL) shareholders should vote for two of PVG Asset Management director nominees, Curtis Hogue a...",
+    "url": "https://seekingalpha.com/news/4643942-glass-lewis-says-anavex-shareholders-should-vote-pvg-asset-nominees",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/971437552/image_971437552.jpg?io=getty-c-w630",
+    "language": "en",
+    "published_at": "2026-09-17T17:31:35.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "84643e88-2a7f-4b31-a066-3306011847d6",
+    "title": "In 2018, Tasmania built a road using 530,000 plastic bags, 168,000 glass bottles and 12,500 printer cartridges; engineers expected it to last 15% longer",
+    "description": "What if the road beneath your feet was made partly from the rubbish you threw away? In Tasmania, that idea became real in 2018. Engineers built an experimental stretch of road using about 530,000 plastic bags, 168,000 glass bottles and 12,500 discarded printer cartridges. The materials were processed and added to the asphalt, turning household and industrial waste into part of the road itself. It was an unusual way to tackle two problems at once: waste and the demand for new road materials.",
+    "keywords": "A Tasmanian Street Built from Household Waste, Tasmania road construction, recycled materials in asphalt, Kingborough Council, environmental benefits of recycling, waste reduction in road building, Recycled waste used in roads",
+    "snippet": "How can waste materials become part of a road?\n\nLive Events\n\nWhat made the Tasmania project unusual?\n\nCould the approach be used on more roads?\n\n\n\nas a Reliable...",
+    "url": "https://economictimes.indiatimes.com/news/international/us/in-2018-tasmania-built-a-road-using-530000-plastic-bags-168000-glass-bottles-and-12500-printer-cartridges-engineers-expected-it-to-last-15-longer/articleshow/134311401.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134312191,width-1200,height-630,imgsize-281972,overlay-economictimes/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:31:30.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "89dc93fe-dab3-4ceb-889e-204c31d61dbf",
+    "title": "Asteroid the size of a 6-story building hit the Moon, created 728-foot crater; NASA says such impacts happen once a century",
+    "description": "NASA has unveiled the discovery of a significant new crater on the Moon, resulting from a recent impact by a comet or asteroid. Measuring 728 feet in width and plunging 141 feet deep, this geological marvel was identified through data collected by the Lunar Reconnaissance Orbiter. Such substantial impacts are rare, occurring approximately once every century, giving scientists much to study.",
+    "keywords": "Moon impact crater, NASA crater discovery, asteroid impact on Moon, McGetchin crater, Lunar Reconnaissance Orbiter, asteroid size comparison, space debris impacts Moon, Tom McGetchin, Lunar surface study",
+    "snippet": "How NASA discovered the new crater on the Moon\n\nLive Events\n\nLRO cameras revealed the crater's size\n\nWhy does the Moon keep getting hit by asteroids?\n\n\n\nas a Re...",
+    "url": "https://economictimes.indiatimes.com/news/international/global-trends/asteroid-the-size-of-a-6-story-building-hit-the-moon-created-728-foot-crater-nasa-says-such-impacts-happen-once-a-century/articleshow/134318177.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134318336,width-1200,height-630,imgsize-183882,overlay-economictimes/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:31:22.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "213d58f0-7108-4629-8789-8cd158250e4b",
+    "title": "Virtual Assistant Jobs That Can Build a Flexible Lifestyle",
+    "description": "Starting a work‑from‑home career can feel overwhelming when you don’t have specialized skills, but the rise of virtual assistance is changing that. Businesses",
+    "keywords": "",
+    "snippet": "Starting a work‑from‑home career can feel overwhelming when you don’t have specialized skills, but the rise of virtual assistance is changing that. Busine...",
+    "url": "https://investedwallet.com/15-fantastic-virtual-assistant-jobs-for-those-just-starting-26-maysept/",
+    "image_url": "https://investedwallet.com/wp-content/uploads/2026/04/man-beanie-on-a-laptop.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:30:57.000000Z",
+    "source": "investedwallet.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "d5ce8946-d339-4faf-8174-828b37399304",
+    "title": "India crush Afghanistan by 127 runs in 3rd T20I to take series 3-0",
+    "description": "Abhishek Sharma smashed the fastest Indian T20I century off just thirty balls. His explosive 108 powered India to a commanding 221 for seven against Afghanistan. India then bowled Afghanistan out for a mere 94 runs in the third T20I. This dominant performance secured a comprehensive 3-0 series victory for the visiting Indian team. Nitish Kumar Reddy and Ravi Bishnoi took three wickets each for India.",
+    "keywords": "Abhishek Sharma, India vs Afghanistan T20I, fastest T20I century, T20I series 3-0, Sanju Samson, Indian cricket, cricket records, Nitish Kumar Reddy, Ravi Bishnoi, Afghanistan cricket",
+    "snippet": "Live Events\n\n\n\nas a Reliable and Trusted News Source Addas a Reliable and Trusted News Source Add Now!\n\n(You can now subscribe to our\n\n(You can now subscribe to...",
+    "url": "https://economictimes.indiatimes.com/news/sports/cricket/india-crush-afghanistan-by-127-runs-in-3rd-t20i-to-take-series-3-0/articleshow/134318211.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134318301,width-1200,height-630,imgsize-156508,overlay-economictimes/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:30:04.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "e6de3aea-ca17-4209-b334-ea4552b0b4d2",
+    "title": "Lucid, Bolt partner to deploy autonomous mobility services across Europe",
+    "description": "Lucid Group today announced a strategic partnership with Bolt, the leading European shared mobility platform, to develop and deploy autonomous mobilit",
+    "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+    "snippet": "Logo of Lucid Group\n\nLucid Group today announced a strategic partnership with Bolt, the leading European shared mobility platform, to develop and deploy autonom...",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1937370",
+    "image_url": "https://argaamplus.s3.amazonaws.com/8984d263-7b4d-47d9-a09c-dc087285ba6b.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:29:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "9fe81dec-ffdd-41a4-80d0-b16e7e10b869",
+    "title": "Stephen Curry says his Li-Ning signature shoe will debut early next year",
+    "description": "Golden State Warrior superstar Stephen Curry announced in June he was signing a long-term partnership with Chinese brand Li-Ning.",
+    "keywords": "Breaking News: Business, Sports, Business, Golf, Stephen Curry, Basketball, Under Armour Inc, Versant Media Group Inc, New York, business news",
+    "snippet": "FARMINGDALE, N.Y. — NBA superstar Stephen Curry said Thursday a new signature shoe he's designing in partnership with Li-Ning will debut early next year.\n\nCur...",
+    "url": "https://www.cnbc.com/2026/09/17/stephen-curry-li-ning-signature-shoe.html",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108178664-1753818860296-gettyimages-2207715090-_sg21245_vu0ywyck.jpeg?v=1753819028&w=1920&h=1080",
+    "language": "en",
+    "published_at": "2026-09-17T17:27:15.000000Z",
+    "source": "cnbc.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "74a22388-41bc-4852-a6b5-546e24a82743",
+    "title": "Amazon Grocery Dry Navy Beans, 16 Oz just $0.85 each, shipped!",
+    "description": "Stock up on Amazon Grocery Navy Beans for soup season! Prime members can get these Amazon Grocery, Navy Beans, 16 Oz for only $0.85 each, shipped when you buy four, save 10% off automatically in your shopping cart, and check out through Subscribe & Save. Note: Once your order ships, you can go into your AmazonRead More",
+    "keywords": "",
+    "snippet": "Stock up on Amazon Grocery Navy Beans for soup season!\n\nPrime members can get these Amazon Grocery, Navy Beans, 16 Oz for only $0.85 each, shipped when you buy ...",
+    "url": "https://moneysavingmom.com/amazon-grocery-dry-navy-beans-stock-up-deal/",
+    "image_url": "https://moneysavingmom.com/wp-content/uploads/2026/09/Amazon-Grocery-Navy-Beans.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:24:04.000000Z",
+    "source": "moneysavingmom.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "d0900deb-47dc-4aee-958d-fd071ab71d08",
+    "title": "26 أكتوبر.. عمومية طباعة وتغليف تُصوت على تخفيض رأس المال بنسبة 89.4%",
+    "description": "حددت الشركة السعودية للطباعة والتغليف يوم الاثنين 26 أكتوبر 2026، موعداً لاجتماع الجمعية العامة غير العادية المتضمنة تخفيض رأس مال الشركة من 652.07 مل",
+    "keywords": "أرقام موقع متخصص في متابعة اعمق لسوق الأسهم السعودي تداول مع تغطيه معمقة لشركات وأسعار البتروكيماويات, تقارير مالية, مؤشرات مالية, قطاع الأسمنت, البنوك",
+    "snippet": "شعار الشركة السعودية للطباعة والتغليف\n\nحددت الشركة السعودية للطباعة والتغليف يوم الاثن...",
+    "url": "https://www.argaam.com/ar/article/articledetail/id/1937368",
+    "image_url": "https://argaamplus.s3.amazonaws.com/3f8abf13-7743-4bf2-82b1-77dfaf8fd2db.png",
+    "language": "ar",
+    "published_at": "2026-09-17T17:24:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "October 26... Printing and Packaging General Assembly votes on capital reduction by 89.4%"
+  },
+  {
+    "uuid": "2dfb0838-7c65-4b9e-a3f8-f179d6eb88ca",
+    "title": "'Horrible use of taxpayer money by funding drugs': Fallon calls out sanctuary cities on homelessness",
+    "description": "During a House hearing, Rep. Pat Fallon highlighted a staggering number on the homelessness crisis in the USA. Fallon called out sanctuary cities for what he described as a ‘horrible use of taxpayer money,’ pointing to funds enabling drug use rather than solving the crisis.",
+    "keywords": "US homeless population, Pat Fallon, Rep Pat Fallon, House hearing, homelessness crisis, Latest US news, sanctuary cities, taxpayer money, congressional hearing, homelessness funding",
+    "snippet": "During a House hearing, Rep. Pat Fallon highlighted a staggering number on the homelessness crisis in the USA. Fallon called out sanctuary cities for what he de...",
+    "url": "https://economictimes.indiatimes.com/news/international/world-news/horrible-use-of-taxpayer-money-by-funding-drugs-fallon-calls-out-sanctuary-cities-on-homelessness/videoshow/134318128.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134318128,width-1200,height-900,overlay-economictimes/news/international/world-news/horrible-use-of-taxpayer-money-by-funding-drugs-fallon-calls-out-sanctuary-cities-on-homelessness.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:22:53.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "e09d9196-c30c-4ac4-b1ce-e1de89f023d1",
+    "title": "Home sellers may have to 'take a hit' as rates rise, real estate experts say",
+    "description": "The real estate market is shifting after the Fed's rate hike pushed 30-year mortgage rates to 7.14%. Experts say sellers may need to cut home prices to close deals.",
+    "keywords": "",
+    "snippet": "American homeowners expecting peak-market valuations are confronting a changing real estate landscape following the Federal Reserve’s latest interest rate dec...",
+    "url": "https://www.foxbusiness.com/real-estate/home-sellers-take-hit-rates-rise-real-estate-experts-say",
+    "image_url": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/09/0/0/us-home-building-workers.jpg?ve=1&tl=1",
+    "language": "en",
+    "published_at": "2026-09-17T17:22:34.000000Z",
+    "source": "foxbusiness.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "818becc8-346f-4c88-945f-02b8871adceb",
+    "title": "Oriflame will stick to direct selling, sees India as top market in 4 years: Global CEO Kenneth Benaim Campbell",
+    "description": "Oriflame India sold its manufacturing operations in India to local company Akum Pharmaceuticals two months back, a move many industry executives interpreted as the Swedish player winding down its exposure in India. Campbell said the deal was to spur growth.",
+    "keywords": "Oriflame, direct selling, Kenneth Benaim Campbell, india quick commerce, oriflame india business, oriflame india revenue",
+    "snippet": "Live Events\n\n\n\nas a Reliable and Trusted News Source Addas a Reliable and Trusted News Source Add Now!\n\n(You can now subscribe to our\n\n(You can now subscribe to...",
+    "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/oriflame-will-stick-to-direct-selling-sees-india-as-top-market-in-4-years-global-ceo-kenneth-benaim-campbell/articleshow/134318025.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134318023,width-1200,height-630,imgsize-63978,overlay-economictimes/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:22:17.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "8117484f-bad1-4a88-acb8-cb573ec91cff",
+        "title": "Oriflame aims to accelerate India business, expects to contribute 25% to global biz by 2030: Global CEO",
+        "description": "Oriflame plans to grow India's contribution to global revenue from 10% in 2025 to 25% by 2030, says CEO.",
+        "keywords": "Oriflame, Kenneth Benaim Campbell, Global CEO and President, Oriflame, India business, global revenue, growth strategy",
+        "snippet": "Beauty and wellness company Oriflame is looking to accelerate the growth of its India business, which currently ranks among its top three markets globally. The ...",
+        "url": "https://www.thehindubusinessline.com/companies/oriflame-aims-to-accelerate-india-business-expects-to-contribute-25-to-global-biz-by-2030-global-ceo/article71477386.ece",
+        "image_url": "https://bl-i.thgim.com/public/incoming/fjsasc/article71477385.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-09-17%20at%2015.34.27%201.png",
+        "language": "en",
+        "published_at": "2026-09-17T15:06:27.000000Z",
+        "source": "thehindubusinessline.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "f20cc8e5-782d-4c85-b261-0539bdf5164d",
+        "title": "Oriflame’s India ambition: Global CEO Kenneth Campbell eyes 25 pc of global revenue from India by 2030",
+        "description": "Swedish beauty company Oriflame, led by new CEO Kenneth Campbell, targets 25% of global revenue from India by 2030, focusing on innovation, expansion and modernization of their direct selling model.",
+        "keywords": "Oriflame India revenue goal, Oriflame growth strategy India, Kenneth Campbell Oriflame CEO, beauty and wellness industry India, Oriflame beauty leaders, direct selling beauty market, global expansion beauty market, Oriflame, Oriflame product strategy, Oriflame manufacturing in India",
+        "snippet": "Advt\n\nAdvt\n\nBy ,\n\nETRetail\n\nJoin the community of 2M+ industry professionals. Subscribe to Newsletter to get latest insights & analysis in your inbox. All about...",
+        "url": "https://retail.economictimes.indiatimes.com/news/health-and-beauty/oriflames-india-ambition-global-ceo-kenneth-campbell-eyes-25-pc-of-global-revenue-from-india-by-2030/134305497",
+        "image_url": "https://etimg.etb2bimg.com/thumb/msid-134305497,imgsize-37120,width-1200,height=627,overlay-etretail,resizemode-75/health-and-beauty/oriflames-india-ambition-global-ceo-kenneth-campbell-eyes-25-pc-of-global-revenue-from-india-by-2030.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T09:43:21.000000Z",
+        "source": "retail.economictimes.indiatimes.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "ba753b75-e859-4942-a5b2-1b63aac389a2",
+        "title": "Sweden's Oriflame wants India to be its biggest market and factory floor: CEO Campbell",
+        "description": "Oriflame anticipates India becoming its largest market within four years.  The company expects India to contribute 25 percent of global revenue by 2030.  Oriflame plans to add ten lakh new brand partners to its existing network.  The beauty major is also exploring India as a global manufacturing base.  This expansion is driven by India's growing economy and women's workforce participation.",
+        "keywords": "Oriflame India market expansion, direct-selling beauty entrepreneurs, Kenneth Benaim Campbell, beauty and personal care sector, global revenue growth, India as manufacturing base, 500 new cities Oriflame, regulatory environment for direct selling, Akums manufacturing partnership, e-commerce competition in beauty",
+        "snippet": "Live Events\n\n\n\nas a Reliable and Trusted News Source Addas a Reliable and Trusted News Source Add Now!\n\n(You can now subscribe to our\n\n(You can now subscribe to...",
+        "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/oriflame-wants-india-to-be-its-biggest-market-and-factory-floor-ceo-kenneth-benaim-campbell/articleshow/134307340.cms",
+        "image_url": "https://img.etimg.com/thumb/msid-134307444,width-1200,height-630,imgsize-83282,overlay-economictimes/articleshow.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T09:29:40.000000Z",
+        "source": "economictimes.indiatimes.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "98737a13-0acb-4054-a7d3-ae1f8e153f69",
+    "title": "Vanguard ESG International Stock declares quarterly distribution of $0.4688 (BATS:VSGX)",
+    "description": "Vanguard ESG International Stock ETF (VSGX) - $0.4688. Payable Sep 22; for shareholders of record Sep 18; ex-div Sep 18.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/news/4643965-vanguard-esg-international-stock-etf-declares-quarterly-distribution-of-04688",
+    "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:21:21.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "a5d5263d-3c1f-4b4b-bf2a-94faa35024d0",
+    "title": "Fluence Energy falls to nearly one-year low after cutting full-year forecast; Goldman downgrades",
+    "description": "Fluence Energy plunged to its lowest in nearly a year after cutting its revenue forecast for the year, prompting downgrades from Goldman Sachs and Baird.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/news/4643945-fluence-energy-falls-to-nearly-one-year-low-after-cutting-full-year-forecast-goldman-downgrades",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1130882367/image_1130882367.jpg?io=getty-c-w630",
+    "language": "en",
+    "published_at": "2026-09-17T17:21:18.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "86accbba-85f6-4b6f-8f2c-68bff65bc9ab",
+    "title": "Siyata PTT and Verizon to Launch SD7 Ultra 5G Push-to-Talk Handset",
+    "description": "New 5G rugged handset expands Siyata and Verizon’s SD7 relationship into new enterprise, public safety and 5G markets",
+    "keywords": "",
+    "snippet": "By signing up you consent to receive the above newsletter from Postmedia Network Inc.\n\nThanks for signing up!\n\nA welcome email is on its way. If you don't see i...",
+    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/siyata-ptt-and-verizon-to-launch-sd7-ultra-5g-push-to-talk-handset",
+    "image_url": "https://dcs-static.gprod.postmedia.digital/22.1.1/websites/images/fp/favicon-fp.ico",
+    "language": "en",
+    "published_at": "2026-09-17T17:21:18.000000Z",
+    "source": "financialpost.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "0ec5cb3f-74fc-4866-a985-54306fad84f7",
+    "title": "Vanguard International High Dividend Yield ETF declares quarterly distribution of $0.8170",
+    "description": "Vanguard International High Dividend Yield ETF (VYMI) - $0.8170. Payable Sep 22; for shareholders of record Sep 18; ex-div Sep 18.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/news/4643961-vanguard-international-high-dividend-yield-etf-declares-quarterly-distribution-of-08170",
+    "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:20:36.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "fe6630be-9a2f-40d0-b81f-1e2a3803f547",
+    "title": "Vanguard International Dividend Appreciation declares quarterly distribution of $0.4579",
+    "description": "Vanguard International Dividend Appreciation ETF (VIGI) - $0.4579. Payable Sep 22; for shareholders of record Sep 18; ex-div Sep 18.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/news/4643960-vanguard-international-dividend-appreciation-etf-declares-quarterly-distribution-of-04579",
+    "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:20:10.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "cddbfc67-88d4-415f-b5cd-dc4b00f106dd",
+    "title": "إكسون ترفع توقعاتها لانبعاثات الكربون العالمية بحلول 2050",
+    "description": "توقعت شركة \"إكسون موبيل\" أن تبلغ انبعاثات ثاني أكسيد الكربون المرتبطة بالطاقة عالمياً نحو 30 مليار طن سنوياً بحلول 2050، بزيادة عن تقديرها السابق البا",
+    "keywords": "أرقام موقع متخصص في متابعة اعمق لسوق الأسهم السعودي تداول مع تغطيه معمقة لشركات وأسعار البتروكيماويات, تقارير مالية, مؤشرات مالية, قطاع الأسمنت, البنوك",
+    "snippet": "توقعت شركة \"إكسون موبيل\" أن تبلغ انبعاثات ثاني أكسيد الكربون المرتبطة بالطاقة عالمياً ن?...",
+    "url": "https://www.argaam.com/ar/article/articledetail/id/1937367",
+    "image_url": "https://www.argaam.com/content/ar/images/argaam-plus-ar.jpg",
+    "language": "ar",
+    "published_at": "2026-09-17T17:20:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "Exxon raises its forecast for global carbon emissions by 2050"
+  },
+  {
+    "uuid": "f62fc699-b00e-4e5b-b257-4c9c5552f64e",
+    "title": "Lockheed Martin revela míssil de última geração e fecha acordo com o Pentágono",
+    "description": "Companhia afirmou que o míssil assegura maior alcance e eficácia operacional frente aos modelos atualmente em serviço, o que representa uma vantagem tática contra caças chineses de quinta geração",
+    "keywords": "china, irã, estados unidos, lockheed martin, departamento de defesa dos estados unidos",
+    "snippet": "A Lockheed Martin divulgou nesta quinta-feira (17) detalhes sobre o míssil de última geração desenvolvido para contrapor o avanço bélico da China, além d...",
+    "url": "https://valor.globo.com/empresas/noticia/2026/09/17/lockheed-martin-revela-mssil-de-ltima-gerao-e-fecha-acordo-com-o-pentgono.ghtml",
+    "image_url": "https://s2-valor.glbimg.com/m04J9xFKBcJv29uQLdl6KrfbHJE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/G/a/HIRTN9Q4GEunLgeBQImA/pac-3-framework-news-release-image-2.jpg",
+    "language": "pt",
+    "published_at": "2026-09-17T17:18:51.000000Z",
+    "source": "valor.globo.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "Lockheed Martin reveals latest-generation missile and closes deal with the Pentagon"
+  },
+  {
+    "uuid": "09fef5fb-bf1e-437b-90c0-726a96dc14d2",
+    "title": "House Passes Bill to Give Police More Tools Against Elder Fr…",
+    "description": "The House approved legislation aimed at giving law enforcement more resources to investigate financial scams targeting older consumers.",
+    "keywords": "",
+    "snippet": "The House approved legislation Tuesday (Sept. 15) aimed at giving state and local law enforcement more resources to investigate sophisticated financial scams ta...",
+    "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/house-passes-bill-give-local-police-more-tools-against-elder-financial-fraud/",
+    "image_url": "https://www.pymnts.com/wp-content/uploads/2025/02/Congress-House-of-Representatives.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:17:16.000000Z",
+    "source": "pymnts.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "5032b733-4599-42f4-add6-83d2445213a7",
+        "title": "House Financial Services Committee Takes Up Strategic Bitcoin Reserve Bill for Markup",
+        "description": "A bipartisan proposal to put the federal government’s Bitcoin holdings on firmer statutory footing has moved into the House Financial Services Committee,",
+        "keywords": "",
+        "snippet": "A bipartisan proposal to put the federal government’s Bitcoin holdings on firmer statutory footing has moved into the House Financial Services Committee, wher...",
+        "url": "https://www.crowdfundinsider.com/2026/09/310801-house-financial-services-committee-takes-up-strategic-bitcoin-reserve-bill-for-markup/",
+        "image_url": "https://www.crowdfundinsider.com/wp-content/uploads/2023/03/House-Committee-on-Financial-Services-2128.jpeg",
+        "language": "en",
+        "published_at": "2026-09-17T12:37:44.000000Z",
+        "source": "crowdfundinsider.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "39f7fcf7-6440-4b69-a928-8de1d0894772",
+        "title": "US House passes Russia sanctions bill: Why Kremlin says it will ‘complicate’ Ukraine peace efforts",
+        "description": "The US House has passed a Russia sanctions bill that could allow tariffs of up to 100% on countries, including India, that buy Russian oil and gas. The Kremlin warned that new sanctions could complicate efforts to reach a peace deal in Ukraine.",
+        "keywords": "Lindsey O. Graham Sanctioning Russia and Iran Act, tariffs on Russian oil, India's dependence on Russian crude, US economic pressure on Russia, Ukraine war negotiations, russia sanctions, russia sanctions bill",
+        "snippet": "After the United States passed a fresh bill to sanction the purchase of Russian crude, the Kremlin warned on Thursday that the legislation could ‘complicate?...",
+        "url": "https://www.livemint.com/news/world/us-house-passes-russia-sanctions-bill-why-kremlin-says-it-will-complicate-ukraine-peace-efforts-11789642478410.html",
+        "image_url": "https://www.livemint.com/lm-img/img/2026/09/17/1600x900/logo/UKRAINE-CRISIS-SUMMIT-1_1755260627121_1755260639776_1789643077130_70AN_b8e0432a-9d99-46df-a9d6-6cc97ad664a4_1Xda.JPG",
+        "language": "en",
+        "published_at": "2026-09-17T11:23:55.000000Z",
+        "source": "livemint.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "d97296b9-b337-4ede-bcef-2c34563353a4",
+    "title": "Na Bahia, Flávio Bolsonaro diz que reajuste do Bolsa Família é ‘ato de desespero’",
+    "description": "Senador e candidato do PL critica aumento de benefício anunciado por Lula a 17 dias do pleito e mira eleitorado nordestino para tentar encurtar vantagem do petista na região",
+    "keywords": "bolsa família, presidência da república, flávio bolsonaro, luiz inácio lula da silva, jair bolsonaro, bahia, pl (partido liberal)",
+    "snippet": "Após o anúncio de reajuste do valor do Bolsa Família, o candidato à Presidência da República pelo Partido Liberal, Flávio Bolsonaro (PL), classificou a m...",
+    "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/09/17/na-bahia-flvio-bolsonaro-diz-que-reajuste-do-bolsa-famlia-ato-de-desespero.ghtml",
+    "image_url": "https://s2-valor.glbimg.com/hmCxSl_WAUfx_FSWxbC8aEAo9rE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/n/z/NQhU1CTUq9KeSYsQbAFQ/flavio-juazeiro-do-norte.jpg",
+    "language": "pt",
+    "published_at": "2026-09-17T17:17:06.000000Z",
+    "source": "valor.globo.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "In Bahia, Flávio Bolsonaro says that Bolsa Família adjustment is 'act of despair'"
+  },
+  {
+    "uuid": "ab713cc0-7458-40bf-abfb-86f571c1c976",
+    "title": "Department Stores Move Upmarket as Luxury Struggles",
+    "description": "The upmarket push is showing up at department stores, where the objective is to get customers to spend more without jumping into luxury.",
+    "keywords": "",
+    "snippet": "Dillard’s average transaction increased 7% in the second quarter even as its number of transactions fell 6%.\n\nMacy’s says better materials, higher-priced br...",
+    "url": "https://www.pymnts.com/news/retail/2026/department-stores-move-upmarket-as-luxury-struggles/",
+    "image_url": "https://www.pymnts.com/wp-content/uploads/2023/12/luxury-brands.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:16:02.000000Z",
+    "source": "pymnts.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "8449601b-dc96-413a-b170-6942c2fd0dea",
+    "title": "BlackRock International V.I. Fund Q2 2026 Commentary",
+    "description": "BlackRock International V.I. Fund posted a return of 12.15% (Class I shares) for the second quarter of 2026. Read more here.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/article/4947556-blackrock-international-vi-fund-q2-2026-commentary",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2220160472/image_2220160472.jpg?io=getty-c-w1536",
+    "language": "en",
+    "published_at": "2026-09-17T17:16:00.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "4a2acb5e-ac26-45fb-8ae1-39faffb8d601",
+    "title": "Generac: Amazon Just Added 57% Of A Year’s Revenue (NYSE:GNRC)",
+    "description": "Generac Holdings lands a $2.4B Amazon supply deal, boosting earnings visibility and C&I growth—but adds execution & margin mix risks. Click for more on GNRC.",
+    "keywords": "",
+    "snippet": "Generac Holdings Inc. ( GNRC ) has long been in the spotlight for its residential standby generators. And that remains the largest part of the Wisconsin-based p...",
+    "url": "https://seekingalpha.com/article/4947567-generac-amazon-just-added-57-percent-of-a-years-revenue",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1488011595/image_1488011595.jpg?io=getty-c-w1536",
+    "language": "en",
+    "published_at": "2026-09-17T17:15:31.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "19a820cd-d038-443a-8307-c035e86431f6",
+        "title": "Wall Street Breakfast Podcast: Amazon Supercharges Generac",
+        "description": "Generac lands an $8B opportunity with Amazon. One food safety issue cost Kroger $100M. The Fed raised rates. Trump responded.",
+        "keywords": "",
+        "snippet": "J. Michael Jones/iStock Editorial via Getty Images\n\nDownload this episode on Apple Podcasts/Spotify or listen below:\n\nGenerac (GNRC) lands an $8B opportunity wi...",
+        "url": "https://seekingalpha.com/article/4947425-wall-street-breakfast-podcast-amazon-supercharges-generac",
+        "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1488011595/image_1488011595.jpg?io=getty-c-w1536",
+        "language": "en",
+        "published_at": "2026-09-17T10:30:00.000000Z",
+        "source": "seekingalpha.com",
+        "relevance_score": null,
+        "entities": [
+          {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Technology",
+            "match_score": 8.403112,
+            "sentiment_score": 0.743,
+            "highlights": [
+              {
+                "highlight": "Michael Jones/iStock Editorial via Getty[+285 characters]",
+                "sentiment": 0.743,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "IBKR",
+            "name": "Interactive Brokers Group, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Financial Services",
+            "match_score": 15.895681,
+            "sentiment_score": 0.296,
+            "highlights": [
+              {
+                "highlight": "Notable participants include NYSE (owned[+287 characters]",
+                "sentiment": 0.296,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "NVDA",
+            "name": "NVIDIA Corporation",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Technology",
+            "match_score": 9.379789,
+            "sentiment_score": -0.4404,
+            "highlights": [
+              {
+                "highlight": "China's Huawei sets 2027 launch for new [+204 characters]",
+                "sentiment": -0.4404,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "DSPG",
+            "name": "DSP Group, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Technology",
+            "match_score": 11.802626,
+            "sentiment_score": 0.5994,
+            "highlights": [
+              {
+                "highlight": "One stock on the biggest movers list: Vi[+199 characters]",
+                "sentiment": 0.5994,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "VIRT",
+            "name": "Virtu Financial, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Financial Services",
+            "match_score": 15.754801,
+            "sentiment_score": 0.296,
+            "highlights": [
+              {
+                "highlight": "Notable participants include NYSE (owned[+287 characters]",
+                "sentiment": 0.296,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "NDAQ",
+            "name": "Nasdaq, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Financial Services",
+            "match_score": 17.297743,
+            "sentiment_score": 0.296,
+            "highlights": [
+              {
+                "highlight": "Notable participants include NYSE (owned[+287 characters]",
+                "sentiment": 0.296,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "HOOD",
+            "name": "Robinhood Markets, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Technology",
+            "match_score": 21.303118,
+            "sentiment_score": 0.296,
+            "highlights": [
+              {
+                "highlight": "Notable participants include NYSE (owned[+296 characters]",
+                "sentiment": 0.296,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "BLK",
+            "name": "BlackRock, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Financial Services",
+            "match_score": 10.911967,
+            "sentiment_score": 0.296,
+            "highlights": [
+              {
+                "highlight": "Notable participants include NYSE (owned[+278 characters]",
+                "sentiment": 0.296,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "ICE",
+            "name": "Intercontinental Exchange, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Financial Services",
+            "match_score": 15.078757,
+            "sentiment_score": 0.296,
+            "highlights": [
+              {
+                "highlight": "Notable participants include NYSE (owned[+287 characters]",
+                "sentiment": 0.296,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "GNRC",
+            "name": "Generac Holdings Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Industrials",
+            "match_score": 18.170263,
+            "sentiment_score": 0.7964,
+            "highlights": [
+              {
+                "highlight": "<em>Generac</em> <em>Holdings</em> (GNRC[+185 characters]",
+                "sentiment": 0.7964,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "YETI",
+            "name": "YETI Holdings, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Consumer Cyclical",
+            "match_score": 17.17567,
+            "sentiment_score": -0.7003,
+            "highlights": [
+              {
+                "highlight": "Notable investor events include Intuit's[+324 characters]",
+                "sentiment": -0.7003,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "DSP",
+            "name": "Viant Technology Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Technology",
+            "match_score": 18.460243,
+            "sentiment_score": 0.5994,
+            "highlights": [
+              {
+                "highlight": "One stock on the biggest movers list: <e[+208 characters]",
+                "sentiment": 0.5994,
+                "highlighted_in": "main_text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "39a691b3-ccdb-4d97-bc26-c2f374ce2911",
+    "title": "Treasury Announces Details Of Two-Year, Five-Year & Seven-Year Note Auctions",
+    "description": "The Treasury Department on Thursday announced the details of this month's auctions of two-year, five-year and seven-year notes.  The Treasury revealed plans to sell $69 billion worth of two-year notes, $70 billion worth of five-year notes and $44 billion worth of seven-year notes.",
+    "keywords": "Bonds, Treasuries, Treasury auctions",
+    "snippet": "The Treasury Department on Thursday announced the details of this month's auctions of two-year, five-year and seven-year notes.\n\nThe Treasury revealed plans to ...",
+    "url": "https://www.rttnews.com/3691987/treasury-announces-details-of-two-year-five-year-seven-year-note-auctions.aspx?type=alleco",
+    "image_url": "https://cdn.rttnews.com/images/v4/RTTNews-logo-512x512.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:14:36.000000Z",
+    "source": "rttnews.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "7488650e-d1fd-4671-931e-66bd49c0639d",
+    "title": "Retirement paradox: 70% urban Indians want to exit workforce early — but fear running out of cash",
+    "description": "One in two urban Indians advocates initiating retirement planning alongside their very first paycheque.",
+    "keywords": "Retirement, savings, pension, PPF, NPS, Axis Max Life Insurance, health Insurance",
+    "snippet": "A major study reveals widespread enthusiasm for early retirement alongside severe fears about outliving personal funds.\n\nRoughly 70% of urban Indians wish to re...",
+    "url": "https://www.livemint.com/money/personal-finance/retirement-paradox-70-urban-indians-want-to-retire-early-but-fear-running-out-of-cash-11789659906307.html",
+    "image_url": "https://www.livemint.com/lm-img/img/2026/09/17/1600x900/logo/retirement-fund_1787920822478_1787920837046_e7ce063b-8ce5-4399-9f15-eaaad0e5c271_1789662667421_FZD6_05425dc7-ba16-4a71-a1e0-a4ecbc38936a_O0sQ.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:14:18.000000Z",
+    "source": "livemint.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "5692d4a3-c6c6-4e47-81fb-a89a50b7f995",
+    "title": "Micron Q4: Brace Yourself For The Inflection (NASDAQ:MU)",
+    "description": "Micron Technology is rated Buy, supported by robust fundamentals, multi-year strategic contracts, and a massive net cash position. Click for more on MU stock.",
+    "keywords": "",
+    "snippet": "Since December 17, 2025, when Micron Technology, Inc. ( MU ) reported its Q1 fiscal 2026 results , the stock has surged by roughly 336% up to this point. That m...",
+    "url": "https://seekingalpha.com/article/4947555-micron-q4-brace-yourself-for-the-inflection",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1689227296/image_1689227296.jpg?io=getty-c-w1536",
+    "language": "en",
+    "published_at": "2026-09-17T17:13:44.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "f15bdccb-b943-4115-8d7c-2621b7a59913",
+        "title": "Micron to scale up assembly and testing of semiconductors at India unit multifold next year",
+        "description": "India's semiconductor policy push has given the industry a strong foundation it didn't have, and the nation has moved from vision to execution now, Micron CEO Sanjay Mehrotra said on Thursday, as he announced the company's plan to scale up chip assembly and testing facility here by multifold next year.",
+        "keywords": "Micron, semiconductors, India semiconductor policy, chip assembly and testing, AI memory demand, DRAM and NAND products, Made in India chips",
+        "snippet": "India's semiconductor policy push has given the industry a strong foundation it didn't have, and the nation has moved from vision to execution now, Micron CEO S...",
+        "url": "https://economictimes.indiatimes.com/tech/technology/micron-to-scale-up-assembly-and-testing-of-semiconductors-at-india-unit-multifold-next-year/articleshow/134315556.cms",
+        "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-4690976,resizemode-75,msid-134315556/tech/technology/micron-to-scale-up-assembly-and-testing-of-semiconductors-at-india-unit-multifold-next-year.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T15:01:31.000000Z",
+        "source": "economictimes.indiatimes.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "a6fe7bec-046e-4de7-a5e6-251a94bfa515",
+    "title": "Уборка квартиры обошлась белоруске более чем в 4600 рублей",
+    "description": "Жительница Барановичей нашла клинера через интернет. После нескольких уборок из квартиры пропали деньги в разных валютах — более 4600 рублей.",
+    "keywords": "кража денег, пропажа, заначки, клининг, милиция, Барановичи",
+    "snippet": "Уборка квартиры обошлась белоруске более чем в 4600 рублей\n\n17 сентября 2026 в 17:13 Автор: Макс...",
+    "url": "https://myfin.by/article/belarus/uborka-kvartiry-oboslas-beloruske-bolee-cem-v-4600-rublej-48515",
+    "image_url": "https://myfin.by/source/2/chNvbplwsAWUSpTccx189jLg9fniRBKX.jpg",
+    "language": "ru",
+    "published_at": "2026-09-17T17:13:10.000000Z",
+    "source": "myfin.by",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [],
+    "title_en": "Cleaning the apartment cost the Belarusian woman more than 4600 rubles"
+  },
+  {
+    "uuid": "8fcc7210-23cc-43dd-9b40-cc05d86469e9",
+    "title": "China creates Italy-sized no-fly zone around Beijing after rare crash",
+    "description": "China is creating a vast airspace security zone around Beijing. This permanent restricted area will take effect from September twentieth. Only commercial, approved business, and emergency flights will be permitted. The zone follows a recent aircraft crash into a Beijing skyscraper. This measure aims to strengthen capital region airspace security management.",
+    "keywords": "China no-fly zone, Beijing airspace restrictions, CITIC Tower crash, airspace security zone, aviation safety in China, flight operations around Beijing, Special Restricted Area Beijing, emergency flight regulations, Chinese capital airspace management, commercial flights in Beijing",
+    "snippet": "Live Events\n\nCONTINUOUS SURVEILLANCE\n\n\n\nas a Reliable and Trusted News Source Addas a Reliable and Trusted News Source Add Now!\n\n(You can now subscribe to our\n\n...",
+    "url": "https://economictimes.indiatimes.com/news/international/world-news/china-creates-italy-sized-no-fly-zone-around-beijing-after-rare-crash/articleshow/134317599.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134317847,width-1200,height-630,imgsize-167426,overlay-economictimes/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:11:52.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "ab059fb5-ed36-4160-bc6b-dc4f1348dcfd",
+    "title": "Nie ma pieniędzy na nowy CPN. Sławomir Dudek: windfall tax niczego tu nie zmieni",
+    "description": "Rządu nie stać na nową odsłonę programu Ceny Paliw Niżej, nawet gdyby udało mu się przeforsować podatek od nadzwyczajnych zysków koncernów paliwowych. Poprzednie edycje CPN okazywały się zresztą mało efektywne, bo nie obniżyły na trwałe cen benzyny i oleju napędowego na stacjach – mówi Sławomir Dudek, przewodniczący Rady Fiskalnej.",
+    "keywords": "",
+    "snippet": "Rządu nie stać na nową odsłonę programu Ceny Paliw Niżej, nawet gdyby udało mu się przeforsować podatek od nadzwyczajnych zysków koncernów paliwowych...",
+    "url": "https://www.pb.pl/nie-ma-pieniedzy-na-nowy-cpn-slawomir-dudek-windfall-tax-niczego-tu-nie-zmieni-1267222",
+    "image_url": "https://images.pb.pl/filtered/b5a80dac-2694-4df9-9bd2-f705ced07df1/484fd4ad-a47e-581b-9f9e-6d2c18857a1e_og_1200_630.png",
+    "language": "pl",
+    "published_at": "2026-09-17T17:11:43.000000Z",
+    "source": "pb.pl",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "8a952d4d-494b-4ec9-9916-5f9fdf91b359",
+    "title": "Candidato a deputado estadual Danilo Morgado é preso em operação que apura elo com o PCC",
+    "description": "Segundo a investigação da PF, a organização criminosa financiou a campanha de Morgado à prefeitura de Praia Grande em 2024, quando ele era do União Brasil",
+    "keywords": "eleição para deputado estadual e distrital, crime organizado, diretório eleitoral, milton leite (político), pl (partido liberal), união brasil, justiça eleitoral, tse",
+    "snippet": "O candidato a deputado estadual pelo Partido Liberal (PL) Danilo Morgado foi preso nesta manhã na operação Vectura Corrupta, que investiga suposta infiltraç...",
+    "url": "https://valor.globo.com/politica/noticia/2026/09/17/candidato-a-deputado-estadual-danilo-morgado-preso-em-operao-que-apura-elo-com-o-pcc.ghtml",
+    "image_url": "https://s2-valor.glbimg.com/KjWi2rOuHXXZ4t8XBr0xlQ-BbXE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/A/B1TVntTKGQzHtRuvRS0w/114817516-pabrasilia07-05-2026cironogueira-operqcaocompliancezero-policiafederal-residencias.jpg",
+    "language": "pt",
+    "published_at": "2026-09-17T17:11:31.000000Z",
+    "source": "valor.globo.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "0cc1f66e-2d62-4502-b488-c86f1443b31b",
+    "title": "Avalon Pharma renews SAR 104M credit facilities with BSF",
+    "description": "Middle East Pharmaceutical Industries Co. (Avalon Pharma) renewed Shariah-compliant credit facilities worth SAR 104 million with Banque Saudi Fransi (",
+    "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+    "snippet": "Logo of Middle East Pharmaceutical Industries Co. (Avalon Pharma)\n\nMiddle East Pharmaceutical Industries Co. (Avalon Pharma) renewed Shariah-compliant credit fa...",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1937341",
+    "image_url": "https://argaamplus.s3.amazonaws.com/ce6cd0fc-562a-4bc7-bb47-9a988b13a218.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:11:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "d25859e2-826b-4686-a9a3-18e90b198b36",
+        "title": "Alandalus obtains SAR 35M facilities from SNB",
+        "description": "Alandalus Property Co. obtained short-term Shariah-compliant financing facilities from Saudi National Bank (SNB) under a Tawarruq structure, with a to",
+        "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+        "snippet": "Alandalus Property Co. headquarters\n\nAlandalus Property Co. obtained short-term Shariah-compliant financing facilities from Saudi National Bank (SNB) under a Ta...",
+        "url": "https://www.argaam.com/en/article/articledetail/id/1937135",
+        "image_url": "https://argaamplus.s3.amazonaws.com/f68527a9-9f77-4400-8826-4ccab7af96df.png",
+        "language": "en",
+        "published_at": "2026-09-17T10:16:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": [
+          {
+            "symbol": "4320.SR",
+            "name": "Alandalus Property Company",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "sa",
+            "type": "equity",
+            "industry": "Real Estate",
+            "match_score": 45.013435,
+            "sentiment_score": 0.34,
+            "highlights": [
+              {
+                "highlight": "<em>Alandalus</em> <em>Property</em> Co.[+211 characters]",
+                "sentiment": 0.34,
+                "highlighted_in": "main_text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "0a1df1b5-3a8f-41a7-b445-ba8f295414af",
+        "title": "National Building subsidiary renews SAR 50M banking facilities agreement",
+        "description": "Logo ofNational Building  Marketing Co.\r\n\r\n\r\nNational Building  Marketing Co. announced that its subsidiary, Ajeej Steel Manufacturing Co., renewed a",
+        "keywords": "At Argaam Plus, you get up to date news on Saudi Stock Market tadawul, stock quotes, company performance, Market data and analysis. Top companies Sabic, Maaden, Banks, Petrochemicals",
+        "snippet": "Logo of National Building & Marketing Co.\n\nNational Building & Marketing Co. announced that its subsidiary, Ajeej Steel Manufacturing Co., renewed a SAR 50 mill...",
+        "url": "https://www.argaam.com/en/article/articledetail/id/1937098",
+        "image_url": "https://argaamplus.s3.amazonaws.com/9f6b5df3-975e-4149-a45c-7293c2b9f24d.png",
+        "language": "en",
+        "published_at": "2026-09-17T09:25:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": [
+          {
+            "symbol": "1020.SR",
+            "name": "Bank AlJazira",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "sa",
+            "type": "equity",
+            "industry": "Financial Services",
+            "match_score": 60.08632,
+            "sentiment_score": 0.4939,
+            "highlights": [
+              {
+                "highlight": "., renewed a SAR 50 million Shariah-comp[+278 characters]",
+                "sentiment": 0.4939,
+                "highlighted_in": "main_text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "ab51cc21-81af-4c5d-83c3-a2ce405b4a28",
+    "title": "Forget PLI schemes, India's manufacturing sector needs a Puja-Linked Incentive for Vishwakarma",
+    "description": "India's industrial policies overlook Vishwakarma, the divine architect and craftsman.  He offers capital, productivity, and supply chains without retro taxation.  Vishwakarma deserves greater recognition and manufacturing incentives for his contributions.  Neglecting craftsmen led to Greece's economic crisis and sovereign debt issues.  India should honor Vishwakarma for manufacturing success and technological advancement.",
+    "keywords": "Vishwakarma, India manufacturing, production-linked incentives, semiconductor policy, MSMEs in India, Vishwakarma puja",
+    "snippet": "India has tried production-linked incentives , industrial corridors, startup missions, semiconductor missions.... But one element of industrial policy remains s...",
+    "url": "https://economictimes.indiatimes.com/opinion/just-in-jest/forget-pli-schemes-indias-manufacturing-sector-needs-a-puja-linked-incentive-for-vishwakarma/articleshow/134317840.cms",
+    "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1109032,resizemode-75,msid-134317840/opinion/just-in-jest/forget-pli-schemes-indias-manufacturing-sector-needs-a-puja-linked-incentive-for-vishwakarma.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:10:49.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "914f6acf-8c8b-4b90-a24c-f4d913f794e9",
+    "title": "AutoNation, Inc. (AN) Presents at Morgan Stanley's 14th Annual Laguna Conference Transcript",
+    "description": "AutoNation, Inc. (AN) Morgan Stanley's 14th Annual Laguna Conference September 17, 2026 10:00 AM EDTCompany ParticipantsDerek Fiebig - Vice President of...",
+    "keywords": "",
+    "snippet": "Presentation\n\nDaniela Haigian\n\nMorgan Stanley, Research Division\n\nAll right. Tom, Derek, thank you for joining us. My name is Daniela Haigian. I'm the auto reta...",
+    "url": "https://seekingalpha.com/article/4947529-autonation-inc-an-presents-at-morgan-stanleys-14th-annual-laguna-conference-transcript",
+    "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:08:49.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "02ed640d-aba2-4980-81d7-2c7bb7df66c8",
+        "title": "L3Harris Technologies, Inc. (LHX) Presents at Morgan Stanley's 14th Annual Laguna Conference Transcript",
+        "description": "L3Harris Technologies, Inc. (LHX) Morgan Stanley's 14th Annual Laguna Conference September 16, 2026 6:20 PM EDTCompany ParticipantsKenneth Sharp - Senior VP...",
+        "keywords": "",
+        "snippet": "Presentation\n\nHi. Good afternoon, everyone. I'm Kristine Liwag, Morgan Stanley's Head of Aerospace and Defense Equity Research. I'm very excited to host our nex...",
+        "url": "https://seekingalpha.com/article/4947280-l3harris-technologies-inc-lhx-presents-at-morgan-stanleys-14th-annual-laguna-conference",
+        "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "language": "en",
+        "published_at": "2026-09-17T12:48:46.000000Z",
+        "source": "seekingalpha.com",
+        "relevance_score": null,
+        "entities": [
+          {
+            "symbol": "LHX",
+            "name": "L3Harris Technologies, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Industrials",
+            "match_score": 122.81592,
+            "sentiment_score": 0,
+            "highlights": [
+              {
+                "highlight": "<em>L3Harris</em> <em>Technologies</em>, <em>Inc</em>. (LHX) Presents at Morgan Stanley's 14th Annual Laguna Conference Transcript",
+                "sentiment": 0,
+                "highlighted_in": "title"
+              }
+            ]
+          },
+          {
+            "symbol": "0L3H.L",
+            "name": "L3Harris Technologies, Inc.",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "gb",
+            "type": "equity",
+            "industry": "N/A",
+            "match_score": 122.80812,
+            "sentiment_score": 0,
+            "highlights": [
+              {
+                "highlight": "<em>L3Harris</em> <em>Technologies</em>, <em>Inc</em>. (LHX) Presents at Morgan Stanley's 14th Annual Laguna Conference Transcript",
+                "sentiment": 0,
+                "highlighted_in": "title"
+              }
+            ]
+          },
+          {
+            "symbol": "MSCL.SN",
+            "name": "MORGAN STANLEY",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "cl",
+            "type": "equity",
+            "industry": "N/A",
+            "match_score": 39.49998,
+            "sentiment_score": 0.6983,
+            "highlights": [
+              {
+                "highlight": "Kristine Liwag\n\n<em>Morgan</em> <em>Stan[+323 characters]",
+                "sentiment": 0.6983,
+                "highlighted_in": "main_text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "6a9cdbc6-85be-4a6f-a024-ad069dafb1d6",
+    "title": "Defense and Fiscal Outlook: Northrop Accelerates Sentinel Testing as France Faces Deficit Pressures",
+    "description": "Northrop Grumman (NOC) CEO Kathy Warden announced that the company is planning the first flight test of the Sentinel intercontinental ballistic missile (ICBM)",
+    "keywords": "",
+    "snippet": "Key Takeaways\n\nNorthrop Grumman (NOC) has accelerated the timeline for the LGM-35A Sentinel ICBM, with the first pad launch test now scheduled for 2027 , ahead ...",
+    "url": "https://www2.stockmarketwatch.com/stock-market-news/defense-and-fiscal-outlook-northrop-accelerates-sentinel-testing-as-france-faces-deficit-pressures/71913/",
+    "image_url": "https://www2.stockmarketwatch.com/stock-market-news/wp-content/uploads/2025/07/breaking-news.webp",
+    "language": "en",
+    "published_at": "2026-09-17T17:08:19.000000Z",
+    "source": "thestockmarketwatch.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "50992862-4ff7-45a0-a7a8-057364e7358b",
+    "title": "John Hancock Multimanager 2065 Lifetime Portfolio Q2 2026 Commentary",
+    "description": "John Hancock Multimanager 2065 Lifetime Portfolio fund registered a positive absolute return and outpaced the benchmark. Read more here.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/article/4947551-john-hancock-multimanager-2065-lifetime-portfolio-q2-2026-commentary",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2198658170/image_2198658170.jpg?io=getty-c-w1536",
+    "language": "en",
+    "published_at": "2026-09-17T17:08:00.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "1e66c568-13d5-4f88-87cf-efcc7d9c9e8d",
+    "title": "Instacart should be worried about DoorDash and Uber's new deal",
+    "description": "Uber Eats and DoorDash expand partnerships with Costco, challenging Instacart's dominance in the same-day grocery delivery sector.",
+    "keywords": "",
+    "snippet": "There's a battle brewing at Costco, and it's not over parking spaces.\n\nThe warehouse retailer will offer delivery across the US through DoorDash. The companies ...",
+    "url": "https://www.businessinsider.com/costco-uber-doordash-expands-delivery-instacart-competition-2026-9",
+    "image_url": "https://i.insider.com/6aac055c16256d3825fdef8a?width=1200&format=jpeg",
+    "language": "en",
+    "published_at": "2026-09-17T17:07:42.000000Z",
+    "source": "businessinsider.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "c69b0ab7-b40e-4e88-8c9b-b7cdfd34a188",
+        "title": "Costco and DoorDash Launch Same-Day Delivery in US",
+        "description": "Costco is now available on the DoorDash Marketplace across the U.S., marking an expansion of the global partnership.",
+        "keywords": "",
+        "snippet": "Costco is now available on the DoorDash Marketplace across the United States, DoorDash said in a Thursday (Sept. 17) press release emailed to PYMNTS.\n\nBy comple...",
+        "url": "https://www.pymnts.com/aggregators/2026/costco-and-doordash-launch-same-day-delivery-in-us/",
+        "image_url": "https://www.pymnts.com/wp-content/uploads/2026/09/Costco-DoorDash-1.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T10:00:02.000000Z",
+        "source": "pymnts.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "e3875ba2-ba3f-4715-89d4-c523ecd91a65",
+    "title": "Is Censorship the Best PR?",
+    "description": "On Macklemore, Ed Sheeran, Robert Kraft, and free speech.",
+    "keywords": "",
+    "snippet": "In 2003, a photo identifying a Malibu mansion as Barbra Streisand’s was included in a documentary project about coastal erosion. Streisand sued the photograph...",
+    "url": "https://www.contrariannews.org/p/is-censorship-the-best-pr",
+    "image_url": "https://substackcdn.com/image/fetch/$s_!o4Hx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe51aa829-c5eb-413d-a628-d882a97aca78_2048x2015.jpeg",
+    "language": "en",
+    "published_at": "2026-09-17T17:07:07.000000Z",
+    "source": "flipboard.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "4a5dc8fe-c0fb-4472-9f98-392d99fcfe2d",
+    "title": "How GLP-1 Weight Loss Drugs Left the Doctor’s Office",
+    "description": "Med spas, telehealth sites, TikTok—patients are finding faster, more affordable ways to access GLP-1s, often with few questions asked.",
+    "keywords": "feature, health",
+    "snippet": "“Wegovy was the best thing I ever did,” Karen, a woman in her late 50s, says. “I lost 70 pounds in two years and I can finally move again, do stuff outsid...",
+    "url": "https://www.allure.com/story/glp-1-gray-market-telehealth-med-spas-compounding-pharmacies",
+    "image_url": "https://media.allure.com/photos/6aa06a87ad238e41030aa640/16:9/w_1280,c_limit/gray%20market%20glp%201%20medications%201.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:06:26.000000Z",
+    "source": "flipboard.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "1f7c2e71-2714-4899-890d-f5c2620306b4",
+        "title": "Novo Nordisk (NVO) and Eli Lilly (LLY)’s Weight-Loss Drugs Still Work at Smaller Doses, Study Finds",
+        "description": "On August 31, 2026, Reuters reported on a new study finding that patients who stay on the lowest starter doses of GLP-1 weight-loss drugs still lose weight, though far less than at full recommended doses, and experience less nausea. Patients on Eli Lilly and Company (NYSE:LLY)’s low-dose tirzepatide lost an average of 5.5% of their […]",
+        "keywords": "Eli Lilly and Company, weight loss, recommended doses, Novo Nordisk, maintenance doses, patients",
+        "snippet": "On August 31, 2026, Reuters reported on a new study finding that patients who stay on the lowest starter doses of GLP-1 weight-loss drugs still lose weight, tho...",
+        "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-nvo-eli-lilly-154648868.html",
+        "image_url": "https://s.yimg.com/lo/mysterio/api/f597190c15890f7a07fe12ad6cd43ac27c16297ed5ca818ff14e2d48e5d864fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F8ee01456c2860ad756980e44c064cbb6.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T15:46:48.000000Z",
+        "source": "finance.yahoo.com",
+        "relevance_score": null,
+        "entities": [
+          {
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Healthcare",
+            "match_score": 69.902016,
+            "sentiment_score": -0.067267,
+            "highlights": [
+              {
+                "highlight": "Patients on <em>Eli</em> <em>Lilly</em> [+311 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "Novo Nordisk (NVO) and Eli Lilly (LLY)'s[+211 characters]",
+                "sentiment": 0.3612,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Eli</em> <em>Lilly</em> <em>and</em>[+330 characters]",
+                "sentiment": -0.5888,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "NVO",
+            "name": "Novo Nordisk A/S",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Healthcare",
+            "match_score": 60.70258,
+            "sentiment_score": 0.3191,
+            "highlights": [
+              {
+                "highlight": "Patients on Eli Lilly and Company (NYSE:[+311 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Novo</em> <em>Nordisk</em> <em>A</em[+202 characters]",
+                "sentiment": 0.6124,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "NONOF",
+            "name": "Novo Nordisk A/S",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "us",
+            "type": "equity",
+            "industry": "Healthcare",
+            "match_score": 44.88069,
+            "sentiment_score": 0.3191,
+            "highlights": [
+              {
+                "highlight": "Patients on Eli Lilly and Company (NYSE:[+302 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Novo</em> <em>Nordisk</em> <em>A</em[+193 characters]",
+                "sentiment": 0.6124,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "NVON.MX",
+            "name": "Novo Nordisk A/S",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "mx",
+            "type": "equity",
+            "industry": "Healthcare",
+            "match_score": 44.88062,
+            "sentiment_score": 0.3191,
+            "highlights": [
+              {
+                "highlight": "Patients on Eli Lilly and Company (NYSE:[+302 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Novo</em> <em>Nordisk</em> <em>A</em[+193 characters]",
+                "sentiment": 0.6124,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "LLY.MX",
+            "name": "Eli Lilly and Company",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "mx",
+            "type": "equity",
+            "industry": "Healthcare",
+            "match_score": 53.226036,
+            "sentiment_score": -0.067267,
+            "highlights": [
+              {
+                "highlight": "Patients on <em>Eli</em> <em>Lilly</em> [+302 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "Novo Nordisk (NVO) and Eli Lilly (LLY)'s[+202 characters]",
+                "sentiment": 0.3612,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Eli</em> <em>Lilly</em> <em>and</em>[+321 characters]",
+                "sentiment": -0.5888,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "NOVOBN.MX",
+            "name": "Novo Nordisk A/S",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "mx",
+            "type": "equity",
+            "industry": "N/A",
+            "match_score": 44.880547,
+            "sentiment_score": 0.3191,
+            "highlights": [
+              {
+                "highlight": "Patients on Eli Lilly and Company (NYSE:[+302 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Novo</em> <em>Nordisk</em> <em>A</em[+193 characters]",
+                "sentiment": 0.6124,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "0TDD.L",
+            "name": "Novo Nordisk A/S",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "gb",
+            "type": "equity",
+            "industry": "N/A",
+            "match_score": 44.88023,
+            "sentiment_score": 0.3191,
+            "highlights": [
+              {
+                "highlight": "Patients on Eli Lilly and Company (NYSE:[+302 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Novo</em> <em>Nordisk</em> <em>A</em[+193 characters]",
+                "sentiment": 0.6124,
+                "highlighted_in": "main_text"
+              }
+            ]
+          },
+          {
+            "symbol": "0Q1G.L",
+            "name": "Eli Lilly and Company",
+            "exchange": null,
+            "exchange_long": null,
+            "country": "gb",
+            "type": "equity",
+            "industry": "N/A",
+            "match_score": 53.225403,
+            "sentiment_score": -0.067267,
+            "highlights": [
+              {
+                "highlight": "Patients on <em>Eli</em> <em>Lilly</em> [+302 characters]",
+                "sentiment": 0.0258,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "Novo Nordisk (NVO) and Eli Lilly (LLY)'s[+202 characters]",
+                "sentiment": 0.3612,
+                "highlighted_in": "main_text"
+              },
+              {
+                "highlight": "<em>Eli</em> <em>Lilly</em> <em>and</em>[+321 characters]",
+                "sentiment": -0.5888,
+                "highlighted_in": "main_text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "df9a6061-97f1-4f0a-8ff9-427da4897ce1",
+    "title": "Planejamento define naturalidade no transplante capilar FUE",
+    "description": "Dr. Carlos Ramalho, médico especializado em restauração capilar da CR Clinique, explica que o resultado natural depende do desenho da linha frontal, da distribuição dos fios e da avaliação da área doadora, e detalha como o planejamento individualizado influencia diretamente a qualidade e a durabilidade do procedimento",
+    "keywords": "",
+    "snippet": "O transplante capilar deixou de ser visto apenas como forma de preencher áreas com pouco cabelo e passou a exigir planejamento técnico detalhado para garantir...",
+    "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/09/17/planejamento-define-naturalidade-no-transplante-capilar-fue-1.ghtml",
+    "image_url": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
+    "language": "pt",
+    "published_at": "2026-09-17T17:05:53.000000Z",
+    "source": "valor.globo.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "e7480adf-8114-46d1-843d-db9badfb1ee8",
+    "title": "Tom Cruise: Hollywood’s Most Elusive Star Speaks",
+    "description": "It’s been 20 years since Tom Cruise’s last GQ cover. Zach Baron spoke with Cruise, alongside ‘Digger’ director Alejandro G. Iñárritu, about the film that drew him back.",
+    "keywords": "celebrities, movies, gq cover story, one more question, tom cruise, the must read",
+    "snippet": "Was this an easy film to make? That might be a ridiculous question.\n\nTC: Here’s the thing. There’s not an easy film to make. Let me just demystify. If you c...",
+    "url": "https://www.gq.com/story/tom-cruise-2026-cover-story-interview",
+    "image_url": "https://media.gq.com/photos/6aa805b4ce43a126ef91db5b/16:9/w_1280,c_limit/TC-Cover-Web-WM-1.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:05:41.000000Z",
+    "source": "flipboard.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "1fcc7863-77c7-466a-bd9e-93df3b3f6301",
+        "title": "Tom Lee Says Q4 Could Bring One of the Biggest Rallies of Our Lifetime. Can Bitcoin, Ethereum, and XRP Reach New Highs?",
+        "description": "Tom Lee called a historic Q4 stock rally on television, and the Fed raised rates less than 24 hours later. Now Bitcoin, Ethereum, and XRP face a much steeper climb than Lee's bullish case lets on.",
+        "keywords": "XRP, Tom Lee, technology stocks, Bitcoin",
+        "snippet": "Quick Read\n\nLee chairs BMNR, the largest corporate Ethereum treasury, creating a conflict, while MSTR sits on an $8 billion unrealized Bitcoin loss.\n\nBitcoin no...",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-says-q4-could-163456422.html",
+        "image_url": "https://s.yimg.com/lo/mysterio/api/4d0a38d3d4bb3dfc67dd5865c79c0d041a51a0d1a946fb5f9a92ec85b8eeb1dd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F472fa506025f53c325529da830e30b7c.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T16:34:56.000000Z",
+        "source": "finance.yahoo.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "274f1e1c-0c19-4217-b27d-d0ec21034972",
+    "title": "Les dépêches, moins de tension",
+    "description": "[CNBC] Les actions progressent, soutenues par la baisse du pétrole et des rendements, alors que le marché tente de se redresser après les ventes massives décidées par la Fed  [Yahoo/Reuters] Le pétrole chute de 2 % à son plus bas niveau en une semaine, les craintes de perturbation de l'approvisionnement au Moyen-Orient s'apaisant. [CNBC] Comment…",
+    "keywords": "",
+    "snippet": "Partager sur X(ouvre dans une nouvelle fenêtre)\n\nX",
+    "url": "https://brunobertez.com/2026/09/17/les-depeches-moins-de-tension/",
+    "image_url": "http://img1.blogblog.com/img/icon18_email.gif",
+    "language": "fr",
+    "published_at": "2026-09-17T17:04:52.000000Z",
+    "source": "brunobertez.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "6f454319-af73-46c8-b393-3e78354f1842",
+    "title": "مجلس إدارة طلبات يوافق على توزيع أرباح نقدية بواقع 2.66 فلس للسهم الواحد عن النصف الأول 2026",
+    "description": "وافق مجلس إدارة شركة طلبات هولدينغ بي إل سي، المنعقد اليوم الموافق 17 سبتمبر 2026، على توزيع أرباح نقدية للمساهمين بقيمة 167.7 مليون دولار (ما يعادل 0",
+    "keywords": "أرقام موقع متخصص في متابعة اعمق لسوق الأسهم السعودي تداول مع تغطيه معمقة لشركات وأسعار البتروكيماويات, تقارير مالية, مؤشرات مالية, قطاع الأسمنت, البنوك",
+    "snippet": "شعار شركة طلبات هولدينغ بي إل سي\n\nوافق مجلس إدارة شركة طلبات هولدينغ بي إل سي، المنعقد ال...",
+    "url": "https://www.argaam.com/ar/article/articledetail/id/1937355",
+    "image_url": "https://argaamplus.s3.amazonaws.com/c678db06-6ddf-45a3-b56e-6c93d7d046ae.png",
+    "language": "ar",
+    "published_at": "2026-09-17T17:04:00.000000Z",
+    "source": "argaam.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "6e94890e-f633-42db-b066-c77c2cf41076",
+        "title": "21 سبتمبر.. مجلس إدارة إمباور يناقش توزيع أرباح نقدية عن النصف الأول 2026",
+        "description": "أعلنت مؤسسة الإمارات لأنظمة التبريد المركزي - إمباور، أن مجلس إدارتها سيناقش مقترح توزيع الأرباح النقدية المرحلية النصف سنوية للفترة المنتهية في 30 يو",
+        "keywords": "أرقام موقع متخصص في متابعة اعمق لسوق الأسهم السعودي تداول مع تغطيه معمقة لشركات وأسعار البتروكيماويات, تقارير مالية, مؤشرات مالية, قطاع الأسمنت, البنوك",
+        "snippet": "\n\nمبنى مؤسسة الإمارات لأنظمة التبريد المركزي - إمباور\n\nأعلنت مؤسسة الإمارات لأنظمة التبر...",
+        "url": "https://www.argaam.com/ar/article/articledetail/id/1937121",
+        "image_url": "https://argaamplus.s3.amazonaws.com/9cab6318-477d-4f24-b106-22d22b4bd9ab.png",
+        "language": "ar",
+        "published_at": "2026-09-17T09:48:00.000000Z",
+        "source": "argaam.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "42700871-f969-464e-b27a-55c0130acab4",
+    "title": "In 2019, New York restaurants turned discarded oyster shells into a unusual plan to rebuild the city’s historic reefs",
+    "description": "In 2019, New York restaurants were taking part in an unusual environmental effort: recycling discarded oyster shells for use in rebuilding New York Harbor's historic oyster reefs. The Billion Oyster Project was collecting shells, raising baby oysters and working with students and volunteers as part of its goal to restore 1 billion oysters by 2035.",
+    "keywords": "Billion Oyster Project, oyster reefs restoration, oysters as ecosystem engineers, New York Harbor oysters, oyster shell recycling, oyster shells, oyster reef restoration, baby oysters",
+    "snippet": "Millions of baby oysters were being raised\n\nLive Events\n\nThe best part about the Billion Oyster Project was that the restoration work was not limited to restaur...",
+    "url": "https://economictimes.indiatimes.com/news/international/global-trends/in-2019-new-york-restaurants-turned-discarded-oyster-shells-into-a-unusual-plan-to-rebuild-the-citys-historic-reefs/articleshow/134317261.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134317571,width-1200,height-630,imgsize-183952,overlay-economictimes/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:02:46.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "edb10224-bfa1-4b2c-bab9-25e292a7f1a8",
+    "title": "«Яндекс 360» выпустил десктопное приложение «Документы», которое работает в том числе без интернета — Сервисы на vc.ru",
+    "description": "Яндекс 360 выпустил Документы для ПК, работа без интернета, создание и редактирование текстов и таблиц, доступно для Windows, macOS, Linux",
+    "keywords": "",
+    "snippet": "«Яндекс 360» выпустил десктопное приложение «Документы», которое работает в том числе б?...",
+    "url": "https://vc.ru/services/3144805-yandeks-360-deskopnoe-prilozhenie-dokumenty?from=rss",
+    "image_url": "https://api.vc.ru/v2.9/cover/fb/c/3144805/1789665315/cover.jpg",
+    "language": "ru",
+    "published_at": "2026-09-17T17:02:42.000000Z",
+    "source": "vc.ru",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "9867ffd3-2bca-4146-b5b3-3caffba3acc3",
+    "title": "Denise Albright Faith-Based Gratitude Journals only $15.98 shipped!",
+    "description": "Hurry! Limited supply left on these journals! You can order this Denise Albright Faith-Based Gratitude Finder Gratitude Journal for only $15.98 shipped while supplies last! This colorful journal features questions, prompts, and stickers to bring gratitude to the center of your life. New to Jane? You can sign up for an account (it’s free toRead More",
+    "keywords": "",
+    "snippet": "Hurry! Limited supply left on these journals!\n\nYou can order this Denise Albright Faith-Based Gratitude Finder Gratitude Journal for only $15.98 shipped while s...",
+    "url": "https://moneysavingmom.com/denise-albright-faith-based-gratitude-journals-deal/",
+    "image_url": "https://moneysavingmom.com/wp-content/uploads/2026/09/GFBC-Collection-202411_SQ_A-1-630x630.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T17:01:27.000000Z",
+    "source": "moneysavingmom.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "7624752a-949e-4fa7-9b93-f5b5936c478e",
+    "title": "Risk of U.S. midterm ‘blue wave’ leaves defence stocks out of favour",
+    "description": "After two years of gains, shares of U.S. military contractors have hit a wall and may see further pain from political events. Find out more",
+    "keywords": "Aerospace and Defense Sector, defence sector, Defense Contracting, military spending, u.s. midterm elections, U.S. politics, U.S. stocks",
+    "snippet": "By signing up you consent to receive the above newsletter from Postmedia Network Inc.\n\nThanks for signing up!\n\nA welcome email is on its way. If you don't see i...",
+    "url": "https://financialpost.com/investing/risk-midterm-blue-wave-leaves-defence-stocks-out-of-favour",
+    "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/0918-mg-defence-stocks.png",
+    "language": "en",
+    "published_at": "2026-09-17T17:01:05.000000Z",
+    "source": "financialpost.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "49c5b96f-88b0-4334-af78-4d082f18f693",
+    "title": "Polcom planuje nowe data center w Skawinie. Zainwestuje 150 mln zł",
+    "description": "Nowe data center Polcomu, które ma powstać w Skawinie, to inwestycja rzędu 150 mln zł. Będzie  miało moc do 40 MW, a ruszy pod koniec dekady.",
+    "keywords": "",
+    "snippet": "Nowe data center Polcomu, które ma powstać w Skawinie, to inwestycja rzędu 150 mln zł. Będzie miało moc do 40 MW, a ruszy pod koniec dekady.\n\nPrzeczytaj a...",
+    "url": "https://www.pb.pl/polcom-planuje-nowe-data-center-w-skawinie-zainwestuje-150-mln-zl-1267221",
+    "image_url": "https://images.pb.pl/filtered/e05cc97b-5071-431e-bca5-95e92921a49b/89741981-d4c5-5bce-8bd7-06bef214dcb2_og_1200_630.jpg",
+    "language": "pl",
+    "published_at": "2026-09-17T17:00:38.000000Z",
+    "source": "pb.pl",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "447c76b7-bf4f-442f-99ec-e8a2f8427fe5",
+    "title": "AMD: The Biggest Winner Of Intel’s Price Hike (NASDAQ:AMD)",
+    "description": "Advanced Micro Devices benefits from Intel’s repeated PC CPU price hikes, creating a favorable pricing environment for AMD’s products. Read more on AMD stock.",
+    "keywords": "",
+    "snippet": "I’m a retired Wall Street PM specializing in TMT; since kickstarting my career, I’ve spent over two decades in the market navigating the technology landscap...",
+    "url": "https://seekingalpha.com/article/4947548-amd-biggest-winner-of-intel-price-hike",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2254781681/image_2254781681.jpg?io=getty-c-w1536",
+    "language": "en",
+    "published_at": "2026-09-17T17:00:26.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "b8910eec-27ca-4b68-95bb-5f7e9506d1d9",
+    "title": "O czym świadczy zadziwiająca reakcja cen złota na decyzję Fed?",
+    "description": "O czym świadczy zadziwiająca reakcja cen złota na podwyżkę stóp procentowych w USA? Wysokie oprocentowanie obligacji i problem z Japonii",
+    "keywords": "",
+    "snippet": "Zadziwiająca jest reakcja cen złota i srebra na decyzję amerykańskiego banku centralnego o podniesieniu stóp procentowych, a także na sugestie dotyczące ...",
+    "url": "https://subiektywnieofinansach.pl/reakcja-cen-zlota-na-podwyzke-stop-fed/",
+    "image_url": "https://subiektywnieofinansach.pl/wp-content/uploads/2026/09/wielka-stopa-reakcja-zlota.jpg",
+    "language": "pl",
+    "published_at": "2026-09-17T17:00:14.000000Z",
+    "source": "subiektywnieofinansach.pl",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "c7b7c9d7-8895-49b4-955a-34eed10b445c",
+    "title": "10年期美債殖利率都攻上5%了！選擇權市場為何如此淡定？",
+    "description": "",
+    "keywords": "美債, 殖利率, 美債殖利率, 美國公債, 聯準會, Fed, 利率, 貨幣政策, 利率決策, 美國債務, 期限溢價, 信用利差, 企業, 獲利, 高利率, 債市, TOP",
+    "snippet": "鉅亨網編譯段智恆 2026-09-18 01:00\n\n美國10年期公債殖利率今年一路攀升至5%，但利率選擇權市場並未反映即將出現劇烈波動?...",
+    "url": "https://news.cnyes.com/news/id/6609499",
+    "image_url": "https://cimg.cnyes.cool/prod/news/6609499/m/acab0a436c56c252176f834549e91f42.jpg",
+    "language": "zh",
+    "published_at": "2026-09-17T17:00:04.000000Z",
+    "source": "news.cnyes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "bda04ac3-8b2f-4b74-be56-c5a6de32daac",
+    "title": "Fidelity Total Bond ETF Q2 2026 Commentary",
+    "description": "Fidelity Total Bond ETF invests at least 80% of its assets in investment-grade bonds and up to 20% in non-investment-grade debt. Read more here.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/article/4947549-fidelity-total-bond-etf-q2-2026-commentary",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1367511149/image_1367511149.jpg?io=getty-c-w1536",
+    "language": "en",
+    "published_at": "2026-09-17T17:00:00.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "e4e04aca-9767-404a-ba75-c36427fb8d2f",
+    "title": "Alnylam Pharmaceuticals, Inc. (ALNY) Discusses Zilebesiran and the Potential of RNAi Therapeutics for Continuous Blood Pressure Control - Slideshow (NASDAQ:ALNY) 2026-09-17",
+    "description": "2026-09-17. The following slide deck was published by Alnylam Pharmaceuticals, Inc.",
+    "keywords": "",
+    "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+    "url": "https://seekingalpha.com/article/4947579-alnylam-pharmaceuticals-inc-alny-discusses-zilebesiran-and-the-potential-of-rnai-therapeutics",
+    "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+    "language": "en",
+    "published_at": "2026-09-17T16:59:56.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "8ce15fcd-0152-44a8-855e-3a3920d20ab9",
+    "title": "Из-за конфликта в Персидском заливе цена на нефть улетела за $100, а курс доллар падает: итоги рынка валют",
+    "description": "Как изменились курсы валют за последнюю неделю и на что это повлияло, объясняет в еженедельном обзоре финансовый аналитик Вадим Иосуб.",
+    "keywords": "прогнозы, валюты, новости, новости Беларуси, финансовые новости Беларуси, главные финансовые новости Беларуси, новости рб, главные новости рб, последние новости, новости финансов",
+    "snippet": "Фото: Myfin.by\n\nИз-за конфликта в Персидском заливе цена на нефть улетела за $100, а курс долла?...",
+    "url": "https://myfin.by/article/currency/iz-za-konflikta-v-persidskom-zalive-cena-na-neft-uletela-za-100-a-kurs-dollar-padaet-itogi-rynka-valut-48514",
+    "image_url": "https://myfin.by/source/2/WIhfiZAYGKtKuD0uL1cg-1L--Wh9UquR.png",
+    "language": "ru",
+    "published_at": "2026-09-17T16:59:21.000000Z",
+    "source": "myfin.by",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "7cee5b20-d0ee-4b4f-a7fe-2f337fe7f20d",
+    "title": "GL Homes Expands Home Offerings at Valencia Harbor with New Aruba Floorplan",
+    "description": "/PRNewswire-PRWeb/ -- GL Homes, one of Florida's largest privately owned homebuilders, has unveiled the Aruba, a new floorplan now available at Valencia...",
+    "keywords": "GL Homes, Residential Real Estate, Real Estate, Construction & Building, New Products & Services",
+    "snippet": "GL Homes, one of Florida's largest privately owned homebuilders, has unveiled the Aruba, a new floorplan now available at Valencia Harbor, the premier 55+ activ...",
+    "url": "https://www.prweb.com/releases/gl-homes-expands-home-offerings-at-valencia-harbor-with-new-aruba-floorplan-302882259.html",
+    "image_url": "https://www.prweb.com/content/dam/cision/icons/favicon.png",
+    "language": "en",
+    "published_at": "2026-09-17T16:59:00.000000Z",
+    "source": "prweb.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "d2f21e10-c634-4e58-80fe-dbdacb0a490c",
+    "title": "Lufthansa adds 20 Boeing 737 Max 10s to replace older Airbus jets (BA:NYSE)",
+    "description": "Lufthansa adds 20 Boeing 737 MAX 10 jets, replacing older A320s and cutting fuel use 30% and unit costs 20%.",
+    "keywords": "",
+    "snippet": "Lufthansa Group (DLAKF) on Thursday said it will add 20 Boeing (BA) 737 MAX 10 aircraft to its fleet after its supervisory board approved the exercise of purcha...",
+    "url": "https://seekingalpha.com/news/4643938-lufthansa-adds-20-boeing-737-max-10s-to-replace-older-airbus-jets",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1438906752/image_1438906752.jpg?io=getty-c-w630",
+    "language": "en",
+    "published_at": "2026-09-17T16:57:54.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "94e4beea-65c3-4ce8-b877-d611b1105c77",
+    "title": "トランプ氏、中国主席を直接出迎えへ",
+    "description": "",
+    "keywords": "",
+    "snippet": "【ワシントン共同】米ホワイトハウス当局者は17日、中国の習近平国家主席が米中首脳会談のため23日に米国入りし、ト...",
+    "url": "https://news.jp/i/1473350919129023465",
+    "image_url": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
+    "language": "ja",
+    "published_at": "2026-09-17T16:57:33.000000Z",
+    "source": "this.kiji.is",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "92e1f460-454d-4400-8bd0-529bd0ac53d9",
+    "title": "Election Commission freezes Mamata Banerjee’s Trinamool Congress name and party symbol",
+    "description": "The Election Commission has frozen the name and symbol of Mamata Banerjee’s Trinamool Congress. Meetings with 'Kalighat Trinamool' and 'Ritobroto Trinamool' resulted in an interim order.",
+    "keywords": "Election Commission, Mamata Banerjee, Trinamool Congress, party symbol, All India Trinamool Congress",
+    "snippet": "Sounak Mukhopadhyay\n\nSounak Mukhopadhyay covers trending news, sports and entertainment for LiveMint. His reporting focuses on fast-moving stories, box office p...",
+    "url": "https://www.livemint.com/news/india/election-commission-freezes-mamata-banerjee-s-trinamool-congress-name-and-party-symbol-11789664070325.html",
+    "image_url": "https://www.livemint.com/lm-img/img/2026/09/17/1600x900/TMCP-Rally-16_1789664186415_uHUd_1789664201648_GTDT_9567f28e-a644-4680-9823-d012ca2300f7_E0L8.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:57:30.000000Z",
+    "source": "livemint.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "bb054456-dda6-4897-8132-5fa2e38713c4",
+    "title": "Blackstone: Another Great Opportunity For You (NYSE:BX)",
+    "description": "Blackstone offers a compelling long-term growth outlook, supported by strong Q2 results and a robust dividend yield above 4%. Read more on BX stock here.",
+    "keywords": "",
+    "snippet": "At Cash Flow Club , we focus on businesses with strong cash generation, ideally with a wide moat and significant durability. When these companies are bought at ...",
+    "url": "https://seekingalpha.com/article/4947546-blackstone-another-great-opportunity-for-you",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2216425295/image_2216425295.jpg?io=getty-c-w1536",
+    "language": "en",
+    "published_at": "2026-09-17T16:56:55.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "7de1d941-29cb-4f0e-8b56-70bc2029310f",
+    "title": "Copper rallies as Chinese buyers return to market, demand outlook brightens",
+    "description": "Copper prices rose 1.6% on the LME as Chinese buyers returned after a selloff, while stronger physical demand and a softer dollar supported the metal",
+    "keywords": "copper prices, copper price today, London Metal Exchange, LME copper, Chinese copper demand, copper rally, copper imports, Yangshan copper premium, China copper stocks, base metals prices, zinc prices, aluminium prices",
+    "snippet": "Copper prices rallied on Thursday as Chinese buyers returned to the market after a recent selloff while demand prospects brightened and the dollar softened.\n\nBe...",
+    "url": "https://www.business-standard.com/world-news/copper-rallies-as-chinese-buyers-return-to-market-demand-outlook-brightens-126091701517_1.html",
+    "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/17/thumb/fitandfill/1200X628/1789663994-4694.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:56:13.000000Z",
+    "source": "business-standard.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "39e5ca95-6f0e-4e33-b05e-2f787c26906b",
+    "title": "In 1890, a pharmacist released 80 birds in New York’s Central Park to honour Shakespeare; 136 years later, their descendants number about 93 million across North America",
+    "description": "In 1890, eighty European Starlings were introduced to Central Park, leading to a population explosion across North America. Over the span of just 130 years, these birds have shown remarkable local adaptability, as indicated by genetic studies. Although their numbers have faced a decline, the evolutionary insights gained from their rapid success present a significant opportunity for understanding the foundations of biodiversity.",
+    "keywords": "European Starlings, biodiversity, bird adaptation, Eugene Schieffelin, genetic adaptation, Central Park bird release, non-native bird species, North American birds, avian population decline, Shakespeare birds",
+    "snippet": "Live Events\n\nTIL Creatives In 1890, a pharmacist released 80 birds in New York’s Central Park to honour Shakespeare; 136 years later, their descendants number...",
+    "url": "https://economictimes.indiatimes.com/news/international/us/in-1890-a-pharmacist-released-80-birds-in-new-yorks-central-park-to-honour-shakespeare-136-years-later-their-descendants-number-about-93-million-across-north-america/articleshow/134316775.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134316775,width-1200,height-630,imgsize-316178,overlay-economictimes/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:56:04.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "5361bc80-db74-47b4-94b5-5fd6789dc049",
+    "title": "From small caps to big winners: 5 stocks that delivered huge gains",
+    "description": "Peter Hodson: Higher volatility and financial risk come with the territory, but small companies have more room to grow. Find out more.",
+    "keywords": "Amaya Gaming, Amaya Gaming Group Corp., Peter Hodson, Small Cap Stocks, small caps",
+    "snippet": "Article content\n\n5i Research got involved with Amaya back in 2012, when it was one of the first companies that we issued a research report on. The stock was in ...",
+    "url": "https://financialpost.com/investing/small-caps-big-winners-stocks-huge-gains",
+    "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/no0917stocks-1.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:55:56.000000Z",
+    "source": "thepost.on.ca",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "bf46d8d0-3bba-4ff0-b53c-5d99d550309b",
+    "title": "Data centers have a long runway, but power is the constraint (XLRE:NYSEARCA)",
+    "description": "AI is fueling data center growth with a long runway ahead, but power availability is the key constraint.",
+    "keywords": "",
+    "snippet": "The data center industry could have significant room for further growth as AI drives demand for computing infrastructure, although power availability remains a ...",
+    "url": "https://seekingalpha.com/news/4643944-data-centers-have-a-long-runway-but-power-is-the-constraint",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1486702049/image_1486702049.jpg?io=getty-c-w630",
+    "language": "en",
+    "published_at": "2026-09-17T16:55:43.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "1ee8536b-7937-4a7d-a65e-a95497ae278c",
+    "title": "Philosophy Answers: Why some people love having alone time while others don't like the thought of being alone by themselves",
+    "description": "A quiet evening at home can be relaxing for one person and uncomfortable for another, even when both are in exactly the same situation. The difference may have less to do with being an introvert or extrovert and more to do with why someone chooses solitude, how they experience it and how much they value social connection. Philosophy and psychology offer some interesting answers to this everyday difference.",
+    "keywords": "philosophy, psychology, human behaviour, life lessons, relationships, personality, mental health, emotional wellbeing, self-awareness, personal growth",
+    "snippet": "Montaigne saw solitude as a way of returning to yourself\n\nKierkegaard believed the individual has to face life personally\n\nNietzsche connected distance from the...",
+    "url": "https://economictimes.indiatimes.com/magazines/panache/philosophy-answers-why-some-people-love-having-alone-time-while-others-dont-like-the-thought-of-being-alone-by-themselves/articleshow/134317141.cms",
+    "image_url": "https://img.etimg.com/thumb/msid-134317369,width-1200,height-630,imgsize-122402,overlay-etpanache/articleshow.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:55:22.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "d5afdb6c-bd36-4a6a-a521-256deed350b6",
+        "title": "Psychology says people who love their afternoon nap may be responding to more than tiredness",
+        "description": "One person may be highly productive in the morning, take an afternoon nap and return to work feeling recharged. Another may avoid naps altogether because sleeping during the day makes them feel sluggish or disoriented. These different preferences reflect individual sleep patterns and responses rather than revealing a particular personality type.",
+        "keywords": "love afternoon naps, afternoon nap, sleep psychology, sleep regulation, napping benefits, nap can become a psychological reset ritualthere, sleep inertia, love sleeping in afternoon",
+        "snippet": "Psychology Says Your Need for a Nap Builds While You're Awake\n\nLive Events\n\nYou Might Also Like: Psychology says people who make origami when stressed may be gi...",
+        "url": "https://economictimes.indiatimes.com/news/international/us/psychology-says-people-who-love-their-afternoon-nap-may-be-responding-to-more-than-tiredness/articleshow/134307989.cms",
+        "image_url": "https://img.etimg.com/thumb/msid-134308526,width-1200,height-630,imgsize-148210,overlay-economictimes/articleshow.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T10:08:32.000000Z",
+        "source": "economictimes.indiatimes.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "9151a7a6-c24a-4bce-9b5f-c97ae62f31b0",
+    "title": "Hallador Energy surges after closing $600M term loan to fund Turtle Creek project (HNRG:NASDAQ)",
+    "description": "Hallador Energy said it closed a $600M senior secured term loan facility to help pay for its proposed Turtle Creek natural gas project in Indiana.",
+    "keywords": "",
+    "snippet": "Hallador Energy (HNRG) surged 8.9% in Thursday's trading after saying it closed a $600M senior secured term loan facility to help pay for its proposed Turtle Cr...",
+    "url": "https://seekingalpha.com/news/4643937-hallador-energy-surges-after-closing-600m-term-loan-to-fund-turtle-creek-project",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/482730527/image_482730527.jpg?io=getty-c-w630",
+    "language": "en",
+    "published_at": "2026-09-17T16:54:32.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "48f8e2cf-7e42-481f-9640-f544c7ab44a4",
+    "title": "Kissht parent OnEMI board approves Rs 832 crore preferential issue",
+    "description": "Kissht plans to issue up to 26.49 million equity shares at Rs 314.11 apiece to 34 investors in the non-promoter category, according to an exchange filing on Thursday. The transaction is subject to shareholder and other statutory and regulatory approvals, the company said.",
+    "keywords": "onemi technology solutions, Kissht, OnEMI Technology Solutions, digital lending platform, preferential issue, fund raising, IPO",
+    "snippet": "The board of OnEMI Technology Solutions , which operates digital lending platform Kissht , has approved a proposal to raise up to Rs 832 crore through a prefere...",
+    "url": "https://economictimes.indiatimes.com/tech/technology/kissht-parent-onemi-board-approves-rs-832-crore-preferential-issue/articleshow/134317306.cms",
+    "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-51598,resizemode-75,msid-134317306/tech/technology/kissht-parent-onemi-board-approves-rs-832-crore-preferential-issue.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:53:43.000000Z",
+    "source": "economictimes.indiatimes.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "e7c0f36f-2bb9-4b76-9426-6c10997b376c",
+    "title": "Huge Savings on The North Face, Keen, Osprey, and more + Rare REI Outlet Promo Code!",
+    "description": "If you have an outdoorsy people your gift list, score fantastic deals on these popular brands! REI Outlet is offering amazing deals on popular outdoor clothing, shoes, and gear including The North Face, Mountain Hardware, Keen, Patagonia, Osprey, and so many more! Even better, spend $150+, save $30 at REI Outlet with code OUTSEPT26 at checkout!Read More",
+    "keywords": "",
+    "snippet": "If you have an outdoorsy people your gift list, score fantastic deals on these popular brands!\n\nREI Outlet is offering amazing deals on popular outdoor clothing...",
+    "url": "https://moneysavingmom.com/huge-savings-on-the-north-face-keen-osprey-and-more-rare-rei-outlet-promo-code/",
+    "image_url": "https://moneysavingmom.com/wp-content/uploads/2026/09/REI-Outlet-Keen-North-Face-Mountain-Hardware-Osprey.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:53:39.000000Z",
+    "source": "moneysavingmom.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "27163c6e-21ac-4ddc-ac7f-053bf189dd21",
+    "title": "Senior housing, office, and rentals draw selective REIT interest (XLRE:NYSEARCA)",
+    "description": "REIT investors: find opportunities in healthcare, senior housing and manufactured housing as demographic demand rises.",
+    "keywords": "",
+    "snippet": "REIT investors are finding opportunities in property sectors tied to demographic and housing trends, although some areas remain more challenging as financing co...",
+    "url": "https://seekingalpha.com/news/4643943-senior-housing-office-and-rentals-draw-selective-reit-interest",
+    "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2171341353/image_2171341353.jpg?io=getty-c-w630",
+    "language": "en",
+    "published_at": "2026-09-17T16:53:20.000000Z",
+    "source": "seekingalpha.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "80faed4d-9e7d-4d54-9bab-fc43c84a6aea",
+    "title": "Mês da Dermatite Atópica: os impactos da doença na pele",
+    "description": "Especialista explica como uma das doenças inflamatórias da pele mais comuns pode comprometer o bem-estar físico e emocional",
+    "keywords": "",
+    "snippet": "A coceira constante, a pele ressecada e as lesões aparentes são alguns dos sinais mais conhecidos da Dermatite Atópica, condição que é tema de conscientiz...",
+    "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/09/17/mes-da-dermatite-atopica-os-impactos-da-doenca-na-pele-1.ghtml",
+    "image_url": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
+    "language": "pt",
+    "published_at": "2026-09-17T16:52:59.000000Z",
+    "source": "valor.globo.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "5f3ab159-9338-4727-80e5-13e9b6b8358e",
+    "title": "Calgary Flames Welcome Kevin Sawyer to Broadcast Team",
+    "description": "Veteran broadcaster and former NHL player joins Jon Abbott and Brendan Parker for Flames regional broadcasts on Sportsnet",
+    "keywords": "",
+    "snippet": "By signing up you consent to receive the above newsletter from Postmedia Network Inc.\n\nThanks for signing up!\n\nA welcome email is on its way. If you don't see i...",
+    "url": "https://financialpost.com/globe-newswire/calgary-flames-welcome-kevin-sawyer-to-broadcast-team",
+    "image_url": "https://dcs-static.gprod.postmedia.digital/22.1.1/websites/images/fp/favicon-fp.ico",
+    "language": "en",
+    "published_at": "2026-09-17T16:50:38.000000Z",
+    "source": "financialpost.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "5d5214b0-65d3-41f4-96b2-8371fc08cd1c",
+    "title": "Preocupação da UE com compra de ativo da Anglo American no Brasil não reflete realidade do mercado, diz MMG",
+    "description": "Companhia afirmou que operação de níquel no Brasil continuaria operando como negócio independente, e que a advertência antitruste do órgão da Comissão Europeia representa apenas avaliação preliminar",
+    "keywords": "níquel, mineração, mercado de trabalho, brasil, anglo american brasil, comissão europeia, união europeia",
+    "snippet": "Preocupação da UE com compra de ativo da Anglo American no Brasil não reflete realidade do mercado, diz MMG\n\nCompanhia afirmou que operação de níquel no B...",
+    "url": "https://valor.globo.com/empresas/noticia/2026/09/17/preocupacao-da-ue-com-compra-de-ativo-da-anglo-american-no-brasil-nao-reflete-realidade-do-mercado-diz-mmg.ghtml",
+    "image_url": "https://s2-valor.glbimg.com/yl4NxU00H89oshJwHvfe_61zrt0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/D/K/bUhaKAQvKBxCSmlFB69g/barro-alto.jpg",
+    "language": "pt",
+    "published_at": "2026-09-17T16:50:37.000000Z",
+    "source": "valor.globo.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "6f590198-cdb9-40fd-966e-acc17a82fa4d",
+    "title": "Vendas do iPhone 18 Pro recebem impulso de promoções das operadoras de telefonia",
+    "description": "“As operadoras estão oferecendo até US$ 1.200 por aparelhos usados na troca (US$ 100 a mais do que no ano passado)”, disse o analista Wamsi Mohan, da BofA Securities",
+    "keywords": "iphone, telefonia e comunicação multimídia, celulares e smartphones, comércio varejista, experiência do usuário, estados unidos, wall street, apple, bofa securities",
+    "snippet": "Vendas do iPhone 18 Pro recebem impulso de promoções das operadoras de telefonia\n\n“As operadoras estão oferecendo até US$ 1.200 por aparelhos usados na tr...",
+    "url": "https://valor.globo.com/empresas/noticia/2026/09/17/vendas-do-iphone-18-pro-recebem-impulso-de-promocoes-das-operadoras-de-telefonia.ghtml",
+    "image_url": "https://s2-valor.glbimg.com/C-cGHDBsz8FEGiZOJql6MHYDlw4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/r/y/8pLHmATQGcxfxcJo29Gw/apple-iphone-18-pro-color-lineup-260909.jpg",
+    "language": "pt",
+    "published_at": "2026-09-17T16:50:30.000000Z",
+    "source": "valor.globo.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  },
+  {
+    "uuid": "aed7d740-d4b5-4f49-83e7-ff2da0768121",
+    "title": "Tata Trusts proposes SP Group's ₹25,000 cr Tata Sons stake monetisation",
+    "description": "The proposal seeks to address the SP Group's liquidity needs without a Tata Sons listing, through the sale of shares held by Cyrus Investments and Sterling Investment.",
+    "keywords": "Tata Trusts, Tata Sons, Shapoorji Pallonji Group, SP Group, Noel Tata, Tata Sons stake, Cyrus Investments, Sterling Investment Corporation, Rs 25, 000 crore, NCLT",
+    "snippet": "Noel Tata, chairman of Tata Trusts, which holds about 66 per cent in Tata Sons, tabled a proposal from the Shapoorji Pallonji Group (SP Group) at a Tata Sons bo...",
+    "url": "https://www.business-standard.com/companies/news/tata-trusts-proposes-sp-group-s-25-000-cr-tata-sons-stake-monetisation-126091701507_1.html",
+    "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-11/21/thumb/fitandfill/1200X628/1732128162-8878.jpg",
+    "language": "en",
+    "published_at": "2026-09-17T16:50:22.000000Z",
+    "source": "business-standard.com",
+    "relevance_score": null,
+    "entities": [],
+    "similar": [
+      {
+        "uuid": "13bca733-9b9b-44fe-a4ac-d587631fa2b2",
+        "title": "Noel Tata tables ₹25,000 cr SP Group share monetisation plan for Tata Sons",
+        "description": "Noel Tata proposes a ₹25,000 crore monetisation plan for SP Group's stake in Tata Sons to raise liquidity for debt repayment.",
+        "keywords": "Noel Tata, Tata Sons, Tata trusts, SP Group",
+        "snippet": "Tata Trusts chairman Noel Tata on Thursday presented Tata Sons board members a proposal from Shapoorji Pallonji Group (SP Group) for monetisation of its stake i...",
+        "url": "https://www.thehindubusinessline.com/markets/noel-tata-tables-25000-cr-sp-group-share-monetisation-plan-for-tata-sons/article71477915.ece",
+        "image_url": "https://bl-i.thgim.com/public/incoming/er6887/article71477940.ece/alternates/LANDSCAPE_1200/2026-05-11T163018Z_1647059540_RC2Z6LAEQDXP_RTRMADP_3_INDIA-BAJAJ.JPG",
+        "language": "en",
+        "published_at": "2026-09-17T16:42:53.000000Z",
+        "source": "thehindubusinessline.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "a1c0d66e-a182-40ff-b121-4e0aa560f61d",
+        "title": "Tata Trusts puts Rs 25,000 cr SP Group liquidity plan before Tata Sons board",
+        "description": "Tata Trusts Chairman Noel Tata presented a proposal to monetize Shapoorji Pallonji Group's Tata Sons stake. This plan aims to generate significant funds without forcing a public listing of the holding company. The transaction would involve selling shares over eighteen months, subject to regulatory approvals. This initiative seeks a fair and equitable solution for the SP Group's significant Tata Sons holding.",
+        "keywords": "Tata Trusts, Tata Sons, Shapoorji Pallonji Group, liquidity plan, Reserve Bank of India, stake monetisation, capital reduction, Cyrus Investments, Sterling Investments, sterling investments corporation pvt ltd",
+        "snippet": "Live Events\n\n\n\nas a Reliable and Trusted News Source Addas a Reliable and Trusted News Source Add Now!\n\n(You can now subscribe to our\n\n(You can now subscribe to...",
+        "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/tata-trusts-puts-rs-25000-cr-sp-group-liquidity-plan-before-tata-sons-board/articleshow/134315918.cms",
+        "image_url": "https://img.etimg.com/thumb/msid-134315927,width-1200,height-630,imgsize-39858,overlay-economictimes/articleshow.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T15:23:01.000000Z",
+        "source": "economictimes.indiatimes.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "9161424f-034e-4c90-b7fe-e5da4b7bb831",
+        "title": "Tata Sons board for Chandra's reappointment, moves to list co; Trusts may challenge decision",
+        "description": "Tata Sons' board reappoints N Chandrasekaran as chairman amid listing plans, facing potential challenges from Tata Trusts.",
+        "keywords": "Tata Sons, N Chandrasekaran, Tata Trusts",
+        "snippet": "Tata Sons Ltd’s board on Thursday approved a fresh five-year term for N Chandrasekaran as executive chairman and set in motion the process to list the group?...",
+        "url": "https://www.thehindubusinessline.com/companies/tata-sons-board-for-chandras-reappointment-moves-to-list-co-trusts-may-challenge-decision/article71476352.ece",
+        "image_url": "https://bl-i.thgim.com/public/incoming/43xeq3/article71476365.ece/alternates/LANDSCAPE_1200/2026-09-17T101427Z_929573105_RC2YKNA0OT8N_RTRMADP_3_TATA-SONS-CHAIRMAN.JPG",
+        "language": "en",
+        "published_at": "2026-09-17T11:35:28.000000Z",
+        "source": "thehindubusinessline.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "77a5b29c-066c-4d00-bda8-af046d48fb66",
+        "title": "Drama at Tata Sons: Chandra gets fresh term; Tata Trusts calls it 'illegal'",
+        "description": "While Noel Tata had voiced his objection to Chandrasekaran's reappointment as chairman in February, the Tata Sons board on Thursday relied on a resolution sent in by Tata Trusts last year to grant an extension",
+        "keywords": "N. Chandrasekaran gets another term, five-year extension, Noel Tata’s objection, Tata Sons board, Trustee Venu Srinivasan, rare boardroom coup, Chandra reappointed, Tata listing, conglomerate, board meeting today, Sir Ratan Tata Trust, Sir Dorabji Tata Trusts",
+        "snippet": "Bengaluru/Mumbai :In a rare boardroom coup, the Tata Sons board decided to grant a five-year extension to chairman N. Chandrasekaran in the face of Tata Trusts ...",
+        "url": "https://www.livemint.com/companies/natarajan-chandrasekaran-tata-sons-chairman-noel-tata-trusts-tata-sons-ipo-listing-11789642339116.html",
+        "image_url": "https://www.livemint.com/lm-img/img/2026/09/17/1600x900/logo/ANI-20260415340-0_1782207930844_1782207941301_b2e9328c-282f-43df-b6c1-d4f7a418fc6f_1789643913909_VtiX_e4f0bab0-534e-4505-bd35-d2089fde2ad3_NQQx.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T11:29:23.000000Z",
+        "source": "livemint.com",
+        "relevance_score": null,
+        "entities": []
+      },
+      {
+        "uuid": "2dda8696-8e90-495b-a6ba-b99db7997737",
+        "title": "Tata Trusts opposes Chandra’s return as Tata Sons' chairman, calls it ‘illegal’",
+        "description": "Tata Trusts has declared N Chandrasekaran's reappointment as Tata Sons chairman a legal nullity.  Noel Tata, a Trusts nominee, voted against the resolution, while four directors supported it.  The Trusts cited the Articles of Association, requiring a majority of their nominee directors' votes.  It maintained that Chandrasekaran's earlier decision not to seek reappointment has already attained finality.",
+        "keywords": "Tata Trusts, N Chandrasekaran, Tata Sons, Noel N Tata, chairman reappointment, Articles of Association, Tata Group, Tata Sons board meeting, Tata Trusts nominee directors, tata sons board",
+        "snippet": "Live Events\n\nTrusts challenge validity of board resolution\n\nTrusts say Chandra's decision had attained finality\n\nLeadership standoff deepens\n\n\n\nas a Reliable an...",
+        "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/tata-trusts-oppose-chandras-return-as-tata-sons-chairman-call-it-illegal/articleshow/134309730.cms",
+        "image_url": "https://img.etimg.com/thumb/msid-134310068,width-1200,height-630,imgsize-97890,overlay-economictimes/articleshow.jpg",
+        "language": "en",
+        "published_at": "2026-09-17T11:13:30.000000Z",
+        "source": "economictimes.indiatimes.com",
+        "relevance_score": null,
+        "entities": []
+      }
+    ]
+  },
+  {
+    "uuid": "90dd16de-9992-420a-873e-fff7b8f5c5aa",
+    "title": "Вылов минтая в РФ к середине сентября увеличился на 1,7% до 1,7 млн т....",
+    "description": "",
+    "keywords": "",
+    "snippet": "Вылов минтая в РФ к середине сентября увеличился на 1,7% до 1,7 млн т....\n\nЗдравствуйте!)… (За?...",
+    "url": "https://smart-lab.ru/blog/1352789.php",
+    "image_url": "https://smart-lab.ru/uploads/2026/images/20/57/02/2026/09/17/c77d34.webp",
+    "language": "ru",
+    "published_at": "2026-09-17T16:49:49.000000Z",
+    "source": "smart-lab.ru",
+    "relevance_score": null,
+    "entities": [],
+    "similar": []
+  }
+]
